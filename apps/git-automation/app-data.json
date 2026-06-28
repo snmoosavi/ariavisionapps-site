@@ -1,0 +1,174 @@
+{
+  "productId": "9nv6zj5ql54v",
+  "slug": "git-automation",
+  "title": "Git Automation",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Developer tools"
+  ],
+  "shortDescription": "Control GitHub faster with a secure desktop app for commits, branches, pull requests, issues, and automated Git workflows.",
+  "description": "⚠️ Git must be installed on your system .\nGit Automation Pro is a secure and modern desktop tool that helps developers manage Git and GitHub faster, without repeating command-line tasks.\nConnect your GitHub account, load repositories automatically, clone projects, review changes, commit, push, manage branches, create pull requests, track issues, and run ready-made workflows from one clean interface.\nWith Safe Mode, Dry Run previews, secure token storage, activity logs, and background execution, Git Automation Pro gives you more control, fewer mistakes, and a smoother development workflow.",
+  "features": [
+    "🔐 Secure GitHub connection  ",
+    "📂 Auto-load repositories  ",
+    "⬇️ Clone repositories  ",
+    "🔍 Git status preview  ",
+    "➕ Add files  ",
+    "💬 Commit changes  ",
+    "🚀 Push to branch  ",
+    "🔄 Pull latest changes  ",
+    "🌿 Branch management  ",
+    "🔀 Create Pull Requests  ",
+    "🐞 View Issues  ",
+    "📋 View PRs  ",
+    "⚙️ Automation workflows  ",
+    "🛡️ Safe Mode protection  "
+  ],
+  "targetUsers": [
+    "Windows developers",
+    "software teams",
+    "database and DevOps operators"
+  ],
+  "benefits": [
+    "Reduce repetitive setup work",
+    "Keep technical workflows visible and controlled",
+    "Move from task to result with fewer manual steps",
+    "Built around secure GitHub connection",
+    "Built around auto-load repositories",
+    "Built around clone repositories"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9nv6zj5ql54v?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.23737.14399992726694833.08878b37-8d3c-45a5-98af-d5c28696ce1d.ac4a03fc-4404-4670-89a9-8ba967c2d58a",
+      "caption": "Dashboard",
+      "width": 1707,
+      "height": 921
+    },
+    {
+      "file": "screenshots/screenshot-2.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.14822.14399992726694833.08878b37-8d3c-45a5-98af-d5c28696ce1d.ae317e2c-03e4-47c4-bd31-a26597f85ac6",
+      "caption": "Repository Manager",
+      "width": 1670,
+      "height": 941
+    },
+    {
+      "file": "screenshots/screenshot-3.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.13720.14399992726694833.08878b37-8d3c-45a5-98af-d5c28696ce1d.5432eac7-fb69-4e90-ae75-c07bc018e939",
+      "caption": "Git Status",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "screenshots/screenshot-4.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.53130.14399992726694833.08878b37-8d3c-45a5-98af-d5c28696ce1d.ebe5e9bd-6b29-45fd-a35d-5f333304bb1d",
+      "caption": "Commit & Push",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "screenshots/screenshot-5.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.36939.14399992726694833.08878b37-8d3c-45a5-98af-d5c28696ce1d.d11f9f2b-313c-4ae6-896d-73605b3301d7",
+      "caption": "Branch Manager",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "screenshots/screenshot-6.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.7865.14399992726694833.08878b37-8d3c-45a5-98af-d5c28696ce1d.af1d06c9-0d9e-4ad4-91ca-bc9cfb1132a5",
+      "caption": "Pull Request",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "screenshots/screenshot-7.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.20472.14399992726694833.08878b37-8d3c-45a5-98af-d5c28696ce1d.97ecf852-3bf5-47e2-a5e9-3470c7d1b4db",
+      "caption": "Issues",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "screenshots/screenshot-8.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.9793.14399992726694833.08878b37-8d3c-45a5-98af-d5c28696ce1d.0781459b-30ae-4b34-9556-9755d96f2b14",
+      "caption": "Automation Workflows",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "screenshots/screenshot-9.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.19394.14399992726694833.08878b37-8d3c-45a5-98af-d5c28696ce1d.2506fac9-5d9a-4883-a52b-27b4023dbeb4",
+      "caption": "Activity Log",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "screenshots/screenshot-10.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.16057.14399992726694833.08878b37-8d3c-45a5-98af-d5c28696ce1d.f79ad8d8-249d-4873-a77d-3d0f9d01eae7",
+      "caption": "Settings",
+      "width": 1672,
+      "height": 941
+    }
+  ],
+  "releaseDateUtc": "2026-06-08T20:07:46.6418317Z",
+  "lastUpdateDateUtc": "2026-06-08T20:07:37Z",
+  "version": "",
+  "approximateSizeInBytes": 47577309,
+  "privacyUrl": "https://github.com/snmoosavi/Git_automation/blob/da287067547fa9e0578349aaa19c45cdfd3654ae/PRIVACY_POLICY_Git_Automation_Pro.md",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.com"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

@@ -1,0 +1,167 @@
+{
+  "productId": "9nq0223f2bd5",
+  "slug": "video-downloader-pro",
+  "title": "Video Downloader Pro",
+  "publisherName": "aria vision",
+  "sourcePublisherQuery": "aria vision",
+  "categories": [
+    "Photo & video"
+  ],
+  "shortDescription": "Download videos, playlists, and MP3 audio with quality selection, 4K support, batch downloads, Private Mode, and a clean ad-free workflow.",
+  "description": "Download videos, playlists, and MP3 audio with smart quality selection, 4K support when available, batch downloads, and a clean ad-free experience.\n\nVideo Downloader gives you a simple and organized way to download videos and audio without unnecessary steps. Paste a link, choose the quality you want, add single videos or multiple URLs, and manage everything from a clear download queue with live progress, speed, ETA, and error details.\n\nYou can also browse and search YouTube inside the app, convert videos to MP3, save thumbnails or subtitles when available, skip already downloaded items, and use Private Mode to reduce local activity visibility inside the app.",
+  "features": [
+    "4K (2160p) YouTube Downloads (when available)",
+    "Playlist Downloads — download full YouTube playlists in one go",
+    "Quality Selector — choose your preferred resolution before downloading",
+    "MP3 Conversion — convert videos to MP3 for audio-only use",
+    "In-App YouTube Browser — browse, open, and download without switching apps",
+    "Private Mode — untracked downloads (no local history saved)",
+    "Multi-Platform Support — YouTube, Instagram, and more",
+    "Fast, No Ads Experience — clean workflow, focused on speed and convenience",
+    "5x Faster Download",
+    "Improved quality selection with support for more available formats",
+    "Added 4K download support when available",
+    "Added Batch Add for downloading multiple URLs more easily",
+    "Improved MP3 conversion workflow",
+    "Upgraded download queue with progress, speed, ETA, and error details"
+  ],
+  "targetUsers": [
+    "creators",
+    "marketers",
+    "media teams",
+    "media collectors",
+    "content teams"
+  ],
+  "benefits": [
+    "Create or manage visual assets faster",
+    "Keep media workflows lightweight",
+    "Prepare content for publishing with less friction",
+    "Built around 4K (2160p) YouTube Downloads (when available)",
+    "Built around playlist Downloads — download full YouTube playlists in one go",
+    "Built around quality Selector — choose your preferred resolution before downloading"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9nq0223f2bd5?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.8681.13779610062145554.79ee77d8-d5b4-489d-bc6e-a67fc844ea34.d02caa80-13c3-456f-b945-a802774e910b",
+      "caption": "Video Downloader",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "screenshots/screenshot-2.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.44807.13779610062145554.3847499a-d246-4080-942f-7ac8937836bf.d90509c8-c540-45f8-85fc-689aefd121f7",
+      "caption": "Paste link or browse : Start with a URL, or use the built-in browsing flow when that is easier.",
+      "width": 1718,
+      "height": 916
+    },
+    {
+      "file": "screenshots/screenshot-3.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.20099.13779610062145554.3847499a-d246-4080-942f-7ac8937836bf.238c4d83-1929-4bea-9ec9-25a9ee33b730",
+      "caption": "Quality control : Pick your preferred resolution and keep results consistent across downloads.",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "screenshots/screenshot-4.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.52729.13779610062145554.eae06f4d-d210-488c-8329-b7002855ba2f.c9c77c95-7268-4c23-948b-20a8a1f13668",
+      "caption": "Playlists & batching : \nDownload multiple items in one pass—ideal for playlists and course content.",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "screenshots/screenshot-5.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.12707.13779610062145554.eae06f4d-d210-488c-8329-b7002855ba2f.56a48f0d-3276-4143-b782-7e359ddcb4e6",
+      "caption": "Convert to MP3 : \nKeep audio separately for podcasts, lectures, or music playlists.",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "screenshots/screenshot-6.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.34922.13779610062145554.eae06f4d-d210-488c-8329-b7002855ba2f.a048aef6-553b-4230-8a2a-3a3c0762201e",
+      "caption": "Private Mode : \nDesigned to keep your session clean inside the app (history/cache).",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "screenshots/screenshot-7.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.49740.13779610062145554.eae06f4d-d210-488c-8329-b7002855ba2f.d7644fdb-a463-45b3-928c-1169f47b0893",
+      "caption": "Download queue : \nMonitor progress and keep downloads organized and easy to locate.",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "screenshots/screenshot-8.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.60399.13779610062145554.3847499a-d246-4080-942f-7ac8937836bf.496adc2f-cde6-4f28-93c0-d1ea0bdeb6b4",
+      "caption": "Clean output : Use consistent save settings so files land where you expect—every time.",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "screenshots/screenshot-9.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.49123.13779610062145554.eae06f4d-d210-488c-8329-b7002855ba2f.7b0dfce5-5fbe-44bf-a8b3-f0fab4896786",
+      "caption": "Browse in-app : \nSearch, preview, then download—useful when you do not want to switch windows.",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "releaseDateUtc": "2023-10-13T16:03:34.8526417Z",
+  "lastUpdateDateUtc": "2026-05-11T08:21:09Z",
+  "version": "",
+  "approximateSizeInBytes": 109354062,
+  "privacyUrl": "https://doc-hosting.flycricket.io/youtube-media-downloader-pro-privacy-policy/fe405901-3e33-45ee-a6ba-20c1361b8f6e/privacy",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {}
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

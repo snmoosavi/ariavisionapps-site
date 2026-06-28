@@ -1,0 +1,115 @@
+{
+  "productId": "9p90bzvpgx75",
+  "slug": "file-auto-backup",
+  "title": "FILE Auto Backup",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Utilities & tools"
+  ],
+  "shortDescription": "AutoBackup: Your automatic file backup solution. Effortlessly safeguard your files with seamless automatic backups, customizable settings Enjoy peace of mind knowing your data is always secure and up-to-date, without any hassle.",
+  "description": "Title: AutoBackup - Effortless File Protection\n\nDescription:\n\nAutoBackup is your ultimate solution for effortlessly safeguarding your valuable files against unexpected mishaps. With AutoBackup, you can bid farewell to the anxiety of losing important data due to unforeseen circumstances. This intuitive app operates silently in the background, diligently monitoring your files for any modifications, and instantly creating backups to ensure nothing slips through the cracks.\n\nKey Features:\n\n1- Automatic Backup: Let AutoBackup handle the heavy lifting by automatically creating backups whenever your files are modified, ensuring your data is always secure and up-to-date.\n2- Seamless Integration: Enjoy a smooth and seamless experience with AutoBackup's lightweight design and minimal resource usage, ensuring it complements your workflow without slowing you down.\n3-Version History: Access previous versions of your files effortlessly with AutoBackup's comprehensive version history feature, providing peace of mind knowing you can revert to earlier iterations if needed.\n4-User-Friendly Interface: Navigate AutoBackup's intuitive interface with ease, whether you're a seasoned tech enthusiast or a novice user, making file backup a hassle-free experience.\n\nDon't leave your important files vulnerable to unforeseen circumstances. Download AutoBackup today and experience worry-free file management like never before!",
+  "features": [
+    "Automatic Backup: Effortlessly creates backups whenever files are modified.",
+    "Seamless Integration: Lightweight design with minimal resource consumption for smooth operation.",
+    "Version History: Access previous file versions for easy restoration.",
+    "User-Friendly Interface: Intuitive interface for easy navigation and operation.",
+    "Real-time Monitoring: Constantly monitors files for changes, ensuring immediate backup.",
+    "Background Operation: Works silently in the background without interrupting your tasks.",
+    "Notification Alerts: Receive alerts upon backup completion.",
+    "Low System Impact: Minimal impact on system performance during backup processes.",
+    "Title: AutoBackup - Effortless File Protection",
+    "Key Features:",
+    "Don't leave your important files vulnerable to unforeseen circumstances. Download AutoBackup today and experience worry-free file management like never before!"
+  ],
+  "targetUsers": [
+    "Windows power users",
+    "operations teams",
+    "office and support staff",
+    "small teams",
+    "file-heavy professionals"
+  ],
+  "benefits": [
+    "Turn routine file and data tasks into guided workflows",
+    "Save time on repeat operations",
+    "Keep everyday work organized on the desktop",
+    "Built around automatic Backup: Effortlessly creates backups whenever files are modified.",
+    "Built around seamless Integration: Lightweight design with minimal resource consumption for smooth operation.",
+    "Built around version History: Access previous file versions for easy restoration."
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9p90bzvpgx75?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.36135.14082519632289600.3b7b462d-40be-416e-869c-bf6fbbb20d61.992face8-8eed-418d-92a1-a0f027f5c64a",
+      "caption": "FILE Auto Backup screenshot 1",
+      "width": 1424,
+      "height": 739
+    },
+    {
+      "file": "screenshots/screenshot-2.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.21540.14082519632289600.3b7b462d-40be-416e-869c-bf6fbbb20d61.ef6a2033-4270-4589-94c7-098f6491c168",
+      "caption": "FILE Auto Backup screenshot 2",
+      "width": 1424,
+      "height": 739
+    }
+  ],
+  "releaseDateUtc": "2024-05-20T09:05:26.7787418Z",
+  "lastUpdateDateUtc": "2026-04-24T01:08:02Z",
+  "version": "",
+  "approximateSizeInBytes": 43789372,
+  "privacyUrl": "https://doc-hosting.flycricket.io/file-auto-backup-privacy-policy/d4b7e75e-d787-45e3-9452-c67ab3e8c7f7/privacy",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {}
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 17763.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 17763.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

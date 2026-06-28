@@ -1,0 +1,105 @@
+{
+  "productId": "9njxnb3j0j9w",
+  "slug": "speed-test-live",
+  "title": "Speed Test Live",
+  "publisherName": "aria vision",
+  "sourcePublisherQuery": "aria vision",
+  "categories": [
+    "Developer tools"
+  ],
+  "shortDescription": "Monitor your system's incoming and outgoing network traffic in real time with Speed Test Live. This tool displays the status of your Wi-Fi and Ethernet connections, shows average, minimum, and maximum speeds, and tracks your total download and upload amounts  \nall in a user-friendly interface.",
+  "description": "Speed Test Live is a simple and powerful tool to measure your internet speed in real-time. With one tap, check your download, upload, and ping rates to ensure optimal connection performance. A reliable companion for monitoring your internet anytime, anywhere.",
+  "features": [
+    "Real-Time Speed Test",
+    "Wi-Fi and Ethernet Status",
+    "Speed Metrics",
+    "Data Usage Statistics",
+    "Real-Time Traffic Monitoring: Keep track of your system's inbound and outbound network traffic with detailed statistics.",
+    "Wi-Fi and Ethernet Status: View the current status of your Wi-Fi and Ethernet connections, including signal strength and connectivity details.",
+    "Speed Metrics: Analyze your network performance with average, minimum, and maximum speed indicators.",
+    "Data Usage Statistics: Monitor your total download and upload amounts to manage your data consumption effectively."
+  ],
+  "targetUsers": [
+    "Windows developers",
+    "software teams",
+    "database and DevOps operators"
+  ],
+  "benefits": [
+    "Reduce repetitive setup work",
+    "Keep technical workflows visible and controlled",
+    "Move from task to result with fewer manual steps",
+    "Built around real-Time Speed Test",
+    "Built around wi-Fi and Ethernet Status",
+    "Built around speed Metrics"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9njxnb3j0j9w?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.63380.13671884893311470.e2f940f3-32c0-4fa4-8492-334eb4700929.0c12d09a-5bee-45ef-96f9-15782528e354",
+      "caption": "Speed Test Live",
+      "width": 604,
+      "height": 436
+    }
+  ],
+  "releaseDateUtc": "2024-10-10T03:36:56.3407058Z",
+  "lastUpdateDateUtc": "2026-06-02T23:14:48Z",
+  "version": "",
+  "approximateSizeInBytes": 434362907,
+  "privacyUrl": "https://doc-hosting.flycricket.io/network-observer-privacy-policy/94598c68-c3f9-4aa6-93ea-1b7425b9151d/privacy",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.com"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

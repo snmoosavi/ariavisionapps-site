@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" mediaPresentationDuration="PT36.1S" minBufferTime="PT6S" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd">
+  <Period duration="PT36.1S">
+    <AdaptationSet contentType="video" group="0" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Representation bandwidth="3400000" codecs="avc1.64001f" frameRate="30.0" height="720" id="0" scanType="progressive" width="1280">
+        <SegmentBase indexRange="763-1030" indexRangeExact="true" timescale="3000">
+          <Initialization range="0-762" />
+        </SegmentBase>
+        <BaseURL>https://cdn.trailers.xboxservices.com/trailers/00000000-0000-0000-0000-000000000000/is/content/microsoftassets/_media_/2e0/2e0b3d82-f1b1-491e-82d3-8ad1eabcba98-stream.mp4?utm_medium=fmp4_dash</BaseURL>
+      </Representation>
+      <Representation bandwidth="2250000" codecs="avc1.64001f" frameRate="30.0" height="540" id="1" scanType="progressive" width="960">
+        <SegmentBase indexRange="763-1030" indexRangeExact="true" timescale="3000">
+          <Initialization range="0-762" />
+        </SegmentBase>
+        <BaseURL>https://cdn.trailers.xboxservices.com/trailers/00000000-0000-0000-0000-000000000000/is/content/microsoftassets/_media_/99e/99eb9fa3-fe94-4e54-bfc5-a5ece2eb4ca4-stream.mp4?utm_medium=fmp4_dash</BaseURL>
+      </Representation>
+      <Representation bandwidth="1000000" codecs="avc1.64001e" frameRate="30.0" height="360" id="2" scanType="progressive" width="640">
+        <SegmentBase indexRange="762-1029" indexRangeExact="true" timescale="3000">
+          <Initialization range="0-761" />
+        </SegmentBase>
+        <BaseURL>https://cdn.trailers.xboxservices.com/trailers/00000000-0000-0000-0000-000000000000/is/content/microsoftassets/_media_/dd4/dd414138-2991-482c-b5cf-3a4cac7203c2-stream.mp4?utm_medium=fmp4_dash</BaseURL>
+      </Representation>
+      <Representation bandwidth="4700000" codecs="avc1.640028" frameRate="30.0" height="1080" id="3" scanType="progressive" width="1920">
+        <SegmentBase indexRange="763-1030" indexRangeExact="true" timescale="3000">
+          <Initialization range="0-762" />
+        </SegmentBase>
+        <BaseURL>https://cdn.trailers.xboxservices.com/trailers/00000000-0000-0000-0000-000000000000/is/content/microsoftassets/_media_/0b2/0b220c91-1fe4-4ffc-a739-58de34be1916-stream.mp4?utm_medium=fmp4_dash</BaseURL>
+      </Representation>
+      <Representation bandwidth="650000" codecs="avc1.64001e" frameRate="30.0" height="360" id="4" scanType="progressive" width="640">
+        <SegmentBase indexRange="762-1029" indexRangeExact="true" timescale="3000">
+          <Initialization range="0-761" />
+        </SegmentBase>
+        <BaseURL>https://cdn.trailers.xboxservices.com/trailers/00000000-0000-0000-0000-000000000000/is/content/microsoftassets/_media_/d19/d19195c6-890e-498e-abda-94a585feed73-stream.mp4?utm_medium=fmp4_dash</BaseURL>
+      </Representation>
+      <Representation bandwidth="1500000" codecs="avc1.64001f" frameRate="30.0" height="540" id="5" scanType="progressive" width="960">
+        <SegmentBase indexRange="762-1029" indexRangeExact="true" timescale="3000">
+          <Initialization range="0-761" />
+        </SegmentBase>
+        <BaseURL>https://cdn.trailers.xboxservices.com/trailers/00000000-0000-0000-0000-000000000000/is/content/microsoftassets/_media_/720/72096fd1-bf66-498d-bbce-6f85381264a9-stream.mp4?utm_medium=fmp4_dash</BaseURL>
+      </Representation>
+      <Representation bandwidth="6000000" codecs="avc1.640028" frameRate="30.0" height="1080" id="6" scanType="progressive" width="1920">
+        <SegmentBase indexRange="763-1030" indexRangeExact="true" timescale="3000">
+          <Initialization range="0-762" />
+        </SegmentBase>
+        <BaseURL>https://cdn.trailers.xboxservices.com/trailers/00000000-0000-0000-0000-000000000000/is/content/microsoftassets/_media_/bfd/bfd48102-856d-4f18-98e8-2e10236bc017-stream.mp4?utm_medium=fmp4_dash</BaseURL>
+      </Representation>
+      <Representation bandwidth="400000" codecs="avc1.64000d" frameRate="30.0" height="180" id="7" scanType="progressive" width="320">
+        <SegmentBase indexRange="761-1028" indexRangeExact="true" timescale="3000">
+          <Initialization range="0-760" />
+        </SegmentBase>
+        <BaseURL>https://cdn.trailers.xboxservices.com/trailers/00000000-0000-0000-0000-000000000000/is/content/microsoftassets/_media_/341/341e2b49-c880-4708-a166-6fbbd2a3a746-stream.mp4?utm_medium=fmp4_dash</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet contentType="audio" group="1" lang="eng" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Representation audioSamplingRate="44100" bandwidth="96000" codecs="mp4a.40.5" dm-isDefault="true" id="[Original]">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+        <SegmentBase indexRange="661-916" indexRangeExact="true" timescale="90000">
+          <Initialization range="0-660" />
+        </SegmentBase>
+        <BaseURL>https://cdn.trailers.xboxservices.com/trailers/00000000-0000-0000-0000-000000000000/is/content/microsoftassets/_media_/c6a/c6aec1d1-bc09-4b94-92af-ce3b94e67b65-audio.mp4?utm_medium=fmp4_dash</BaseURL>
+      </Representation>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
+      <Label>[Original]</Label>
+    </AdaptationSet>
+  </Period>
+</MPD>

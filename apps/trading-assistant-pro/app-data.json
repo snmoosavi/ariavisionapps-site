@@ -1,0 +1,141 @@
+{
+  "productId": "9ntzhs8bbjdt",
+  "slug": "trading-assistant-pro",
+  "title": "Trading Assistant Pro",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Business"
+  ],
+  "shortDescription": "A smart and powerful trading companion for analyzing charts, managing watchlists, planning risk, tracking trades, and improving your trading decisions with a clean, organized workflow.",
+  "description": "Trading Assistant Pro is a smart trading workspace for market analysis, watchlists, risk planning, and trade journaling.\nBuilt with a professional dark interface, Trading Assistant Pro brings together live market charts, watchlist management, technical analysis, risk calculation, and trade notes in one clean desktop dashboard.\nWhether you are reviewing crypto pairs, checking momentum, or preparing a possible setup, the app helps you stay focused and organized without unnecessary complexity.\nIt includes candlestick charts, live refresh, customizable watchlists, analysis panels, setup levels, risk/reward calculation, and a trade journal for managing your trading ideas clearly and efficiently.",
+  "features": [
+    "📊 Candlestick market chart — View price movement with a clean professional chart layout.",
+    "⭐ Custom watchlist — Track your favorite trading symbols in one organized panel.",
+    "🧠 Technical analysis summary — Review key indicators and market conditions quickly.",
+    "📈 Signal score and setup status — See whether the current setup looks strong, weak, or neutral.",
+    "🎯 Entry, stop loss, and target levels — Plan trade levels before making a decision.",
+    "🧮 Risk calculator — Estimate position size and risk based on your trading plan.",
+    "📝 Trade journal — Save trade ideas, notes, and reviews for better discipline.",
+    "⚡ Live refresh support — Keep supported market data updated while you monitor charts.",
+    "💾 Export market data to CSV — Save chart data for review, reporting, or external analysis.",
+    "📋 One-click copy setup — Copy the full trade setup with entry, stop, targets, and notes.",
+    "Professional market dashboard with candlestick chart view",
+    "Watchlist for tracking favorite trading symbols",
+    "Technical analysis panel with signal score and setup status",
+    "Trade setup planning with entry, stop loss, and target levels"
+  ],
+  "targetUsers": [
+    "traders",
+    "business analysts",
+    "decision makers",
+    "market researchers",
+    "active traders"
+  ],
+  "benefits": [
+    "Organize professional analysis",
+    "Improve decision quality",
+    "Keep business workflows focused and repeatable",
+    "Built around candlestick market chart — View price movement with a clean professional chart layout.",
+    "Built around custom watchlist — Track your favorite trading symbols in one organized panel.",
+    "Built around technical analysis summary — Review key indicators and market conditions quickly."
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9ntzhs8bbjdt?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.3465.14404851465047286.0703059d-1ca0-4ec4-9f0a-fa5c659f3fb7.d7e41202-73f8-4e52-905b-0aeb13553cfe",
+      "caption": "Track your favorite symbols with live prices and 24h changes.",
+      "width": 1710,
+      "height": 919
+    },
+    {
+      "file": "screenshots/screenshot-2.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.54687.14404851465047286.0703059d-1ca0-4ec4-9f0a-fa5c659f3fb7.3f51cefe-d94c-4720-bf49-d7d1304f3e78",
+      "caption": "Clear signal analysis with setup quality, targets, and key trading metrics.",
+      "width": 1711,
+      "height": 919
+    },
+    {
+      "file": "screenshots/screenshot-3.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.5566.14404851465047286.0703059d-1ca0-4ec4-9f0a-fa5c659f3fb7.8b051d51-2910-4f64-8752-76719bd5da9f",
+      "caption": "Calculate position size, risk, stop loss, and reward-to-risk.",
+      "width": 1711,
+      "height": 919
+    },
+    {
+      "file": "screenshots/screenshot-4.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.57082.14404851465047286.0703059d-1ca0-4ec4-9f0a-fa5c659f3fb7.e7403408-25f2-41c0-8384-ebb81c4f4ac9",
+      "caption": "Track trade plans, notes, outcomes, and review history.",
+      "width": 1711,
+      "height": 919
+    },
+    {
+      "file": "screenshots/screenshot-5.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.61271.14404851465047286.cc34ef6a-cff1-4201-ba9c-9808e625e4bf.9772ed15-b25d-4340-ae54-6c5f6a3a4b2b",
+      "caption": "Mini Panel",
+      "width": 1032,
+      "height": 818
+    }
+  ],
+  "releaseDateUtc": "2026-05-15T05:56:38.6720622Z",
+  "lastUpdateDateUtc": "2026-05-28T15:49:44Z",
+  "version": "",
+  "approximateSizeInBytes": 106603638,
+  "privacyUrl": "https://github.com/snmoosavi/Trading-Assistant-Pro/blob/d184b8bba5be97d875f273d1dbce31edb3680671/PRIVACY_POLICY.md",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.com"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

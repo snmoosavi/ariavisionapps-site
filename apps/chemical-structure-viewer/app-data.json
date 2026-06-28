@@ -1,0 +1,117 @@
+{
+  "productId": "9p04l1zt2mbw",
+  "slug": "chemical-structure-viewer",
+  "title": "Chemical Structure Viewer",
+  "publisherName": "aria vision",
+  "sourcePublisherQuery": "aria vision",
+  "categories": [
+    "Education"
+  ],
+  "shortDescription": "The \"Chemical Structure Viewer\" is an innovative software tool designed for visualizing chemical structures in 3D. This application is a boon for students, educators, researchers, and anyone with an interest in chemistry.",
+  "description": "Chemical Structure Viewer is a powerful molecular visualization tool designed for students, educators, and professionals. It allows users to explore chemical structures interactively, making complex molecular concepts easier to understand. With features like real-time rotation, zooming, and instant chemical lookup, the app enhances learning and research experiences.\n\nKey Features (Summarized)\n3D Molecular Visualization: Rotate and zoom to explore molecules in detail.\nInstant Lookup: Enter a chemical name to view its 3D structure instantly.\nPubChem Integration: Access accurate and up-to-date molecular data.\nUser-Friendly Interface: Simple controls for easy navigation.\nEducational & Research Tool: Useful for teaching, learning, and professional applications.",
+  "features": [
+    "Create Chemical Structure",
+    "first version",
+    "Key Features (Summarized)",
+    "3D Molecular Visualization: Rotate and zoom to explore molecules in detail.",
+    "Instant Lookup: Enter a chemical name to view its 3D structure instantly.",
+    "PubChem Integration: Access accurate and up-to-date molecular data.",
+    "User-Friendly Interface: Simple controls for easy navigation.",
+    "Educational & Research Tool: Useful for teaching, learning, and professional applications."
+  ],
+  "targetUsers": [
+    "students",
+    "teachers",
+    "self-learners"
+  ],
+  "benefits": [
+    "Explore technical topics visually",
+    "Learn through direct interaction",
+    "Keep educational tools simple and accessible",
+    "Built around create Chemical Structure",
+    "Built around first version",
+    "Built around key Features (Summarized)"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9p04l1zt2mbw?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.54443.14467650130380628.88f0294a-ffbe-4001-b534-1ff61ce558cb.fe26e341-7b2e-4268-9e1a-3c41ca21a850",
+      "caption": "Chemical Structure Viewer screenshot 1",
+      "width": 1920,
+      "height": 1029
+    },
+    {
+      "file": "screenshots/screenshot-2.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.35456.14467650130380628.88f0294a-ffbe-4001-b534-1ff61ce558cb.c56c82da-67df-4e8e-9bef-7b65e40c10a2",
+      "caption": "Chemical Structure Viewer screenshot 2",
+      "width": 1920,
+      "height": 1031
+    },
+    {
+      "file": "screenshots/screenshot-3.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.16422.14467650130380628.88f0294a-ffbe-4001-b534-1ff61ce558cb.18fc555d-b93d-4cd9-b0a4-5927e8d6b9eb",
+      "caption": "Chemical Structure Viewer screenshot 3",
+      "width": 1920,
+      "height": 1031
+    }
+  ],
+  "releaseDateUtc": "2023-12-05T02:05:32.4469164Z",
+  "lastUpdateDateUtc": "2026-05-28T08:43:27Z",
+  "version": "",
+  "approximateSizeInBytes": 108309605,
+  "privacyUrl": "https://doc-hosting.flycricket.io/chemical-structure-viewer-privacy-policy/27825a34-5921-4dc9-b7ca-3a9b44b427d5/privacy",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {}
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

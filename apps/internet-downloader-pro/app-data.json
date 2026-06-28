@@ -1,0 +1,113 @@
+{
+  "productId": "9nh5mrqbvc9d",
+  "slug": "internet-downloader-pro",
+  "title": "Internet Downloader Pro",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Productivity"
+  ],
+  "shortDescription": "High-speed, smart, and reliable download manager with full control over your files.",
+  "description": "Internet Downloader Pro is a powerful, modern download manager built for speed, control, and elegance.\nDownload files faster with multi-connection acceleration, pause and resume anytime, schedule downloads, and manage everything through a clean dark/light interface designed for productivity.\n\nSmart clipboard detection, advanced headers and proxy support, precise speed control, and a polished user experience make Internet Downloader Pro the perfect tool for professional and everyday downloads.\n\nFast. Smart. Professional.",
+  "features": [
+    "⚡ High-speed multi-connection downloads",
+    "🧠 Clipboard detection: prompt once per URL",
+    "⏸️ Pause & resume anytime (even after restart)",
+    "🧠 Smart clipboard URL detection",
+    "📅 Download scheduling",
+    "🎛️ Precise speed and retry control",
+    "🌐 Custom headers, cookies & proxy support",
+    "📂 Organized download queue & history",
+    "🛡️ Safe, local-first data handling",
+    "Faster downloads with multi-connection engine",
+    "True pause & resume (even after restart)",
+    "Smart clipboard detection (no duplicate prompts)",
+    "Improved stability & reliability",
+    "Better control over speed, retries, and scheduling"
+  ],
+  "targetUsers": [
+    "professionals",
+    "students",
+    "focused knowledge workers",
+    "media collectors",
+    "content teams"
+  ],
+  "benefits": [
+    "Create a clearer daily workflow",
+    "Stay focused with fewer context switches",
+    "Track progress and complete work with confidence",
+    "Built around high-speed multi-connection downloads",
+    "Built around clipboard detection: prompt once per URL",
+    "Built around pause & resume anytime (even after restart)"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9nh5mrqbvc9d?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.28434.13636679489244785.44a56980-1c12-4d1a-a4bd-824521f09a6d.dd7374e8-e747-46cf-a5e1-bd90b9865331",
+      "caption": "Internet downloader pro",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "releaseDateUtc": "2025-12-17T21:51:13.4566215Z",
+  "lastUpdateDateUtc": "2026-05-28T09:09:23Z",
+  "version": "",
+  "approximateSizeInBytes": 43006825,
+  "privacyUrl": "https://github.com/snmoosavi/internetdownloaderpro/blob/0a23e43d3bf2a652a7dec8b625da5f356cd2efe8/internetdownloaderpro",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.com"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

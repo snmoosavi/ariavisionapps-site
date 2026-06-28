@@ -1,0 +1,106 @@
+{
+  "productId": "9nqzqq4fh0x6",
+  "slug": "crypto-encoder-pro",
+  "title": "Crypto Encoder Pro",
+  "publisherName": "aria vision",
+  "sourcePublisherQuery": "aria vision",
+  "categories": [
+    "Security"
+  ],
+  "shortDescription": "Unlock the power of secure and seamless communication with Crypto Encoder Pro. This innovative app lets you hide sensitive messages inside images with ease, ensuring your information stays pri",
+  "description": "Unlock the power of secure and seamless communication with Crypto Encoder Pro. This innovative app lets you hide sensitive messages inside images with ease, ensuring your information stays private",
+  "features": [
+    "Encrypt Messages",
+    "Custom Passwords",
+    "Retrieve Hidden Text",
+    "High-Level Security",
+    "Encrypt Messages: Hide your text securely within any image with just one click.",
+    "Custom Passwords: Add an extra layer of security by creating personalized passwords.",
+    "Retrieve Hidden Text: Effortlessly extract messages from encrypted images, even without a password.",
+    "User-Friendly Interface: Simple, intuitive, and designed for all skill levels.",
+    "High-Level Security: Built to prioritize your privacy and data protection."
+  ],
+  "targetUsers": [
+    "privacy-conscious users",
+    "security learners",
+    "technical teams"
+  ],
+  "benefits": [
+    "Protect sensitive information",
+    "Learn encryption workflows practically",
+    "Work with security tasks in a guided interface",
+    "Built around encrypt Messages",
+    "Built around custom Passwords",
+    "Built around retrieve Hidden Text"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9nqzqq4fh0x6?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.19569.13764288660696129.b67a88e2-6723-4937-ba70-a173d5f65bb8.06e7c41e-fac0-4f0a-a52b-7016a449d049",
+      "caption": "Crypto Encoder Pro screenshot 1",
+      "width": 1919,
+      "height": 1020
+    }
+  ],
+  "releaseDateUtc": "2025-01-14T11:03:59.3086942Z",
+  "lastUpdateDateUtc": "2026-05-28T17:14:53Z",
+  "version": "",
+  "approximateSizeInBytes": 54339606,
+  "privacyUrl": "https://doc-hosting.flycricket.io/crypto-encoder-pro-privacy-policy/ac0f5219-1864-43fd-be84-d7e9a38e6e3e/privacy",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.com"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

@@ -1,0 +1,118 @@
+{
+  "productId": "9p9hv5brvfs1",
+  "slug": "audio-enhancer-pro",
+  "title": "Audio Enhancer Pro",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Multimedia design"
+  ],
+  "shortDescription": "Turn flat audio into rich, clear, powerful sound in seconds.",
+  "description": "Audio Enhancer Pro transforms ordinary sound into a richer, clearer, and more powerful listening experience.\nWhether you are listening to music, watching movies, editing audio, playing games, or improving voice recordings, this app gives you the tools to make your audio sound better in seconds.\nChoose from ready-to-use sound presets, boost bass, improve clarity, adjust tone, enhance volume, and fine-tune your audio with advanced controls when you need more precision.\nNo complicated setup. No confusing tools. Just open your audio, enhance it, preview the result, and enjoy better sound.",
+  "features": [
+    "Audio enhancement presets",
+    "Advanced audio controls",
+    "Bass, treble, and clarity adjustment",
+    "Volume boost",
+    "Noise reduction",
+    "Before/after preview",
+    "Fast local processing",
+    "Easy audio export",
+    "Added powerful audio enhancement presets for faster sound improvement",
+    "Added Advanced Mode for manual audio fine-tuning",
+    "Improved bass, treble, clarity, and volume enhancement controls",
+    "Added cleaner preview workflow to compare audio before and after enhancement",
+    "Improved processing speed and overall app stability",
+    "Refined the user interface for a smoother and more professional experience"
+  ],
+  "targetUsers": [
+    "content creators",
+    "media editors",
+    "creative professionals"
+  ],
+  "benefits": [
+    "Improve media quality with purpose-built controls",
+    "Work locally on Windows",
+    "Produce polished output with a simpler workflow",
+    "Built around audio enhancement presets",
+    "Built around advanced audio controls",
+    "Built around bass, treble, and clarity adjustment"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9p9hv5brvfs1?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.53354.14142715913089346.0914322a-e02d-47b3-bd4e-5349beedc998.d12b09d0-3952-4e4a-a701-4636016831f1",
+      "caption": "Audio Enhancer Pro",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "screenshots/screenshot-2.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.50011.14142715913089346.0914322a-e02d-47b3-bd4e-5349beedc998.4b8f3541-370c-4f20-90ac-029e22e3e843",
+      "caption": "Ligth Mode",
+      "width": 1919,
+      "height": 1033
+    }
+  ],
+  "releaseDateUtc": "2026-06-15T15:18:38.5899393Z",
+  "lastUpdateDateUtc": "2026-06-15T15:18:28Z",
+  "version": "",
+  "approximateSizeInBytes": 124692092,
+  "privacyUrl": "https://github.com/snmoosavi/Audio-Enhancer-Pro/blob/71bd811f6a88c566cfb66fdd6d76ef4909a47898/Privacy-policy",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.com"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

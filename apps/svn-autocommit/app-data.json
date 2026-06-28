@@ -1,0 +1,111 @@
+{
+  "productId": "9ns8t816hvb3",
+  "slug": "svn-autocommit",
+  "title": "SVN AutoCommit",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Developer tools"
+  ],
+  "shortDescription": "Developer-first Windows tray app: auto-detects SVN working copies and autocommits just today’s changes (or all) to keep history clean—integrates with TortoiseSVN/svn.exe and adds one-click Update.",
+  "description": "⚠️ Requires SVN installed on your system\n\nA Windows system-tray app for developers that watches any folder or drive, discovers SVN working copies, and autocommits only today’s changes or all changes by choice. It integrates with TortoiseSVN and svn.exe, offers one click Update, and ships with a clean Material style UI.\n\n🔍 Recursive discovery of all SVN working copies\n🕒 Commit scope: today only or all changes\n🔄 One click Update across every working copy\n⚡ Debounced auto commit with a Start/Stop toggle\n🧰 Works with TortoiseSVN and svn.exe\n🎨 Minimal, Material style interface with tray notifications",
+  "features": [
+    "🕒 Commit scope: Today / All — choose exactly what to commit",
+    "🔍 Recursive watch (folder/drive) + auto-detect SVN working copies",
+    "🧰 TortoiseSVN / svn.exe integration — precise add/remove staging",
+    "⚡ Debounced auto-commit + single Start/Stop toggle",
+    "🔄 One-click Update across all working copies",
+    "🪟 Windows tray app (minimize to tray, bottom-right)",
+    "Commit Scope switch — choose Today only or All changes per working copy.",
+    "Single Start/Stop toggle — one button; text & icon update automatically (tray action syncs too).",
+    "Smarter multi-repo Update/Commit — chunked paths to avoid command-line limits; better externals handling.",
+    "Precise staging with svn.exe — auto-add/remove only the targeted files; smoother TortoiseProc commits.",
+    "Midnight rollover safe — “today” window resets automatically at 00:00.",
+    "Performance tweaks — debounced scanning, adjustable intervals, skips .svn for less I/O.",
+    "Refined Material UI — cleaner look, softer colors, tray notifications.",
+    "Persistent settings — all preferences saved via QSettings."
+  ],
+  "targetUsers": [
+    "Windows developers",
+    "software teams",
+    "database and DevOps operators"
+  ],
+  "benefits": [
+    "Reduce repetitive setup work",
+    "Keep technical workflows visible and controlled",
+    "Move from task to result with fewer manual steps",
+    "Built around commit scope: Today / All — choose exactly what to commit",
+    "Built around recursive watch (folder/drive) + auto-detect SVN working copies",
+    "Built around tortoiseSVN / svn.exe integration — precise add/remove staging"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9ns8t816hvb3?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.64028.14372135977819960.522f6486-328a-4c8b-a023-5577e80393ab.3da1dd5f-c2b8-4849-85d9-4a7eeb3520b8",
+      "caption": "SVN Auto commit",
+      "width": 613,
+      "height": 632
+    }
+  ],
+  "releaseDateUtc": "2025-09-15T06:58:07.9179287Z",
+  "lastUpdateDateUtc": "2026-05-31T07:50:03Z",
+  "version": "",
+  "approximateSizeInBytes": 40423551,
+  "privacyUrl": "https://doc-hosting.flycricket.io/svn-auto-commit-privacy-policy/d250f3ed-6350-47f2-be61-bd0e718f9631/privacy",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.com"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

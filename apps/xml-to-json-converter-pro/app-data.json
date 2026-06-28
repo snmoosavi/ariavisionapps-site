@@ -1,0 +1,112 @@
+{
+  "productId": "9p6pfjvgdmlx",
+  "slug": "xml-to-json-converter-pro",
+  "title": "Xml to Json Converter pro",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Utilities & tools"
+  ],
+  "shortDescription": "XML to JSON Converter Pro is a powerful and user-friendly tool that enables users to effortlessly convert XML files into the JSON format with high accuracy. This application is designed for developers, data managers, and anyone needing to transform data from XML to JSON.",
+  "description": "XML to JSON Converter Pro is a powerful and user-friendly tool that enables users to effortlessly convert XML files into the JSON format with high accuracy. This application is designed for developers, data managers, and anyone needing to transform data from XML to JSON.\r\n\r\nKey Features:\r\n\r\nRapid and Accurate Conversion: Utilizes advanced algorithms for quick conversions while maintaining the original data structure.\r\nSimple and Modern User Interface: Provides an easy-to-use visual interface, ensuring a hassle-free user experience.\r\nSupports Large Files: Capable of processing and converting large XML files.\r\nHigh Security: Your data is protected during the conversion process, with no data stored or transferred without your permission.\r\nStandards Compliant: Keeps up with the latest XML and JSON technical standards to ensure accuracy and compatibility.\r\nRegular Support and Updates: Our technical support team regularly releases updates to ensure the application always performs at its best.\r\nIdeal For:\r\nXML to JSON Converter Pro is ideal for software developers, data analysts, system administrators, and anyone dealing with XML and JSON data.",
+  "features": [
+    "CONVERT XML TO JSON",
+    "first version",
+    "Key Features:",
+    "Rapid and Accurate Conversion: Utilizes advanced algorithms for quick conversions while maintaining the original data structure.",
+    "Simple and Modern User Interface: Provides an easy-to-use visual interface, ensuring a hassle-free user experience.",
+    "Supports Large Files: Capable of processing and converting large XML files.",
+    "High Security: Your data is protected during the conversion process, with no data stored or transferred without your permission.",
+    "Standards Compliant: Keeps up with the latest XML and JSON technical standards to ensure accuracy and compatibility.",
+    "Regular Support and Updates: Our technical support team regularly releases updates to ensure the application always performs at its best.",
+    "XML to JSON Converter Pro is ideal for software developers, data analysts, system administrators, and anyone dealing with XML and JSON data."
+  ],
+  "targetUsers": [
+    "Windows power users",
+    "operations teams",
+    "office and support staff"
+  ],
+  "benefits": [
+    "Turn routine file and data tasks into guided workflows",
+    "Save time on repeat operations",
+    "Keep everyday work organized on the desktop",
+    "Built around cONVERT XML TO JSON",
+    "Built around first version",
+    "Built around key Features:"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9p6pfjvgdmlx?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.43817.14615643679752099.6a07b385-e14e-45c5-a669-5e7fd987603e.1186ef3b-b62a-4396-bdff-2121be7f0cf2",
+      "caption": "Xml to Json Converter pro screenshot 1",
+      "width": 1920,
+      "height": 1031
+    },
+    {
+      "file": "screenshots/screenshot-2.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.25809.14615643679752099.6a07b385-e14e-45c5-a669-5e7fd987603e.3acea9a2-00ce-4157-aa8e-b8ef47345d03",
+      "caption": "Xml to Json Converter pro screenshot 2",
+      "width": 1920,
+      "height": 1029
+    }
+  ],
+  "releaseDateUtc": "2023-11-27T01:47:43.4165249Z",
+  "lastUpdateDateUtc": "2026-06-17T02:29:51Z",
+  "version": "",
+  "approximateSizeInBytes": 49394095,
+  "privacyUrl": "https://doc-hosting.flycricket.io/xml-to-json-converter-pro-privacy-policy/d22d0496-e94c-4d4a-bc27-7ed07d50029c/privacy",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {}
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

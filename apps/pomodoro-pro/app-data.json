@@ -1,0 +1,157 @@
+{
+  "productId": "9p48jvgz4dkf",
+  "slug": "pomodoro-pro",
+  "title": "Pomodoro Pro",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Productivity"
+  ],
+  "shortDescription": "Plan your day into focused time blocks, stay on track with a refined Mini HUD, and personalize every session with custom alerts, goals, streaks, and smart focus insights.\n",
+  "description": "Plan your day, run each focus block, and keep your timer exactly where you need it.\nPomodoro Pro is a modern focus timer for Windows with Pomodoro sessions, Time Blocking, daily goals, task tracking, and a refined floating Mini HUD.\nCreate reusable Time Blocking plans, add tasks with different durations, reorder blocks, and run your workday as a clear sequence instead of starting each session manually.\nCustomize focus, short break, and long break durations, control the timer from the system tray or Windows taskbar, and keep progress visible while you work.\nUse custom notification sounds for focus, break, long break, and daily goal alerts. Choose from built-in sounds or use your own audio files.\nTrack your progress with daily, weekly, and monthly charts, build focus streaks, review top tasks, and export your session history to CSV.\nWith Quiet Hours, automatic logging, light/dark themes, taskbar progress, tray controls, and local data storage, Pomodoro Pro gives you a clean and reliable workspace for structured focus.",
+  "features": [
+    "Time Blocking with reusable focus plans",
+    "Custom duration for each task block",
+    "Start a full task sequence with one click",
+    "Save, rename, reorder, and manage time-blocking plans",
+    "Floating Mini HUD for quick timer visibility",
+    "Daily Focus Goal with streak tracking",
+    "Task tagging for work, study, or projects",
+    "Smart history with daily, weekly, and monthly charts",
+    "Custom notification sounds for timer events",
+    "Built-in sound library with preview option",
+    "Support for custom MP3, WAV, and OGG sounds",
+    "Taskbar progress bar integration",
+    "One-click system tray controls",
+    "Customizable focus, short break, and long break sessions"
+  ],
+  "targetUsers": [
+    "professionals",
+    "students",
+    "focused knowledge workers",
+    "remote workers"
+  ],
+  "benefits": [
+    "Create a clearer daily workflow",
+    "Stay focused with fewer context switches",
+    "Track progress and complete work with confidence",
+    "Built around time Blocking with reusable focus plans",
+    "Built around custom duration for each task block",
+    "Built around start a full task sequence with one click"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9p48jvgz4dkf?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.5807.14593096680108492.ec80c8bc-8dfc-4701-8203-f6269286f344.779de4b7-91f9-449f-86ed-86f8f84a4891",
+      "caption": "Pomodoro Pro Main Window",
+      "width": 1919,
+      "height": 1030
+    },
+    {
+      "file": "screenshots/screenshot-2.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.56276.14593096680108492.89b07313-e182-4229-96f3-bc035b2c6b8a.ed940ce7-ff6f-4bb1-9c24-2e36c4449fc2",
+      "caption": "Setting Window",
+      "width": 589,
+      "height": 485
+    },
+    {
+      "file": "screenshots/screenshot-3.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.29244.14593096680108492.89b07313-e182-4229-96f3-bc035b2c6b8a.2407f826-154c-4947-952d-819718f0f361",
+      "caption": "History of Your Activity",
+      "width": 908,
+      "height": 546
+    },
+    {
+      "file": "screenshots/screenshot-4.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.64697.14593096680108492.ec80c8bc-8dfc-4701-8203-f6269286f344.7bb43eab-ae32-43e4-aace-1fc0d5f5b8e3",
+      "caption": "Floating Mini HUD for quick glance",
+      "width": 1127,
+      "height": 786
+    },
+    {
+      "file": "screenshots/screenshot-5.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.22632.14593096680108492.ec80c8bc-8dfc-4701-8203-f6269286f344.1b6d6b26-90f6-40f6-be83-460966fd5db3",
+      "caption": "Settings",
+      "width": 1919,
+      "height": 1031
+    },
+    {
+      "file": "screenshots/screenshot-6.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.29068.14593096680108492.e2aec019-d282-4ba8-a4dd-cb072409750d.e7819f71-5563-47da-93e6-d9f67ae06822",
+      "caption": "Notification Sound",
+      "width": 1356,
+      "height": 793
+    },
+    {
+      "file": "screenshots/screenshot-7.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.11215.14593096680108492.39e8c488-90cc-4640-beb6-d9fa8f7b9b1f.52e67525-2810-4d9e-a031-8fc1996c395d",
+      "caption": "Time Blocking",
+      "width": 1919,
+      "height": 1033
+    }
+  ],
+  "releaseDateUtc": "2025-09-01T06:55:10.9144123Z",
+  "lastUpdateDateUtc": "2026-06-15T09:40:03Z",
+  "version": "",
+  "approximateSizeInBytes": 48871652,
+  "privacyUrl": "https://doc-hosting.flycricket.io/pomodoro-pro-privacy-policy/eba27d8d-9147-4a8b-a0ec-5067b6990ccd/privacy",
+  "appWebsiteUrl": "https://ariavisionapps.com/apps/pomodoro-pro/",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.com"
+    },
+    {
+      "uri": "https://ariavisionapps.com/apps/pomodoro-pro/"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

@@ -1,0 +1,108 @@
+{
+  "productId": "9p294zgd4nv9",
+  "slug": "qr-code-studio",
+  "title": "QR Code Studio",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Multimedia design"
+  ],
+  "shortDescription": "With QR Code Studio, effortlessly create unique QR codes adorned with beautiful graphic designs, stunning background images, diverse color choices, and customizable size and brightness settings",
+  "description": "\"🌟 QR Code Studio - A Powerful Tool for Crafting Custom QR Codes! 🌟\r\nWith QR Code Studio, effortlessly create unique QR codes adorned with beautiful graphic designs, stunning background images, diverse color choices, and customizable size and brightness settings. Boasting a user-friendly interface, this app offers an unparalleled experience in designing and crafting QR codes. Whether for business, advertising, or personal uses, QR Code Studio provides a comprehensive solution to your needs. Download your version now and join thousands of satisfied QR Studio users!\"",
+  "features": [
+    "Qr code generate",
+    "upload image",
+    "change color",
+    "set size",
+    "set brightness",
+    "save and copy to clipboard",
+    "first version",
+    "\"🌟 QR Code Studio - A Powerful Tool for Crafting Custom QR Codes! 🌟"
+  ],
+  "targetUsers": [
+    "content creators",
+    "media editors",
+    "creative professionals"
+  ],
+  "benefits": [
+    "Improve media quality with purpose-built controls",
+    "Work locally on Windows",
+    "Produce polished output with a simpler workflow",
+    "Built around qr code generate"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9p294zgd4nv9?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.32380.14566095985319394.f620948a-df20-47bd-801d-f61142e67ce1.7131eccc-4c51-4666-805c-cb025e0cc0e7",
+      "caption": "QR Code Studio screenshot 1",
+      "width": 1046,
+      "height": 857
+    },
+    {
+      "file": "screenshots/screenshot-2.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.26154.14566095985319394.088aa963-0e75-45f2-83e5-4d215f6135cb.597d1ca4-ba16-4071-896d-f3385ef93a5b",
+      "caption": "QR Code",
+      "width": 290,
+      "height": 290
+    }
+  ],
+  "releaseDateUtc": "2023-10-16T03:33:20.9408593Z",
+  "lastUpdateDateUtc": "2026-05-28T09:28:41Z",
+  "version": "",
+  "approximateSizeInBytes": 42918646,
+  "privacyUrl": "https://doc-hosting.flycricket.io/qr-studio-privacy-policy/582e63a3-cfde-4652-bf3b-aca81117277c/privacy",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {}
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

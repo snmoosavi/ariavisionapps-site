@@ -1,0 +1,126 @@
+{
+  "productId": "9pljlf4q3ht6",
+  "slug": "python-quick-installer-pro",
+  "title": "Python Quick Installer Pro",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Developer tools"
+  ],
+  "shortDescription": "Install Python packages fast with a sleek pip GUI. Live logs, smart suggestions, and a tiny panel make installs effortless.\n⚠️ Python and pip must be installed on your system beforehand.",
+  "description": "⚠️ Python and pip must be installed on your system beforehand.\nInstall Python packages, effortlessly.\nA sleek Material-inspired GUI for pip with live output, a Tiny Panel for one-click installs (with progress), smart PyPI suggestions, version picker & command preview, full advanced flags (--upgrade, --user, --pre, --no-cache-dir, …), interpreter selector, tray actions (Show/Hide, clipboard install, Exit), and persistent settings.",
+  "features": [
+    "Three modes: Minimal, Pro, and Tiny Panel (floating)",
+    "Tiny Panel 2.0: one-line install with inline progress indicator",
+    "Live command preview and PyPI version picker",
+    "Smart suggestions when a package name looks wrong",
+    "Non-blocking installs with real-time output (QProcess)",
+    "Interpreter picker: auto-detect + manual browse",
+    "System tray actions: Show/Hide, Tiny Panel, Install from Clipboard, Exit",
+    "Tiny Panel 2.0 with progress bar",
+    "Segmented mode switcher (Minimal / Pro / Tiny)",
+    "PyPI version picker + live command preview",
+    "Smarter name suggestions & live output",
+    "Tray actions, bug fixes, and performance tweaks",
+    "⚠️ Python and pip must be installed on your system beforehand.",
+    "Install Python packages, effortlessly."
+  ],
+  "targetUsers": [
+    "Windows developers",
+    "software teams",
+    "database and DevOps operators",
+    "Python developers"
+  ],
+  "benefits": [
+    "Reduce repetitive setup work",
+    "Keep technical workflows visible and controlled",
+    "Move from task to result with fewer manual steps",
+    "Built around three modes: Minimal, Pro, and Tiny Panel (floating)",
+    "Built around tiny Panel 2.0: one-line install with inline progress indicator",
+    "Built around live command preview and PyPI version picker"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9pljlf4q3ht6?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.45418.14312526722447967.42167d22-cfcf-4739-9199-d795cab987c2.3c5e0e5c-5b2c-4205-ae56-d3e0deb35eed",
+      "caption": "install python packages",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "screenshots/screenshot-2.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.10045.14312526722447967.42167d22-cfcf-4739-9199-d795cab987c2.b4588a5a-1d15-4dd8-83a3-4617a95febec",
+      "caption": "Professional Install",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "screenshots/screenshot-3.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.39674.14312526722447967.42167d22-cfcf-4739-9199-d795cab987c2.fa719220-f740-4734-b531-11d19a7ebab6",
+      "caption": "Tiny Panel\nalways on top",
+      "width": 1600,
+      "height": 900
+    }
+  ],
+  "releaseDateUtc": "2025-10-13T20:06:05.1932653Z",
+  "lastUpdateDateUtc": "2026-05-28T10:06:11Z",
+  "version": "",
+  "approximateSizeInBytes": 37860200,
+  "privacyUrl": "https://github.com/snmoosavi/privacy-policy/blob/9a89cf45afcf9db00566ae4bd92119fc577348b5/pippro",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.com"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

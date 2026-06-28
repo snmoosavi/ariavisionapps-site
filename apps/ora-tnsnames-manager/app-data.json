@@ -1,0 +1,111 @@
+{
+  "productId": "9n1dhfnzghkl",
+  "slug": "ora-tnsnames-manager",
+  "title": "Ora TNSNames Manager",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Developer tools"
+  ],
+  "shortDescription": "⚠️ Oracle client must be installed on your system.\n⚙️ Ora TNSNames Manager is a powerful yet simple desktop tool for DBAs and developers to manage, edit, and test Oracle Net configurations with ease—streamlining connectivity, boosting productivity, and reducing errors.\n",
+  "description": "⚠️ Oracle client must be installed on your system.\n⚙️ Ora TNSNames Manager is a professional utility designed specifically for Oracle Database administrators (DBAs) and developers.\nIt provides an intuitive interface for editing and validating tnsnames.ora files, with fast search and filtering, safe backups, and built-in connectivity tests (ping, TCP, tnsping) to simplify Oracle Net configuration and maintenance.",
+  "features": [
+    "📝 Edit and manage tnsnames.ora with ease",
+    "🔎 Fast search, filter, and alias navigation",
+    "🔄 Safe CRUD operations with auto-backup",
+    "🌐 Connectivity tests (ping, TCP, tnsping)",
+    "💻 Dual view: Form builder + Raw editor",
+    "⚙️ Customizable settings (TNS_ADMIN, ORACLE_HOME)",
+    "Raw .ora editor with syntax highlighting",
+    "Form builder for creating and editing entries safel",
+    "One-click connectivity tests: ping, TCP, tnsping",
+    "Improved search and filtering of aliases and hosts",
+    "Automatic backups before saving changes",
+    "Settings for TNS_ADMIN, ORACLE_HOME, and default file",
+    "Quick copy of EZCONNECT strings to clipboard",
+    "⚠️ Oracle client must be installed on your system."
+  ],
+  "targetUsers": [
+    "Windows developers",
+    "software teams",
+    "database and DevOps operators"
+  ],
+  "benefits": [
+    "Reduce repetitive setup work",
+    "Keep technical workflows visible and controlled",
+    "Move from task to result with fewer manual steps",
+    "Built around edit and manage tnsnames.ora with ease",
+    "Built around fast search, filter, and alias navigation",
+    "Built around safe CRUD operations with auto-backup"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9n1dhfnzghkl?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.33544.13903277912832267.3c8d9ef2-c4be-42a6-8a08-0c323389dd2e.93fb97c2-a2aa-40a1-9cc9-4ed52cabfb50",
+      "caption": "Ora TNSNames Manager",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "releaseDateUtc": "2025-12-15T03:19:56.8541193Z",
+  "lastUpdateDateUtc": "2026-05-28T09:17:50Z",
+  "version": "",
+  "approximateSizeInBytes": 38642052,
+  "privacyUrl": "https://github.com/snmoosavi/oracle-tnsnames/blob/0c47544bbe9817d450e97b215cba040018ab1aa3/trnsnames",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.comm"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

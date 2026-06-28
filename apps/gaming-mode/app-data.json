@@ -1,0 +1,132 @@
+{
+  "productId": "9pfphmp7wvft",
+  "slug": "gaming-mode",
+  "title": "Gaming Mode",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Productivity"
+  ],
+  "shortDescription": "Game Mode Pro boosts your Windows gaming performance with one-click optimization, smart profiles, live overlay stats, auto-restore, and pro-level system tuning.",
+  "description": "Game Mode Pro helps optimize your Windows gaming setup with one-click performance boost, smart game profiles, live CPU/GPU/Ping overlay, system tray mode, session history, backup tools, and safe auto-restore after gameplay.",
+  "features": [
+    " Increase your system’s focus on your game.",
+    "Per-game profiles + ready presets (CS2, Valorant, GTA V, Fortnite)",
+    "Priority Booster — your game gets more CPU time",
+    "1 ms Timer — crisper input, tighter aim",
+    "Kill noisy services & background apps — free RAM/CPU, less stutter",
+    "Auto Power Plan (High/Ultimate) — no throttling",
+    "In-game HUD — live CPU/GPU/Ping; draggable",
+    "Compatibility flags — High-DPI & Disable Fullscreen Optimizations",
+    "Safe apply & instant restore — one click",
+    "Less lag, more headshots.",
+    "Silence the background, let FPS breathe.",
+    "Sharper input = faster reaction.",
+    "Extra overlays & launchers: out.",
+    "One-click Boost — apply all optimizations at once"
+  ],
+  "targetUsers": [
+    "professionals",
+    "students",
+    "focused knowledge workers"
+  ],
+  "benefits": [
+    "Create a clearer daily workflow",
+    "Stay focused with fewer context switches",
+    "Track progress and complete work with confidence",
+    "Built around increase your system’s focus on your game.",
+    "Built around per-game profiles + ready presets (CS2, Valorant, GTA V, Fortnite)",
+    "Built around priority Booster — your game gets more CPU time"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9pfphmp7wvft?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.50650.14200980450697688.8d21371f-186c-4ddb-9944-d7f38412a431.293bda31-19dd-485b-876f-7785fb9882e5",
+      "caption": "game mode profile",
+      "width": 1277,
+      "height": 833
+    },
+    {
+      "file": "screenshots/screenshot-2.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.38637.14200980450697688.df831232-d856-4858-bef5-769a26ccfa99.b042cfeb-bf96-4f3c-a6b4-5f1b88025c4a",
+      "caption": "Services to stop during game mode",
+      "width": 494,
+      "height": 828
+    },
+    {
+      "file": "screenshots/screenshot-3.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.36895.14200980450697688.df831232-d856-4858-bef5-769a26ccfa99.941facde-55a8-4250-91b4-97be4bcfecef",
+      "caption": "background apps to close",
+      "width": 481,
+      "height": 830
+    },
+    {
+      "file": "screenshots/screenshot-4.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.12812.14200980450697688.df831232-d856-4858-bef5-769a26ccfa99.eeb7f4ea-f567-46b1-9a66-12bf71738096",
+      "caption": "active and restore Game Mode",
+      "width": 1204,
+      "height": 880
+    }
+  ],
+  "releaseDateUtc": "2025-09-15T22:50:11.7632879Z",
+  "lastUpdateDateUtc": "2026-05-28T09:07:38Z",
+  "version": "",
+  "approximateSizeInBytes": 39893958,
+  "privacyUrl": "https://doc-hosting.flycricket.io/game-mode-privacy-policy/8f1a6a4d-3689-4e34-99fb-2f1f2c902a2f/privacy",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.com"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

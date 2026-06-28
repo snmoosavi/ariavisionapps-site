@@ -1,0 +1,852 @@
+[
+  {
+    "productId": "9mv5cqv5wl5h",
+    "slug": "trading-journal-pro",
+    "title": "Trading Journal Pro",
+    "categories": [
+      "Personal finance"
+    ],
+    "shortDescription": "Trading Journal helps traders plan smarter, manage risk better, and review every trade with clarity.",
+    "storeUrl": "https://apps.microsoft.com/detail/9mv5cqv5wl5h?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.jpg",
+        "caption": "Trade With Discipline"
+      },
+      {
+        "file": "screenshots/screenshot-2.jpg",
+        "caption": "Your Journal,Always Organized"
+      },
+      {
+        "file": "screenshots/screenshot-3.jpg",
+        "caption": "Edit Your Trade"
+      },
+      {
+        "file": "screenshots/screenshot-4.jpg",
+        "caption": "Know Your Edge"
+      },
+      {
+        "file": "screenshots/screenshot-5.jpg",
+        "caption": "USD Market Charts"
+      },
+      {
+        "file": "screenshots/screenshot-6.jpg",
+        "caption": "Guardrails and Preferences"
+      }
+    ],
+    "releaseDateUtc": "2025-12-25T16:40:19.6093228Z",
+    "lastUpdateDateUtc": "2026-06-18T19:59:09Z"
+  },
+  {
+    "productId": "9p6pfjvgdmlx",
+    "slug": "xml-to-json-converter-pro",
+    "title": "Xml to Json Converter pro",
+    "categories": [
+      "Utilities & tools"
+    ],
+    "shortDescription": "XML to JSON Converter Pro is a powerful and user-friendly tool that enables users to effortlessly convert XML files into the JSON format with high accuracy. This application is designed for developers, data managers, and anyone needing to transform data from XML to JSON.",
+    "storeUrl": "https://apps.microsoft.com/detail/9p6pfjvgdmlx?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.png",
+        "caption": "Xml to Json Converter pro screenshot 1"
+      },
+      {
+        "file": "screenshots/screenshot-2.png",
+        "caption": "Xml to Json Converter pro screenshot 2"
+      }
+    ],
+    "releaseDateUtc": "2023-11-27T01:47:43.4165249Z",
+    "lastUpdateDateUtc": "2026-06-17T02:29:51Z"
+  },
+  {
+    "productId": "9mzclvf2dfc4",
+    "slug": "pyinstaller",
+    "title": "PyInstaller",
+    "categories": [
+      "Developer tools"
+    ],
+    "shortDescription": "🚀 A modern Windows GUI for PyInstaller that helps developers package Python scripts into executable apps with build profiles, live command preview, diagnostics, and release-ready workflows.",
+    "storeUrl": "https://apps.microsoft.com/detail/9mzclvf2dfc4?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.jpg",
+        "caption": "pyinstaller"
+      },
+      {
+        "file": "screenshots/screenshot-2.jpg",
+        "caption": "baisc page"
+      },
+      {
+        "file": "screenshots/screenshot-3.jpg",
+        "caption": "Files page"
+      },
+      {
+        "file": "screenshots/screenshot-4.jpg",
+        "caption": "import page"
+      },
+      {
+        "file": "screenshots/screenshot-5.jpg",
+        "caption": "output page"
+      },
+      {
+        "file": "screenshots/screenshot-6.jpg",
+        "caption": "advanced page"
+      },
+      {
+        "file": "screenshots/screenshot-7.png",
+        "caption": "History page"
+      },
+      {
+        "file": "screenshots/screenshot-8.png",
+        "caption": "Doctor Page"
+      },
+      {
+        "file": "screenshots/screenshot-9.jpg",
+        "caption": "Smart Scan"
+      },
+      {
+        "file": "screenshots/screenshot-10.jpg",
+        "caption": "Store Release"
+      }
+    ],
+    "releaseDateUtc": "2025-08-18T11:40:52.9615878Z",
+    "lastUpdateDateUtc": "2026-06-16T06:37:12Z"
+  },
+  {
+    "productId": "9p9hv5brvfs1",
+    "slug": "audio-enhancer-pro",
+    "title": "Audio Enhancer Pro",
+    "categories": [
+      "Multimedia design"
+    ],
+    "shortDescription": "Turn flat audio into rich, clear, powerful sound in seconds.",
+    "storeUrl": "https://apps.microsoft.com/detail/9p9hv5brvfs1?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.jpg",
+        "caption": "Audio Enhancer Pro"
+      },
+      {
+        "file": "screenshots/screenshot-2.jpg",
+        "caption": "Ligth Mode"
+      }
+    ],
+    "releaseDateUtc": "2026-06-15T15:18:38.5899393Z",
+    "lastUpdateDateUtc": "2026-06-15T15:18:28Z"
+  },
+  {
+    "productId": "9nm8lrn4c79m",
+    "slug": "ai-image-character-generator",
+    "title": "AI Image Character Generator",
+    "categories": [
+      "Photo & video"
+    ],
+    "shortDescription": "Turn a few words into stunning AI character images in seconds.",
+    "storeUrl": "https://apps.microsoft.com/detail/9nm8lrn4c79m?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.jpg",
+        "caption": "GIRLS"
+      },
+      {
+        "file": "screenshots/screenshot-2.jpg",
+        "caption": "2D Disney-Style"
+      },
+      {
+        "file": "screenshots/screenshot-3.jpg",
+        "caption": "fighthing jet"
+      },
+      {
+        "file": "screenshots/screenshot-4.jpg",
+        "caption": "AI Image Character Generator screenshot 4"
+      },
+      {
+        "file": "screenshots/screenshot-5.jpg",
+        "caption": "cute cat"
+      },
+      {
+        "file": "screenshots/screenshot-6.jpg",
+        "caption": "animals"
+      },
+      {
+        "file": "screenshots/screenshot-7.jpg",
+        "caption": "man"
+      },
+      {
+        "file": "screenshots/screenshot-8.jpg",
+        "caption": "woman"
+      },
+      {
+        "file": "screenshots/screenshot-9.jpg",
+        "caption": "Renaissance Warrior Queen"
+      },
+      {
+        "file": "screenshots/screenshot-10.jpg",
+        "caption": "Digital Goddess "
+      }
+    ],
+    "releaseDateUtc": "2025-06-30T07:17:43.7064327Z",
+    "lastUpdateDateUtc": "2026-06-15T11:28:51Z"
+  },
+  {
+    "productId": "9p48jvgz4dkf",
+    "slug": "pomodoro-pro",
+    "title": "Pomodoro Pro",
+    "categories": [
+      "Productivity"
+    ],
+    "shortDescription": "Plan your day into focused time blocks, stay on track with a refined Mini HUD, and personalize every session with custom alerts, goals, streaks, and smart focus insights.\n",
+    "storeUrl": "https://apps.microsoft.com/detail/9p48jvgz4dkf?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.jpg",
+        "caption": "Pomodoro Pro Main Window"
+      },
+      {
+        "file": "screenshots/screenshot-2.png",
+        "caption": "Setting Window"
+      },
+      {
+        "file": "screenshots/screenshot-3.png",
+        "caption": "History of Your Activity"
+      },
+      {
+        "file": "screenshots/screenshot-4.jpg",
+        "caption": "Floating Mini HUD for quick glance"
+      },
+      {
+        "file": "screenshots/screenshot-5.jpg",
+        "caption": "Settings"
+      },
+      {
+        "file": "screenshots/screenshot-6.jpg",
+        "caption": "Notification Sound"
+      },
+      {
+        "file": "screenshots/screenshot-7.jpg",
+        "caption": "Time Blocking"
+      }
+    ],
+    "releaseDateUtc": "2025-09-01T06:55:10.9144123Z",
+    "lastUpdateDateUtc": "2026-06-15T09:40:03Z"
+  },
+  {
+    "productId": "9pgbj5b0f1s9",
+    "slug": "voice-to-text-converter-pro",
+    "title": "Voice To Text Converter Pro",
+    "categories": [
+      "Utilities & tools"
+    ],
+    "shortDescription": "Convert audio and video into text, subtitles, translations, and export-ready document packs.",
+    "storeUrl": "https://apps.microsoft.com/detail/9pgbj5b0f1s9?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.jpg",
+        "caption": "Convert to Text and Translate it"
+      },
+      {
+        "file": "screenshots/screenshot-2.jpg",
+        "caption": "convert all files in a folder in one run"
+      },
+      {
+        "file": "screenshots/screenshot-3.png",
+        "caption": "Online And Offline"
+      },
+      {
+        "file": "screenshots/screenshot-4.jpg",
+        "caption": "support video files"
+      },
+      {
+        "file": "screenshots/screenshot-5.jpg",
+        "caption": "Export as TXT, SRT, DOCX, or PDF"
+      },
+      {
+        "file": "screenshots/screenshot-6.jpg",
+        "caption": "Turn audio and video into text"
+      },
+      {
+        "file": "screenshots/screenshot-7.jpg",
+        "caption": "Create clean and editable subtitles"
+      },
+      {
+        "file": "screenshots/screenshot-8.jpg",
+        "caption": "Translate transcripts instantly"
+      }
+    ],
+    "releaseDateUtc": "2023-07-06T00:32:46.1973922Z",
+    "lastUpdateDateUtc": "2026-06-13T00:09:51Z"
+  },
+  {
+    "productId": "9nv6zj5ql54v",
+    "slug": "git-automation",
+    "title": "Git Automation",
+    "categories": [
+      "Developer tools"
+    ],
+    "shortDescription": "Control GitHub faster with a secure desktop app for commits, branches, pull requests, issues, and automated Git workflows.",
+    "storeUrl": "https://apps.microsoft.com/detail/9nv6zj5ql54v?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.jpg",
+        "caption": "Dashboard"
+      },
+      {
+        "file": "screenshots/screenshot-2.jpg",
+        "caption": "Repository Manager"
+      },
+      {
+        "file": "screenshots/screenshot-3.jpg",
+        "caption": "Git Status"
+      },
+      {
+        "file": "screenshots/screenshot-4.jpg",
+        "caption": "Commit & Push"
+      },
+      {
+        "file": "screenshots/screenshot-5.jpg",
+        "caption": "Branch Manager"
+      },
+      {
+        "file": "screenshots/screenshot-6.jpg",
+        "caption": "Pull Request"
+      },
+      {
+        "file": "screenshots/screenshot-7.jpg",
+        "caption": "Issues"
+      },
+      {
+        "file": "screenshots/screenshot-8.jpg",
+        "caption": "Automation Workflows"
+      },
+      {
+        "file": "screenshots/screenshot-9.jpg",
+        "caption": "Activity Log"
+      },
+      {
+        "file": "screenshots/screenshot-10.jpg",
+        "caption": "Settings"
+      }
+    ],
+    "releaseDateUtc": "2026-06-08T20:07:46.6418317Z",
+    "lastUpdateDateUtc": "2026-06-08T20:07:37Z"
+  },
+  {
+    "productId": "9njxnb3j0j9w",
+    "slug": "speed-test-live",
+    "title": "Speed Test Live",
+    "categories": [
+      "Developer tools"
+    ],
+    "shortDescription": "Monitor your system's incoming and outgoing network traffic in real time with Speed Test Live. This tool displays the status of your Wi-Fi and Ethernet connections, shows average, minimum, and maximum speeds, and tracks your total download and upload amounts  \nall in a user-friendly interface.",
+    "storeUrl": "https://apps.microsoft.com/detail/9njxnb3j0j9w?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.png",
+        "caption": "Speed Test Live"
+      }
+    ],
+    "releaseDateUtc": "2024-10-10T03:36:56.3407058Z",
+    "lastUpdateDateUtc": "2026-06-02T23:14:48Z"
+  },
+  {
+    "productId": "9ns8t816hvb3",
+    "slug": "svn-autocommit",
+    "title": "SVN AutoCommit",
+    "categories": [
+      "Developer tools"
+    ],
+    "shortDescription": "Developer-first Windows tray app: auto-detects SVN working copies and autocommits just today’s changes (or all) to keep history clean—integrates with TortoiseSVN/svn.exe and adds one-click Update.",
+    "storeUrl": "https://apps.microsoft.com/detail/9ns8t816hvb3?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.png",
+        "caption": "SVN Auto commit"
+      }
+    ],
+    "releaseDateUtc": "2025-09-15T06:58:07.9179287Z",
+    "lastUpdateDateUtc": "2026-05-31T07:50:03Z"
+  },
+  {
+    "productId": "9nt0vl81g1ds",
+    "slug": "image-encryption",
+    "title": "image encryption",
+    "categories": [
+      "Utilities & tools"
+    ],
+    "shortDescription": "image encryption is a versatile application that allows you to easily convert images to Base64 and vice versa. With a simple and intuitive interface, users can effortlessly upload images, view them, and convert them to Base64 encoding. The app also supports converting Base64 data back to images, making it a useful tool for developers and anyone working with image data in Base64 format",
+    "storeUrl": "https://apps.microsoft.com/detail/9nt0vl81g1ds?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.jpg",
+        "caption": "image encryption screenshot 1"
+      },
+      {
+        "file": "screenshots/screenshot-2.jpg",
+        "caption": "image encryption screenshot 2"
+      }
+    ],
+    "releaseDateUtc": "2023-08-01T02:59:17.1587103Z",
+    "lastUpdateDateUtc": "2026-05-29T00:16:52Z"
+  },
+  {
+    "productId": "9nqzqq4fh0x6",
+    "slug": "crypto-encoder-pro",
+    "title": "Crypto Encoder Pro",
+    "categories": [
+      "Security"
+    ],
+    "shortDescription": "Unlock the power of secure and seamless communication with Crypto Encoder Pro. This innovative app lets you hide sensitive messages inside images with ease, ensuring your information stays pri",
+    "storeUrl": "https://apps.microsoft.com/detail/9nqzqq4fh0x6?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.jpg",
+        "caption": "Crypto Encoder Pro screenshot 1"
+      }
+    ],
+    "releaseDateUtc": "2025-01-14T11:03:59.3086942Z",
+    "lastUpdateDateUtc": "2026-05-28T17:14:53Z"
+  },
+  {
+    "productId": "9ntzhs8bbjdt",
+    "slug": "trading-assistant-pro",
+    "title": "Trading Assistant Pro",
+    "categories": [
+      "Business"
+    ],
+    "shortDescription": "A smart and powerful trading companion for analyzing charts, managing watchlists, planning risk, tracking trades, and improving your trading decisions with a clean, organized workflow.",
+    "storeUrl": "https://apps.microsoft.com/detail/9ntzhs8bbjdt?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.jpg",
+        "caption": "Track your favorite symbols with live prices and 24h changes."
+      },
+      {
+        "file": "screenshots/screenshot-2.jpg",
+        "caption": "Clear signal analysis with setup quality, targets, and key trading metrics."
+      },
+      {
+        "file": "screenshots/screenshot-3.jpg",
+        "caption": "Calculate position size, risk, stop loss, and reward-to-risk."
+      },
+      {
+        "file": "screenshots/screenshot-4.jpg",
+        "caption": "Track trade plans, notes, outcomes, and review history."
+      },
+      {
+        "file": "screenshots/screenshot-5.jpg",
+        "caption": "Mini Panel"
+      }
+    ],
+    "releaseDateUtc": "2026-05-15T05:56:38.6720622Z",
+    "lastUpdateDateUtc": "2026-05-28T15:49:44Z"
+  },
+  {
+    "productId": "9msvp97jmm53",
+    "slug": "clipboard-universal",
+    "title": "Clipboard Universal",
+    "categories": [
+      "Utilities & tools"
+    ],
+    "shortDescription": "Clipboard Universal is a Windows clipboard manager that saves text, images, audio, video, PDFs, and files in one organized place, always ready to paste and unobtrusive.",
+    "storeUrl": "https://apps.microsoft.com/detail/9msvp97jmm53?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.jpg",
+        "caption": "Show Clipboard"
+      },
+      {
+        "file": "screenshots/screenshot-2.jpg",
+        "caption": "Paste all items at once"
+      }
+    ],
+    "releaseDateUtc": "2025-09-08T09:26:51.9089495Z",
+    "lastUpdateDateUtc": "2026-05-28T14:04:41Z"
+  },
+  {
+    "productId": "9pdb44g3wq5j",
+    "slug": "noise-remover",
+    "title": "Noise Remover",
+    "categories": [
+      "Multimedia design"
+    ],
+    "shortDescription": "Clean speech and music offline with A/B preview, smart presets, batch export, and WAV, MP3, or FLAC output.",
+    "storeUrl": "https://apps.microsoft.com/detail/9pdb44g3wq5j?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.jpg",
+        "caption": "Noise Remover"
+      },
+      {
+        "file": "screenshots/screenshot-2.jpg",
+        "caption": "show sounds"
+      },
+      {
+        "file": "screenshots/screenshot-3.jpg",
+        "caption": "advanced settings"
+      }
+    ],
+    "releaseDateUtc": "2025-12-10T15:13:18.7236953Z",
+    "lastUpdateDateUtc": "2026-05-28T13:38:01Z"
+  },
+  {
+    "productId": "9pljlf4q3ht6",
+    "slug": "python-quick-installer-pro",
+    "title": "Python Quick Installer Pro",
+    "categories": [
+      "Developer tools"
+    ],
+    "shortDescription": "Install Python packages fast with a sleek pip GUI. Live logs, smart suggestions, and a tiny panel make installs effortless.\n⚠️ Python and pip must be installed on your system beforehand.",
+    "storeUrl": "https://apps.microsoft.com/detail/9pljlf4q3ht6?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.jpg",
+        "caption": "install python packages"
+      },
+      {
+        "file": "screenshots/screenshot-2.jpg",
+        "caption": "Professional Install"
+      },
+      {
+        "file": "screenshots/screenshot-3.png",
+        "caption": "Tiny Panel\nalways on top"
+      }
+    ],
+    "releaseDateUtc": "2025-10-13T20:06:05.1932653Z",
+    "lastUpdateDateUtc": "2026-05-28T10:06:11Z"
+  },
+  {
+    "productId": "9p0st0d9804t",
+    "slug": "puzzle-fuzzle",
+    "title": "Puzzle Fuzzle",
+    "categories": [
+      "Educational",
+      "Family & kids",
+      "Puzzle & trivia"
+    ],
+    "shortDescription": "Turn any image into a premium puzzle with web search, guide overlay and smooth animated solving.",
+    "storeUrl": "https://apps.microsoft.com/detail/9p0st0d9804t?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.jpg",
+        "caption": "puzzle fuzzle"
+      },
+      {
+        "file": "screenshots/screenshot-2.jpg",
+        "caption": "solve puzzle"
+      },
+      {
+        "file": "screenshots/screenshot-3.jpg",
+        "caption": "Puzzle Fuzzle screenshot 3"
+      },
+      {
+        "file": "screenshots/screenshot-4.png",
+        "caption": "Puzzle Fuzzle screenshot 4"
+      }
+    ],
+    "releaseDateUtc": "2025-09-02T07:48:07.3738428Z",
+    "lastUpdateDateUtc": "2026-05-28T09:59:02Z"
+  },
+  {
+    "productId": "9p294zgd4nv9",
+    "slug": "qr-code-studio",
+    "title": "QR Code Studio",
+    "categories": [
+      "Multimedia design"
+    ],
+    "shortDescription": "With QR Code Studio, effortlessly create unique QR codes adorned with beautiful graphic designs, stunning background images, diverse color choices, and customizable size and brightness settings",
+    "storeUrl": "https://apps.microsoft.com/detail/9p294zgd4nv9?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.jpg",
+        "caption": "QR Code Studio screenshot 1"
+      },
+      {
+        "file": "screenshots/screenshot-2.png",
+        "caption": "QR Code"
+      }
+    ],
+    "releaseDateUtc": "2023-10-16T03:33:20.9408593Z",
+    "lastUpdateDateUtc": "2026-05-28T09:28:41Z"
+  },
+  {
+    "productId": "9n1dhfnzghkl",
+    "slug": "ora-tnsnames-manager",
+    "title": "Ora TNSNames Manager",
+    "categories": [
+      "Developer tools"
+    ],
+    "shortDescription": "⚠️ Oracle client must be installed on your system.\n⚙️ Ora TNSNames Manager is a powerful yet simple desktop tool for DBAs and developers to manage, edit, and test Oracle Net configurations with ease—streamlining connectivity, boosting productivity, and reducing errors.\n",
+    "storeUrl": "https://apps.microsoft.com/detail/9n1dhfnzghkl?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.jpg",
+        "caption": "Ora TNSNames Manager"
+      }
+    ],
+    "releaseDateUtc": "2025-12-15T03:19:56.8541193Z",
+    "lastUpdateDateUtc": "2026-05-28T09:17:50Z"
+  },
+  {
+    "productId": "9mzkf0q8mfdf",
+    "slug": "markdown-to-html-converter",
+    "title": "Markdown to HTML Converter",
+    "categories": [
+      "Utilities & tools"
+    ],
+    "shortDescription": "The \"Markdown to HTML Converter\" is a powerful and user-friendly tool that allows users to convert Markdown documents into HTML format. This program boasts several valuable features",
+    "storeUrl": "https://apps.microsoft.com/detail/9mzkf0q8mfdf?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.png",
+        "caption": "Markdown to HTML Converter screenshot 1"
+      }
+    ],
+    "releaseDateUtc": "2023-11-27T11:30:42.6003429Z",
+    "lastUpdateDateUtc": "2026-05-28T09:13:49Z"
+  },
+  {
+    "productId": "9n4q97szn9zr",
+    "slug": "json-parser-pro",
+    "title": "JSON Parser Pro",
+    "categories": [
+      "Developer tools"
+    ],
+    "shortDescription": "Json Parser Pro is a material-styled workbench for serious JSON work: dual code/tree views, JSONPath search, pretty/minify/sort, CSV export, and file diff—everything offline.",
+    "storeUrl": "https://apps.microsoft.com/detail/9n4q97szn9zr?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.png",
+        "caption": "PARSE jSON FILES"
+      },
+      {
+        "file": "screenshots/screenshot-2.png",
+        "caption": "Parse Json"
+      }
+    ],
+    "releaseDateUtc": "2025-10-11T15:53:33.8137057Z",
+    "lastUpdateDateUtc": "2026-05-28T09:12:30Z"
+  },
+  {
+    "productId": "9nh5mrqbvc9d",
+    "slug": "internet-downloader-pro",
+    "title": "Internet Downloader Pro",
+    "categories": [
+      "Productivity"
+    ],
+    "shortDescription": "High-speed, smart, and reliable download manager with full control over your files.",
+    "storeUrl": "https://apps.microsoft.com/detail/9nh5mrqbvc9d?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.jpg",
+        "caption": "Internet downloader pro"
+      }
+    ],
+    "releaseDateUtc": "2025-12-17T21:51:13.4566215Z",
+    "lastUpdateDateUtc": "2026-05-28T09:09:23Z"
+  },
+  {
+    "productId": "9n1j1802r4wc",
+    "slug": "email-signature-builder",
+    "title": "Email Signature Builder",
+    "categories": [
+      "Social"
+    ],
+    "shortDescription": "Elevate your email identity with the Email Signature Builder — the fast, easy, and elegant way to design modern, professional signatures for Outlook, Gmail, and any email client.",
+    "storeUrl": "https://apps.microsoft.com/detail/9n1j1802r4wc?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.png",
+        "caption": "Email Signature "
+      },
+      {
+        "file": "screenshots/screenshot-2.png",
+        "caption": "Email Signature"
+      },
+      {
+        "file": "screenshots/screenshot-3.jpg",
+        "caption": "Email Signature"
+      },
+      {
+        "file": "screenshots/screenshot-4.jpg",
+        "caption": "set in your email setting"
+      }
+    ],
+    "releaseDateUtc": "2025-06-02T08:16:54.1644588Z",
+    "lastUpdateDateUtc": "2026-05-28T09:07:43Z"
+  },
+  {
+    "productId": "9pfphmp7wvft",
+    "slug": "gaming-mode",
+    "title": "Gaming Mode",
+    "categories": [
+      "Productivity"
+    ],
+    "shortDescription": "Game Mode Pro boosts your Windows gaming performance with one-click optimization, smart profiles, live overlay stats, auto-restore, and pro-level system tuning.",
+    "storeUrl": "https://apps.microsoft.com/detail/9pfphmp7wvft?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.png",
+        "caption": "game mode profile"
+      },
+      {
+        "file": "screenshots/screenshot-2.png",
+        "caption": "Services to stop during game mode"
+      },
+      {
+        "file": "screenshots/screenshot-3.png",
+        "caption": "background apps to close"
+      },
+      {
+        "file": "screenshots/screenshot-4.png",
+        "caption": "active and restore Game Mode"
+      }
+    ],
+    "releaseDateUtc": "2025-09-15T22:50:11.7632879Z",
+    "lastUpdateDateUtc": "2026-05-28T09:07:38Z"
+  },
+  {
+    "productId": "9p04l1zt2mbw",
+    "slug": "chemical-structure-viewer",
+    "title": "Chemical Structure Viewer",
+    "categories": [
+      "Education"
+    ],
+    "shortDescription": "The \"Chemical Structure Viewer\" is an innovative software tool designed for visualizing chemical structures in 3D. This application is a boon for students, educators, researchers, and anyone with an interest in chemistry.",
+    "storeUrl": "https://apps.microsoft.com/detail/9p04l1zt2mbw?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.png",
+        "caption": "Chemical Structure Viewer screenshot 1"
+      },
+      {
+        "file": "screenshots/screenshot-2.png",
+        "caption": "Chemical Structure Viewer screenshot 2"
+      },
+      {
+        "file": "screenshots/screenshot-3.png",
+        "caption": "Chemical Structure Viewer screenshot 3"
+      }
+    ],
+    "releaseDateUtc": "2023-12-05T02:05:32.4469164Z",
+    "lastUpdateDateUtc": "2026-05-28T08:43:27Z"
+  },
+  {
+    "productId": "9nq0223f2bd5",
+    "slug": "video-downloader-pro",
+    "title": "Video Downloader Pro",
+    "categories": [
+      "Photo & video"
+    ],
+    "shortDescription": "Download videos, playlists, and MP3 audio with quality selection, 4K support, batch downloads, Private Mode, and a clean ad-free workflow.",
+    "storeUrl": "https://apps.microsoft.com/detail/9nq0223f2bd5?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.jpg",
+        "caption": "Video Downloader"
+      },
+      {
+        "file": "screenshots/screenshot-2.jpg",
+        "caption": "Paste link or browse : Start with a URL, or use the built-in browsing flow when that is easier."
+      },
+      {
+        "file": "screenshots/screenshot-3.jpg",
+        "caption": "Quality control : Pick your preferred resolution and keep results consistent across downloads."
+      },
+      {
+        "file": "screenshots/screenshot-4.jpg",
+        "caption": "Playlists & batching : \nDownload multiple items in one pass—ideal for playlists and course content."
+      },
+      {
+        "file": "screenshots/screenshot-5.jpg",
+        "caption": "Convert to MP3 : \nKeep audio separately for podcasts, lectures, or music playlists."
+      },
+      {
+        "file": "screenshots/screenshot-6.jpg",
+        "caption": "Private Mode : \nDesigned to keep your session clean inside the app (history/cache)."
+      },
+      {
+        "file": "screenshots/screenshot-7.jpg",
+        "caption": "Download queue : \nMonitor progress and keep downloads organized and easy to locate."
+      },
+      {
+        "file": "screenshots/screenshot-8.jpg",
+        "caption": "Clean output : Use consistent save settings so files land where you expect—every time."
+      },
+      {
+        "file": "screenshots/screenshot-9.jpg",
+        "caption": "Browse in-app : \nSearch, preview, then download—useful when you do not want to switch windows."
+      }
+    ],
+    "releaseDateUtc": "2023-10-13T16:03:34.8526417Z",
+    "lastUpdateDateUtc": "2026-05-11T08:21:09Z"
+  },
+  {
+    "productId": "9p90bzvpgx75",
+    "slug": "file-auto-backup",
+    "title": "FILE Auto Backup",
+    "categories": [
+      "Utilities & tools"
+    ],
+    "shortDescription": "AutoBackup: Your automatic file backup solution. Effortlessly safeguard your files with seamless automatic backups, customizable settings Enjoy peace of mind knowing your data is always secure and up-to-date, without any hassle.",
+    "storeUrl": "https://apps.microsoft.com/detail/9p90bzvpgx75?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.jpg",
+        "caption": "FILE Auto Backup screenshot 1"
+      },
+      {
+        "file": "screenshots/screenshot-2.jpg",
+        "caption": "FILE Auto Backup screenshot 2"
+      }
+    ],
+    "releaseDateUtc": "2024-05-20T09:05:26.7787418Z",
+    "lastUpdateDateUtc": "2026-04-24T01:08:02Z"
+  },
+  {
+    "productId": "9nsc6k5j8c67",
+    "slug": "media-downloader-pro",
+    "title": "Media Downloader pro",
+    "categories": [
+      "Utilities & tools"
+    ],
+    "shortDescription": "a simple and user friendly application for download media from YouTube",
+    "storeUrl": "https://apps.microsoft.com/detail/9nsc6k5j8c67?hl=en-US&gl=IN",
+    "icon": "icon.png",
+    "screenshots": [
+      {
+        "file": "screenshots/screenshot-1.png",
+        "caption": "Media Downloader pro screenshot 1"
+      }
+    ],
+    "releaseDateUtc": "2023-08-02T18:35:34.1080269Z",
+    "lastUpdateDateUtc": "2023-08-02T18:35:21Z"
+  }
+]

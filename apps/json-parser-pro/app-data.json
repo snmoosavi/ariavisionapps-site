@@ -1,0 +1,118 @@
+{
+  "productId": "9n4q97szn9zr",
+  "slug": "json-parser-pro",
+  "title": "JSON Parser Pro",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Developer tools"
+  ],
+  "shortDescription": "Json Parser Pro is a material-styled workbench for serious JSON work: dual code/tree views, JSONPath search, pretty/minify/sort, CSV export, and file diff—everything offline.",
+  "description": "Json Parser Pro is a material-styled workbench for serious JSON work: dual code/tree views, JSONPath search, pretty/minify/sort, CSV export, and file diff—everything offline. A multi-threaded engine keeps large payloads smooth with no telemetry and no clutter",
+  "features": [
+    "✅ Parse & validate JSON with precise error reporting and document stats",
+    "🔎 JSONPath queries ($.a.b[0], bracket keys, [*]) + Copy JSONPath from any node",
+    "🧾 Pretty / Minify / Key-sort with stable, deterministic output",
+    "🧹 Cleanup tools: remove null/empty values recursively",
+    "🔁 Array de-duplication (value-based, deep compare)",
+    "📤 CSV export from an array of objects (auto header merge)",
+    "🆚 File diff/compare with normalized JSON for reliable results",
+    "🔤 Unicode normalization (smart quotes → plain) to prevent parse errors",
+    "🔍 In-source search for rapid navigation in large payloads",
+    "JSON parsing & validation + clear errors",
+    "Pretty / Minify / Key-sort",
+    "JSONPath queries + Copy JSONPath",
+    "Remove null/empty values (recursive)",
+    "Array de-duplication (value-based)"
+  ],
+  "targetUsers": [
+    "Windows developers",
+    "software teams",
+    "database and DevOps operators"
+  ],
+  "benefits": [
+    "Reduce repetitive setup work",
+    "Keep technical workflows visible and controlled",
+    "Move from task to result with fewer manual steps",
+    "Built around parse & validate JSON with precise error reporting and document stats",
+    "Built around jSONPath queries ($.a.b[0], bracket keys, [*]) + Copy JSONPath from any node",
+    "Built around pretty / Minify / Key-sort with stable, deterministic output"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9n4q97szn9zr?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.31194.13978506555214838.0fff4e39-d661-4da9-8290-dc51ee0a2124.782946eb-b977-45be-bac7-c1176e9efb19",
+      "caption": "PARSE jSON FILES",
+      "width": 1919,
+      "height": 1033
+    },
+    {
+      "file": "screenshots/screenshot-2.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.27940.13978506555214838.0fff4e39-d661-4da9-8290-dc51ee0a2124.88cc5fc1-664e-4169-80da-03caf592a997",
+      "caption": "Parse Json",
+      "width": 1919,
+      "height": 1031
+    }
+  ],
+  "releaseDateUtc": "2025-10-11T15:53:33.8137057Z",
+  "lastUpdateDateUtc": "2026-05-28T09:12:30Z",
+  "version": "",
+  "approximateSizeInBytes": 39964959,
+  "privacyUrl": "https://github.com/snmoosavi/jsonparser-privacy-policy/blob/5014ba7ca95d89f7b90ca18a0b70b7ae77bc3c76/PRIVACY_POLICY.md",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.com"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

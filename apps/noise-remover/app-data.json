@@ -1,0 +1,125 @@
+{
+  "productId": "9pdb44g3wq5j",
+  "slug": "noise-remover",
+  "title": "Noise Remover",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Multimedia design"
+  ],
+  "shortDescription": "Clean speech and music offline with A/B preview, smart presets, batch export, and WAV, MP3, or FLAC output.",
+  "description": "Noise Remover helps you clean audio files offline with a simple, focused workflow.\nRemove background noise from voice recordings, interviews, podcasts, lectures, music samples, and older audio files without requiring an internet connection.\nSelect a noise-only part of the waveform, preview the original and cleaned audio with the built-in A/B player, then export the improved result in WAV, MP3, or FLAC.\nThe app includes Speech and Music modes, smart cleanup presets, Noise Gate, 50/60 Hz Hum Removal, De-click/De-pop, output peak normalization, batch export, and a cleanup quality report for better control over your final audio.\nDesigned for privacy, simplicity, and reliable offline use.",
+  "features": [
+    "🎧 Offline noise removal for cleaner audio",
+    "🗣️ Speech mode for voice notes, calls, lectures, and podcasts",
+    "🎵 Music mode for songs and instrumental recordings",
+    "✨ A/B Preview to compare Original vs. Clean before exporting",
+    "🎛️ Smart Cleanup Presets for faster, easier processing",
+    "⚡ Fast local processing with no internet required",
+    "💾 Export cleaned audio as WAV, MP3, or FLAC",
+    "🔊 Output Peak Normalization for more consistent audio levels",
+    "📦 Batch Export to clean multiple files with the same settings",
+    "🧹 Advanced tools: Noise Gate, Hum Removal, and De-click/De-pop",
+    "📄 Cleanup Quality Report with processing details and settings used",
+    "Batch Export",
+    "Clean multiple audio files with the same settings and export them faster.",
+    "Smart Cleanup Presets"
+  ],
+  "targetUsers": [
+    "content creators",
+    "media editors",
+    "creative professionals"
+  ],
+  "benefits": [
+    "Improve media quality with purpose-built controls",
+    "Work locally on Windows",
+    "Produce polished output with a simpler workflow",
+    "Built around offline noise removal for cleaner audio",
+    "Built around speech mode for voice notes, calls, lectures, and podcasts",
+    "Built around music mode for songs and instrumental recordings"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9pdb44g3wq5j?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.53325.14153331209378929.8a5c9158-eea3-4c4a-8554-8acedaef2b46.d5bace24-b15c-4d1f-b960-64d3ac5102ee",
+      "caption": "Noise Remover",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "screenshots/screenshot-2.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.58789.14153331209378929.8a5c9158-eea3-4c4a-8554-8acedaef2b46.3cbc859c-c848-469a-a4ff-4ddfd2c69720",
+      "caption": "show sounds",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "screenshots/screenshot-3.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.57416.14153331209378929.8a5c9158-eea3-4c4a-8554-8acedaef2b46.a215b592-6af8-4548-b167-308c4d9f3b9e",
+      "caption": "advanced settings",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "releaseDateUtc": "2025-12-10T15:13:18.7236953Z",
+  "lastUpdateDateUtc": "2026-05-28T13:38:01Z",
+  "version": "",
+  "approximateSizeInBytes": 99444307,
+  "privacyUrl": "https://github.com/snmoosavi/noiseromover/blob/fb85fba6670537799ed689b95cccc2c20b5192ab/noiseremoverprivacypolicy",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {
+      "uri": "mailto:support@ariavisionapps.com"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

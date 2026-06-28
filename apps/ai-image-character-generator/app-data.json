@@ -1,0 +1,174 @@
+{
+  "productId": "9nm8lrn4c79m",
+  "slug": "ai-image-character-generator",
+  "title": "AI Image Character Generator",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Photo & video"
+  ],
+  "shortDescription": "Turn a few words into stunning AI character images in seconds.",
+  "description": "Create AI characters from simple words.\nAI Image Character Generator Pro turns your imagination into unique character-based images in seconds. Just type a short description — a futuristic warrior, a mysterious girl, a fantasy hero, or any character in your mind — and let AI create the visual for you.\nNo design skills are needed. The app is built for writers, storytellers, game creators, artists, and content makers who want to quickly bring original characters to life.\nWith a simple interface and support for different visual styles, you can explore ideas, generate concepts, and turn a few words into inspiring images instantly.\nDescribe it. Generate it. Bring your character to life.\n",
+  "features": [
+    "Text-to-Image Character Creation",
+    "Over 30 Visual Styles",
+    "Multiple Aspect Ratios",
+    "Batch Generation (Up to 12 Images)",
+    "Negative Prompting (Exclude Elements)",
+    "Customizable Image Effects",
+    "Simple and Clean User Interface",
+    "Real-Time Preview",
+    "Style Recommendations",
+    "Lightweight and Fast",
+    "Creative Use Cases",
+    "Flexible Prompt Design",
+    "Modern Flat Design",
+    "Style Consistency Mode"
+  ],
+  "targetUsers": [
+    "creators",
+    "marketers",
+    "media teams"
+  ],
+  "benefits": [
+    "Create or manage visual assets faster",
+    "Keep media workflows lightweight",
+    "Prepare content for publishing with less friction",
+    "Built around text-to-Image Character Creation",
+    "Built around over 30 Visual Styles",
+    "Built around multiple Aspect Ratios"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9nm8lrn4c79m?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.7917.13692066745856770.4bc52d77-e95e-4afa-b529-ada0bedb2823.170143ec-b5e4-41a1-803d-fa664ebef2b0",
+      "caption": "GIRLS",
+      "width": 1919,
+      "height": 1079
+    },
+    {
+      "file": "screenshots/screenshot-2.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.6702.13692066745856770.4bc52d77-e95e-4afa-b529-ada0bedb2823.8654bcd8-1b22-4650-8423-dd85f1f1cc49",
+      "caption": "2D Disney-Style",
+      "width": 1919,
+      "height": 1079
+    },
+    {
+      "file": "screenshots/screenshot-3.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.27539.13692066745856770.4bc52d77-e95e-4afa-b529-ada0bedb2823.19735d73-2c94-4058-aae6-1b29797144b5",
+      "caption": "fighthing jet",
+      "width": 1919,
+      "height": 1079
+    },
+    {
+      "file": "screenshots/screenshot-4.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.46259.13692066745856770.4bc52d77-e95e-4afa-b529-ada0bedb2823.133cb0a1-84cf-4ef4-8671-60cc82e9af6b",
+      "caption": "AI Image Character Generator screenshot 4",
+      "width": 1919,
+      "height": 1079
+    },
+    {
+      "file": "screenshots/screenshot-5.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.40411.13692066745856770.4bc52d77-e95e-4afa-b529-ada0bedb2823.2db567a3-07c0-46a0-b495-9a0ad54dc642",
+      "caption": "cute cat",
+      "width": 953,
+      "height": 640
+    },
+    {
+      "file": "screenshots/screenshot-6.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.48387.13692066745856770.4bc52d77-e95e-4afa-b529-ada0bedb2823.e9639856-8c87-4e1e-8890-f0c453cb41bf",
+      "caption": "animals",
+      "width": 1919,
+      "height": 1079
+    },
+    {
+      "file": "screenshots/screenshot-7.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.51586.13692066745856770.4bc52d77-e95e-4afa-b529-ada0bedb2823.96304d2b-6197-459d-9a2e-13a45b57cff3",
+      "caption": "man",
+      "width": 983,
+      "height": 658
+    },
+    {
+      "file": "screenshots/screenshot-8.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.7835.13692066745856770.4bc52d77-e95e-4afa-b529-ada0bedb2823.531b0468-e524-4f90-aba0-60528c2997b3",
+      "caption": "woman",
+      "width": 982,
+      "height": 662
+    },
+    {
+      "file": "screenshots/screenshot-9.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.48663.13692066745856770.4bc52d77-e95e-4afa-b529-ada0bedb2823.d64f3811-b93b-4721-984d-84100363c4b5",
+      "caption": "Renaissance Warrior Queen",
+      "width": 1738,
+      "height": 946
+    },
+    {
+      "file": "screenshots/screenshot-10.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.46386.13692066745856770.4bc52d77-e95e-4afa-b529-ada0bedb2823.3d2437c2-c0c7-4246-8874-9c4b8539b2d2",
+      "caption": "Digital Goddess ",
+      "width": 889,
+      "height": 644
+    }
+  ],
+  "releaseDateUtc": "2025-06-30T07:17:43.7064327Z",
+  "lastUpdateDateUtc": "2026-06-15T11:28:51Z",
+  "version": "",
+  "approximateSizeInBytes": 200827418,
+  "privacyUrl": "https://doc-hosting.flycricket.io/ai-character-generator-privacy-policy/b60cfc80-6f4f-48e3-a4fe-c4683a8b3655/privacy",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.com"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

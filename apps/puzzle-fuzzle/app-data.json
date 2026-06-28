@@ -1,0 +1,135 @@
+{
+  "productId": "9p0st0d9804t",
+  "slug": "puzzle-fuzzle",
+  "title": "Puzzle Fuzzle",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Educational",
+    "Family & kids",
+    "Puzzle & trivia"
+  ],
+  "shortDescription": "Turn any image into a premium puzzle with web search, guide overlay and smooth animated solving.",
+  "description": "Puzzle Fuzzle is a premium modern image to puzzle experience built for flow and polish. Import from file or URL, or search the web with live previews, then solve with an adjustable guide overlay, precision snap at least 50 percent overlap with magnet assist, auto rotate, and fully custom difficulty. One tap Solve delivers smooth cinematic animations, while collapsible controls, handy shortcuts, and a theme aware Light and Dark design keep everything effortless. Looking for a refined, stress free puzzle you will return to again and again? Choose Puzzle Fuzzle.",
+  "features": [
+    "Web/image import with preview",
+    "Guide overlay (opacity)",
+    "50% snap + auto-rotate",
+    "Custom rows/cols + scatter",
+    "One-tap Solve animations",
+    "Light/Dark theme, shortcuts",
+    "In-app web image search with live preview",
+    "Guide overlay toggle + opacity slider",
+    "Light/Dark mode with theme-aware backgrounds",
+    "Smoother, faster “Solve” for large puzzles",
+    "Smarter 50% snap + auto-rotate",
+    "Better fullscreen fit + window opacity control",
+    "Reliability fixes and performance improvements"
+  ],
+  "targetUsers": [
+    "students",
+    "families",
+    "casual learners",
+    "young learners",
+    "casual players"
+  ],
+  "benefits": [
+    "Make learning more playful",
+    "Support practice through interaction",
+    "Keep activities approachable for a broad audience",
+    "Provide friendly entertainment",
+    "Support low-friction learning",
+    "Create a safe desktop activity"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9p0st0d9804t?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.59930.14525055393405830.431d4495-c597-4bc2-bf85-48e98a18fb0a.e18fa464-4e7b-4d6e-9bae-9684722f6549",
+      "caption": "puzzle fuzzle",
+      "width": 1919,
+      "height": 1079
+    },
+    {
+      "file": "screenshots/screenshot-2.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.13721.14525055393405830.431d4495-c597-4bc2-bf85-48e98a18fb0a.d95ca7be-01fb-4099-8ffa-9db8ff878cdb",
+      "caption": "solve puzzle",
+      "width": 1273,
+      "height": 935
+    },
+    {
+      "file": "screenshots/screenshot-3.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.14507.14525055393405830.431d4495-c597-4bc2-bf85-48e98a18fb0a.7bfc1c21-01c8-4bb9-86c2-e283cb74d579",
+      "caption": "Puzzle Fuzzle screenshot 3",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "screenshots/screenshot-4.png",
+      "sourceUrl": "https://cdn.trailers.xboxservices.com/trailers/53D0C6AE-8844-4518-878D-E4997C834A9F/is/content/microsoftassets/f4f06af9-c9d8-403b-a2c4-a5a66b07d5dc-AVS.mpd",
+      "caption": "Puzzle Fuzzle screenshot 4",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "releaseDateUtc": "2025-09-02T07:48:07.3738428Z",
+  "lastUpdateDateUtc": "2026-05-28T09:59:02Z",
+  "version": "",
+  "approximateSizeInBytes": 43017665,
+  "privacyUrl": "https://doc-hosting.flycricket.io/puzzle-fuzzle-privacy-policy/dc10cff5-2da1-4868-96c2-70f69cc78481/privacy",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.com"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

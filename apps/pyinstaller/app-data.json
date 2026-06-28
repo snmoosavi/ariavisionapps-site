@@ -1,0 +1,178 @@
+{
+  "productId": "9mzclvf2dfc4",
+  "slug": "pyinstaller",
+  "title": "PyInstaller",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Developer tools"
+  ],
+  "shortDescription": "🚀 A modern Windows GUI for PyInstaller that helps developers package Python scripts into executable apps with build profiles, live command preview, diagnostics, and release-ready workflows.",
+  "description": "⚠️ Requirement\nPython must be installed on your system to use this app.\n\nPyInstaller GUI Builder Pro is a modern Windows desktop tool designed to make Python application packaging easier, faster, and more repeatable. It provides a clean graphical interface for PyInstaller, allowing developers to convert Python scripts into Windows executable applications without manually writing or memorizing complex command-line options.\n\nWhether you are building desktop utilities, automation tools, PyQt/PySide applications, internal business software, or standalone Python-based tools, PyInstaller GUI Builder Pro gives you a structured workflow for configuring, previewing, running, and troubleshooting your builds.\n\nThe app helps you manage packaging options through an intuitive interface, generate accurate PyInstaller commands, save reusable build profiles, review build output in real time, and prepare cleaner release packages for distribution.\n\nWith support for build profiles, hidden imports, additional data files, binary dependencies, output configuration, advanced PyInstaller options, live command preview, build logs, and diagnostic tools, this app is built for developers who want more control over the packaging process while keeping the workflow simple and visual.",
+  "features": [
+    "Modern GUI for PyInstaller",
+    "Convert Python scripts to Windows EXE files",
+    "One-file and one-folder packaging",
+    "Console and windowed build modes",
+    "Live command preview",
+    "Reusable build presets",
+    "Smart hidden import scanner",
+    "Data files and binary dependency support",
+    "Custom icon and output path settings",
+    "Advanced PyInstaller configuration",
+    "Real-time build logs",
+    "Build diagnostics and validation",
+    "Microsoft Store release tools",
+    "Copy build command instantly"
+  ],
+  "targetUsers": [
+    "Windows developers",
+    "software teams",
+    "database and DevOps operators",
+    "Python developers"
+  ],
+  "benefits": [
+    "Reduce repetitive setup work",
+    "Keep technical workflows visible and controlled",
+    "Move from task to result with fewer manual steps",
+    "Built around modern GUI for PyInstaller",
+    "Built around convert Python scripts to Windows EXE files",
+    "Built around one-file and one-folder packaging"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9mzclvf2dfc4?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.58942.13872545894506181.ba0a5505-a2da-4427-acb3-1610099897bc.47cd5ed8-2a8f-4927-b423-08e504f0c771",
+      "caption": "pyinstaller",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "screenshots/screenshot-2.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.11954.13872545894506181.4f9b8c10-ae8b-42d1-bac9-676cc330e673.444c996a-6b33-4d9a-9b21-4f3c1e443c2f",
+      "caption": "baisc page",
+      "width": 1711,
+      "height": 919
+    },
+    {
+      "file": "screenshots/screenshot-3.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.45471.13872545894506181.4f9b8c10-ae8b-42d1-bac9-676cc330e673.b888513c-681e-4e2f-905b-060162cf2897",
+      "caption": "Files page",
+      "width": 1710,
+      "height": 920
+    },
+    {
+      "file": "screenshots/screenshot-4.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.28924.13872545894506181.4f9b8c10-ae8b-42d1-bac9-676cc330e673.2bc9b270-ccfa-4160-994b-3638b891666a",
+      "caption": "import page",
+      "width": 1710,
+      "height": 920
+    },
+    {
+      "file": "screenshots/screenshot-5.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.46008.13872545894506181.4f9b8c10-ae8b-42d1-bac9-676cc330e673.2b38f725-0cc7-4a60-be63-2e8c8b9ed2bc",
+      "caption": "output page",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "screenshots/screenshot-6.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.5721.13872545894506181.4f9b8c10-ae8b-42d1-bac9-676cc330e673.92908e1d-7cf8-4f9f-83fd-3a977bee54c1",
+      "caption": "advanced page",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "screenshots/screenshot-7.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.12775.13872545894506181.ba0a5505-a2da-4427-acb3-1610099897bc.79b6a605-6256-423b-b2ad-983d159781bc",
+      "caption": "History page",
+      "width": 1919,
+      "height": 1016
+    },
+    {
+      "file": "screenshots/screenshot-8.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.18520.13872545894506181.6655ea1c-9b99-40a0-8b87-cd191606ed29.caedeaec-9f4a-4c11-95af-127f1197d7ad",
+      "caption": "Doctor Page",
+      "width": 1916,
+      "height": 1020
+    },
+    {
+      "file": "screenshots/screenshot-9.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.27420.13872545894506181.4f9b8c10-ae8b-42d1-bac9-676cc330e673.ea491988-0192-4b91-a8b9-37449a9471d9",
+      "caption": "Smart Scan",
+      "width": 1345,
+      "height": 1170
+    },
+    {
+      "file": "screenshots/screenshot-10.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.6064.13872545894506181.4f9b8c10-ae8b-42d1-bac9-676cc330e673.dac749ec-8a1f-49a4-9f6f-a77d92779895",
+      "caption": "Store Release",
+      "width": 1341,
+      "height": 1173
+    }
+  ],
+  "releaseDateUtc": "2025-08-18T11:40:52.9615878Z",
+  "lastUpdateDateUtc": "2026-06-16T06:37:12Z",
+  "version": "",
+  "approximateSizeInBytes": 44439124,
+  "privacyUrl": "https://doc-hosting.flycricket.io/pyinstaller-privacy-policy/e97d555b-6890-4baa-b9c7-2188647ae91e/privacy",
+  "appWebsiteUrl": "https://ariavisionapps.com/apps/pyinstaller/",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.com"
+    },
+    {
+      "uri": "https://ariavisionapps.com/apps/pyinstaller/"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

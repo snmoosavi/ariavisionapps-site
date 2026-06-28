@@ -1,0 +1,113 @@
+{
+  "productId": "9nt0vl81g1ds",
+  "slug": "image-encryption",
+  "title": "image encryption",
+  "publisherName": "aria vision",
+  "sourcePublisherQuery": "aria vision",
+  "categories": [
+    "Utilities & tools"
+  ],
+  "shortDescription": "image encryption is a versatile application that allows you to easily convert images to Base64 and vice versa. With a simple and intuitive interface, users can effortlessly upload images, view them, and convert them to Base64 encoding. The app also supports converting Base64 data back to images, making it a useful tool for developers and anyone working with image data in Base64 format",
+  "description": "image encryption is a versatile and user-friendly application that allows you to easily convert images to Base64 and vice versa. With a simple and intuitive interface, users can effortlessly upload images, view them, and convert them to Base64 encoding. The app also supports converting Base64 data back to images, making it a useful tool for developers and anyone working with image data in Base64 format.\n\nKey Features:\n\nImage to Base64 Conversion: Upload images in various formats (PNG, JPG, JPEG) and convert them to Base64 encoding with a click of a button.\nBase64 to Image Conversion: Paste or type Base64 data and instantly preview the corresponding image.\nImage Preview: Display uploaded images and converted images in real-time to ensure accuracy and convenience.\nHigh-Quality Image Save: Easily save images with their original quality intact or convert Base64 data to images and save them in various formats (PNG, JPG, JPEG).\nClear and Save Options: Conveniently clear the uploaded image or Base64 data and save Base64 data to a text file for further use.\nIntuitive Tab Interface: Switch between the 'Image to Base64' and 'Base64 to Image' tabs for quick and efficient conversions.\nImage Base64 Converter is the perfect tool for developers, designers, and anyone dealing with image data in Base64 format. Whether you need to convert images for web development, data storage, or any other purpose, this application simplifies the process, saves time, and ensures data integrity. Try it now and streamline your image encoding and decoding tasks with ease!",
+  "features": [
+    "image to base64",
+    "base64 to image",
+    "Image Encoder",
+    "first version",
+    "Key Features:",
+    "Image to Base64 Conversion: Upload images in various formats (PNG, JPG, JPEG) and convert them to Base64 encoding with a click of a button.",
+    "Base64 to Image Conversion: Paste or type Base64 data and instantly preview the corresponding image.",
+    "Image Preview: Display uploaded images and converted images in real-time to ensure accuracy and convenience.",
+    "High-Quality Image Save: Easily save images with their original quality intact or convert Base64 data to images and save them in various formats (PNG, JPG, JPEG).",
+    "Clear and Save Options: Conveniently clear the uploaded image or Base64 data and save Base64 data to a text file for further use.",
+    "Intuitive Tab Interface: Switch between the 'Image to Base64' and 'Base64 to Image' tabs for quick and efficient conversions."
+  ],
+  "targetUsers": [
+    "Windows power users",
+    "operations teams",
+    "office and support staff"
+  ],
+  "benefits": [
+    "Turn routine file and data tasks into guided workflows",
+    "Save time on repeat operations",
+    "Keep everyday work organized on the desktop",
+    "Built around image to base64",
+    "Built around base64 to image",
+    "Built around image Encoder"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9nt0vl81g1ds?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.20407.14357466401961795.a776e23c-7ea0-4a1e-8cea-42e088204991.d8239068-e737-4655-a4f1-aa27dd279581",
+      "caption": "image encryption screenshot 1",
+      "width": 1919,
+      "height": 1029
+    },
+    {
+      "file": "screenshots/screenshot-2.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.22858.14357466401961795.a776e23c-7ea0-4a1e-8cea-42e088204991.1dd0eab1-8575-40b1-bab5-e9ffc999d721",
+      "caption": "image encryption screenshot 2",
+      "width": 1920,
+      "height": 1029
+    }
+  ],
+  "releaseDateUtc": "2023-08-01T02:59:17.1587103Z",
+  "lastUpdateDateUtc": "2026-05-29T00:16:52Z",
+  "version": "",
+  "approximateSizeInBytes": 96202297,
+  "privacyUrl": "https://doc-hosting.flycricket.io/image-to-base64-converter-privacy-policy/c1312a10-d9da-43e0-9965-756902a40cb4/privacy",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {}
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

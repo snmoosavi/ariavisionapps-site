@@ -1,0 +1,132 @@
+{
+  "productId": "9n1j1802r4wc",
+  "slug": "email-signature-builder",
+  "title": "Email Signature Builder",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Social"
+  ],
+  "shortDescription": "Elevate your email identity with the Email Signature Builder — the fast, easy, and elegant way to design modern, professional signatures for Outlook, Gmail, and any email client.",
+  "description": "Elevate your email identity with the Email Signature Builder — the fast, easy, and elegant way to design modern, professional signatures for Outlook, Gmail, and any email client.\nNo coding required. No fuss. Just instant, visually polished results.\nYou can use this signature in your emails to make your outgoing messages look more professional and polished. Just copy and paste it into your email settings for a stronger, more impressive personal or company brand.",
+  "features": [
+    "Live Preview",
+    "Easy Customization",
+    "Personalized Styling",
+    "Quick Copy & Export",
+    "Simple Logo Upload",
+    "Ready to Paste",
+    "Privacy-Focused",
+    "Live Preview: See your signature as you build it – real-time updates!",
+    "Easy Customization: Add your name, title, phone, email, website, LinkedIn, and logo in seconds.",
+    "Personalized Styling: Choose your font, size, colors, and text effects (bold, italic, underline, and more).",
+    "Quick Copy & Export: Instantly copy the ready-to-use HTML, or save your signature as an image or HTML file.",
+    "Simple Logo Upload: Drag & drop or browse for your company logo.",
+    "Ready to Paste: Paste directly into Gmail, Outlook, and most web-based and desktop email clients.",
+    "No Coding Needed: Visual controls make building signatures effortless for everyone."
+  ],
+  "targetUsers": [
+    "professionals",
+    "small businesses",
+    "sales and support teams"
+  ],
+  "benefits": [
+    "Improve digital communication",
+    "Present a more polished identity",
+    "Create reusable professional assets",
+    "Built around easy Customization",
+    "Built around personalized Styling",
+    "Built around quick Copy & Export"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9n1j1802r4wc?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.6201.13905051417110474.970d7204-1262-445b-9782-044650abe7fb.2e801e0e-3086-44ef-b3de-e3ed2dde7b72",
+      "caption": "Email Signature ",
+      "width": 799,
+      "height": 472
+    },
+    {
+      "file": "screenshots/screenshot-2.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.60767.13905051417110474.970d7204-1262-445b-9782-044650abe7fb.9a480010-8407-40ac-a071-281416fae332",
+      "caption": "Email Signature",
+      "width": 608,
+      "height": 441
+    },
+    {
+      "file": "screenshots/screenshot-3.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.50928.13905051417110474.970d7204-1262-445b-9782-044650abe7fb.a9200941-48c1-4f2f-8a31-4da0b3d0ab11",
+      "caption": "Email Signature",
+      "width": 1917,
+      "height": 870
+    },
+    {
+      "file": "screenshots/screenshot-4.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.41580.13905051417110474.970d7204-1262-445b-9782-044650abe7fb.0b66f502-bb13-45bd-8157-f66e803f4069",
+      "caption": "set in your email setting",
+      "width": 1919,
+      "height": 876
+    }
+  ],
+  "releaseDateUtc": "2025-06-02T08:16:54.1644588Z",
+  "lastUpdateDateUtc": "2026-05-28T09:07:43Z",
+  "version": "",
+  "approximateSizeInBytes": 36699238,
+  "privacyUrl": "https://doc-hosting.flycricket.io/email-signature-builder-privacy-policy/3e6a8ed5-3c19-4179-8ed1-042a0af07695/privacy",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.com"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

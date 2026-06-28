@@ -1,0 +1,118 @@
+{
+  "productId": "9msvp97jmm53",
+  "slug": "clipboard-universal",
+  "title": "Clipboard Universal",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Utilities & tools"
+  ],
+  "shortDescription": "Clipboard Universal is a Windows clipboard manager that saves text, images, audio, video, PDFs, and files in one organized place, always ready to paste and unobtrusive.",
+  "description": "Clipboard Universal is a modern clipboard history manager for Windows that captures everything you copy and keeps it organized. It understands text, images, audio, video, PDF documents, and other files, storing them in one clear place so they are ready to reuse whenever you are. Running quietly in the system tray, Clipboard Universal brings order to everyday copy and paste without getting in the way.",
+  "features": [
+    "Complete history for text, images, audio, video, PDFs, and files",
+    "Fast search by text, tags, and file name",
+    "Pin favorites, clear non pinned",
+    "Live previews for text and images",
+    "runs in the system tray with auto refresh",
+    "Paste all items at once for faster workflow",
+    "Complete clipboard history: Save text, images, audio, video, PDFs, and files.",
+    "Modern interface: Beautiful design with light and dark themes.",
+    "Quick search: Find any item by text, tags, or file name.",
+    "Advanced file support: Works with Explorer, showing file type and details.",
+    "Pin and unpin: Keep important items always at hand.",
+    "Easy management: Clear all or only non-pinned items with one click.",
+    "Live preview: Instantly view text and image content without opening apps.",
+    "Optimized performance: Lightweight storage with no impact on system speed."
+  ],
+  "targetUsers": [
+    "Windows power users",
+    "operations teams",
+    "office and support staff"
+  ],
+  "benefits": [
+    "Turn routine file and data tasks into guided workflows",
+    "Save time on repeat operations",
+    "Keep everyday work organized on the desktop",
+    "Built around complete history for text, images, audio, video, PDFs, and files",
+    "Built around fast search by text, tags, and file name",
+    "Built around pin favorites, clear non pinned"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9msvp97jmm53?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.11807.13820432037140042.fa41b938-190b-4d3f-96a7-7a45193bb597.3514f4b4-03af-4d32-885b-eb43477b7793",
+      "caption": "Show Clipboard",
+      "width": 1239,
+      "height": 778
+    },
+    {
+      "file": "screenshots/screenshot-2.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.2059.13820432037140042.fa41b938-190b-4d3f-96a7-7a45193bb597.34ece00a-ebe1-40e2-8b4f-4dd4e41d0ac8",
+      "caption": "Paste all items at once",
+      "width": 1639,
+      "height": 988
+    }
+  ],
+  "releaseDateUtc": "2025-09-08T09:26:51.9089495Z",
+  "lastUpdateDateUtc": "2026-05-28T14:04:41Z",
+  "version": "",
+  "approximateSizeInBytes": 44969704,
+  "privacyUrl": "https://doc-hosting.flycricket.io/clipboard-universal-privacy-policy/fab47c24-6540-43a1-8aa6-10169346fe9a/privacy",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.com"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

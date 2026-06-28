@@ -1,0 +1,158 @@
+{
+  "productId": "9pgbj5b0f1s9",
+  "slug": "voice-to-text-converter-pro",
+  "title": "Voice To Text Converter Pro",
+  "publisherName": "aria vision",
+  "sourcePublisherQuery": "aria vision",
+  "categories": [
+    "Utilities & tools"
+  ],
+  "shortDescription": "Convert audio and video into text, subtitles, translations, and export-ready document packs.",
+  "description": "Voice to Text Converter Pro converts audio and video files into accurate, editable text with support for online recognition and offline Whisper transcription.\nUse it for meetings, lectures, podcasts, interviews, tutorials, and video content. After transcription, you can edit the text, translate it, create subtitles, and export your work as TXT, DOCX, PDF, SRT, or WebVTT.\nThe new Export Pack saves everything in one organized package: transcript files, subtitle files, PDF/DOCX exports, translation files when available, and a manifest. With improved video handling, recent files, dark/light themes, and a refined Windows interface, the app gives you a focused workflow from media file to usable text.",
+  "features": [
+    "🎙️ Accurate Speech-to-Text for audio & video",
+    "🌍 100+ Languages Supported",
+    "📁 Folder Batch Transcription (convert all files in a folder in one run)",
+    "🧾 Per-File Text Export (one text file per media, saved next to the original)",
+    "🔁 Built-in Translation to any language",
+    "📴🌐 Works Offline & Online for transcription and translation (as available)",
+    "⚡ Fast, reliable performance with a clean, simple workflow",
+    "Export as TXT, SRT, DOCX, or PDF",
+    "Added Export Pack with transcript, subtitles, document exports, translation files, and manifest",
+    "Improved video-to-text support with better MoviePy and FFmpeg handling",
+    "Added translation export inside Export Pack",
+    "Improved subtitle table readability and editing",
+    "Fixed PDF export compatibility with newer PyQt6 versions",
+    "Refined message dialogs, menus, combo boxes, and dark/light theme styling"
+  ],
+  "targetUsers": [
+    "Windows power users",
+    "operations teams",
+    "office and support staff"
+  ],
+  "benefits": [
+    "Turn routine file and data tasks into guided workflows",
+    "Save time on repeat operations",
+    "Keep everyday work organized on the desktop",
+    "Built around accurate Speech-to-Text for audio & video",
+    "Built around 100+ Languages Supported",
+    "Built around folder Batch Transcription (convert all files in a folder in one run)"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9pgbj5b0f1s9?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.25797.14184172772108818.91e062ce-e6fa-4b62-aafa-100019135d0a.61c35ccc-6b36-418d-af72-2efab24d326e",
+      "caption": "Convert to Text and Translate it",
+      "width": 1919,
+      "height": 1023
+    },
+    {
+      "file": "screenshots/screenshot-2.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.47765.14184172772108818.ac775c6d-25ad-4ec3-aaaa-a79c33de58fc.b124636d-9ba6-4f0b-a1dd-b6e4421d8605",
+      "caption": "convert all files in a folder in one run",
+      "width": 1919,
+      "height": 1019
+    },
+    {
+      "file": "screenshots/screenshot-3.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.39556.14184172772108818.91e062ce-e6fa-4b62-aafa-100019135d0a.27a1338b-1c1a-4ffc-819d-045d6ff33621",
+      "caption": "Online And Offline",
+      "width": 226,
+      "height": 231
+    },
+    {
+      "file": "screenshots/screenshot-4.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.41131.14184172772108818.91e062ce-e6fa-4b62-aafa-100019135d0a.d1d7a9c5-c966-4947-a6c0-5c3f49b8b725",
+      "caption": "support video files",
+      "width": 1919,
+      "height": 1023
+    },
+    {
+      "file": "screenshots/screenshot-5.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.43535.14184172772108818.0a4f84ca-b893-48c3-9d4c-4f00483f75ab.19b20afc-693c-442d-af3a-6afc84feb6f5",
+      "caption": "Export as TXT, SRT, DOCX, or PDF",
+      "width": 1200,
+      "height": 879
+    },
+    {
+      "file": "screenshots/screenshot-6.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.22498.14184172772108818.8ab867e7-78e2-4c29-b129-42ab1e6abf27.60f6cc82-e998-4e4d-991e-add07baaca29",
+      "caption": "Turn audio and video into text",
+      "width": 1712,
+      "height": 919
+    },
+    {
+      "file": "screenshots/screenshot-7.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.11770.14184172772108818.8ab867e7-78e2-4c29-b129-42ab1e6abf27.9727cb2f-da4a-4eba-a546-5d020fa6e9d3",
+      "caption": "Create clean and editable subtitles",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "screenshots/screenshot-8.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.29231.14184172772108818.8ab867e7-78e2-4c29-b129-42ab1e6abf27.422f878f-2f16-4985-ac5e-d8de999e6117",
+      "caption": "Translate transcripts instantly",
+      "width": 1672,
+      "height": 941
+    }
+  ],
+  "releaseDateUtc": "2023-07-06T00:32:46.1973922Z",
+  "lastUpdateDateUtc": "2026-06-13T00:09:51Z",
+  "version": "",
+  "approximateSizeInBytes": 1038457118,
+  "privacyUrl": "https://doc-hosting.flycricket.io/voice-to-text-converter-privacy-policy/de2c38b7-f981-47d8-a9bf-778c75abfd4a/privacy",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {}
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

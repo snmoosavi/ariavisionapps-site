@@ -1,0 +1,150 @@
+{
+  "productId": "9mv5cqv5wl5h",
+  "slug": "trading-journal-pro",
+  "title": "Trading Journal Pro",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Personal finance"
+  ],
+  "shortDescription": "Trading Journal helps traders plan smarter, manage risk better, and review every trade with clarity.",
+  "description": "Trading Journal helps traders plan, execute, and improve with discipline.\nBuilt for Windows, Trading Journal provides a clean workspace for trade planning, risk control, journaling, and performance review. Use a structured pre-trade checklist, calculate position size based on equity, risk percentage, entry, and stop, and manage your trading sessions with practical guardrails such as daily loss limit, max trades per day, and cooldown after consecutive losses.\nThe app includes a Trade Setup Quality Score that evaluates each setup from 0 to 100 and shows a clear Weak, Medium, or Strong result. You can copy the setup summary or save it directly to your journal.\nRecord trades with entry, stop, target, quantity, PnL, R-multiple, setup tags, emotions, notes, and before/after screenshots. Review your progress with reports, win rate, profit factor, expectancy, drawdown, and equity curve.",
+  "features": [
+    "Pre-trade checklist (customizable gate)",
+    "Risk-based position sizing (equity, risk %, entry, stop)",
+    "Guardrails (daily loss limit, max trades/day, cooldown)",
+    "Session mode (start/stop with readiness status)",
+    "Trade journal (PnL, setup tags, emotions, notes)",
+    "Before/after screenshots per trade",
+    "Reports (win rate, profit factor, expectancy, drawdown)",
+    "Equity curve performance view",
+    "Mini HUD panel (always-on-top, bottom-right)",
+    "CSV import/export for backups and analysis",
+    "USD price charts using free public APIs",
+    "Trade Setup Quality Score from 0 to 100",
+    "Weak / Medium / Strong setup rating",
+    "Copy Setup summary with one click"
+  ],
+  "targetUsers": [
+    "active traders",
+    "finance learners",
+    "portfolio reviewers",
+    "market researchers"
+  ],
+  "benefits": [
+    "Structure trading decisions",
+    "Review performance with clearer records",
+    "Build discipline through consistent journaling",
+    "Built around pre-trade checklist (customizable gate)",
+    "Built around risk-based position sizing (equity, risk %, entry, stop)",
+    "Built around guardrails (daily loss limit, max trades/day, cooldown)"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9mv5cqv5wl5h?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.10276.13799657111850178.784a516d-d0c2-4188-b60b-577b70c7c352.56517cf2-da76-4942-b5e8-0b3a092912fe",
+      "caption": "Trade With Discipline",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "screenshots/screenshot-2.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.60240.13799657111850178.784a516d-d0c2-4188-b60b-577b70c7c352.83af0f8e-00ed-4e79-868c-10e6e9ead6e9",
+      "caption": "Your Journal,Always Organized",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "screenshots/screenshot-3.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.20508.13799657111850178.784a516d-d0c2-4188-b60b-577b70c7c352.279acb35-64ec-4930-a373-aefa5caf3a86",
+      "caption": "Edit Your Trade",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "screenshots/screenshot-4.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.11780.13799657111850178.784a516d-d0c2-4188-b60b-577b70c7c352.5d2b6a34-183d-4e88-a23a-a4ac46c2e854",
+      "caption": "Know Your Edge",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "screenshots/screenshot-5.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.3779.13799657111850178.784a516d-d0c2-4188-b60b-577b70c7c352.e9df3867-cda1-499c-9a39-8ee0a7ac8ea6",
+      "caption": "USD Market Charts",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "screenshots/screenshot-6.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.6205.13799657111850178.784a516d-d0c2-4188-b60b-577b70c7c352.5c4e4179-2b72-4b45-a4e7-c8d0e04f14f7",
+      "caption": "Guardrails and Preferences",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "releaseDateUtc": "2025-12-25T16:40:19.6093228Z",
+  "lastUpdateDateUtc": "2026-06-18T19:59:09Z",
+  "version": "",
+  "approximateSizeInBytes": 66899113,
+  "privacyUrl": "https://github.com/snmoosavi/Trader-Journal/blob/afa918eedc68e7c3962b065216ffbf6c8015b9e1/provacy-policy",
+  "appWebsiteUrl": "https://ariavisionapps.com/apps/trading-journal/",
+  "supportUris": [
+    {
+      "uri": "mailto:support@ariavisionapps.com"
+    },
+    {
+      "uri": "https://ariavisionapps.com/apps/trading-journal/"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

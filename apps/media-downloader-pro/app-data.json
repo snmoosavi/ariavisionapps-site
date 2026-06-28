@@ -1,0 +1,101 @@
+{
+  "productId": "9nsc6k5j8c67",
+  "slug": "media-downloader-pro",
+  "title": "Media Downloader pro",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Utilities & tools"
+  ],
+  "shortDescription": "a simple and user friendly application for download media from YouTube",
+  "description": "Media Downloader Pro: A Professional and very simple App for Downloading Top Content from YouTube!\r\n\r\nAre you looking for a simple and effective way to download your favorite videos and music from YouTube? Now, with Media Downloader Pro, this process is effortlessly achievable.",
+  "features": [
+    "download video from YouTube",
+    "first version",
+    "Media Downloader Pro: A Professional and very simple App for Downloading Top Content from YouTube!",
+    "Are you looking for a simple and effective way to download your favorite videos and music from YouTube? Now, with Media Downloader Pro, this process is effortlessly achievable."
+  ],
+  "targetUsers": [
+    "Windows power users",
+    "operations teams",
+    "office and support staff",
+    "media collectors",
+    "content teams"
+  ],
+  "benefits": [
+    "Turn routine file and data tasks into guided workflows",
+    "Save time on repeat operations",
+    "Keep everyday work organized on the desktop",
+    "Built around download video from YouTube",
+    "Built around first version",
+    "Built around media Downloader Pro: A Professional and very simple App for Downloading Top Content from YouTube!"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9nsc6k5j8c67?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.19548.14366005743686816.05a31f8a-f1e6-4a64-ab32-8cc98275221b.25a197b8-f7b7-4fee-a9ef-a38445045509",
+      "caption": "Media Downloader pro screenshot 1",
+      "width": 480,
+      "height": 359
+    }
+  ],
+  "releaseDateUtc": "2023-08-02T18:35:34.1080269Z",
+  "lastUpdateDateUtc": "2023-08-02T18:35:21Z",
+  "version": "",
+  "approximateSizeInBytes": 99801896,
+  "privacyUrl": "https://doc-hosting.flycricket.io/youtube-media-downloader-pro-privacy-policy/fe405901-3e33-45ee-a6ba-20c1361b8f6e/privacy",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {}
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}

@@ -1,0 +1,102 @@
+{
+  "productId": "9mzkf0q8mfdf",
+  "slug": "markdown-to-html-converter",
+  "title": "Markdown to HTML Converter",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Utilities & tools"
+  ],
+  "shortDescription": "The \"Markdown to HTML Converter\" is a powerful and user-friendly tool that allows users to convert Markdown documents into HTML format. This program boasts several valuable features",
+  "description": "The \"Markdown to HTML Converter\" is a powerful and user-friendly tool that allows users to convert Markdown documents into HTML format. This program boasts several valuable features, including:\r\n\r\nMarkdown to HTML Conversion: Users can upload Markdown files and easily transform them into HTML code. This process is particularly useful for creating website content and online material from Markdown texts.\r\n\r\nSource Code Viewing: Users have the ability to view the generated HTML source code from the Markdown file, which helps them better understand how Markdown is converted into HTML.\r\n\r\nDebugging Capability: This feature allows users to identify and resolve any issues or errors in the conversion process. It is extremely beneficial for web developers and writers who seek high accuracy in their content.\r\n\r\nMultiple File Upload and Conversion: Users can upload and convert several Markdown files simultaneously, saving time and increasing productivity.\r\n\r\nThis program is specifically designed for content creators, web developers, and editors, serving as an excellent tool to facilitate the conversion and editing process of content.",
+  "features": [
+    "convert markdown to html,source and debug",
+    "upload md file",
+    "save html file",
+    "first virsion",
+    "Source Code Viewing: Users have the ability to view the generated HTML source code from the Markdown file, which helps them better understand how Markdown is converted into HTML.",
+    "Multiple File Upload and Conversion: Users can upload and convert several Markdown files simultaneously, saving time and increasing productivity.",
+    "This program is specifically designed for content creators, web developers, and editors, serving as an excellent tool to facilitate the conversion and editing process of content."
+  ],
+  "targetUsers": [
+    "Windows power users",
+    "operations teams",
+    "office and support staff"
+  ],
+  "benefits": [
+    "Turn routine file and data tasks into guided workflows",
+    "Save time on repeat operations",
+    "Keep everyday work organized on the desktop",
+    "Built around convert markdown to html,source and debug",
+    "Built around upload md file",
+    "Built around save html file"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9mzkf0q8mfdf?hl=en-US&gl=IN",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.29952.13868806278847542.58b7280b-d7b1-44a3-bc0f-f3bfa4f82548.68d23796-6e17-4143-90e7-94c2352e9fb4",
+      "caption": "Markdown to HTML Converter screenshot 1",
+      "width": 1918,
+      "height": 1028
+    }
+  ],
+  "releaseDateUtc": "2023-11-27T11:30:42.6003429Z",
+  "lastUpdateDateUtc": "2026-05-28T09:13:49Z",
+  "version": "",
+  "approximateSizeInBytes": 54050413,
+  "privacyUrl": "https://doc-hosting.flycricket.io/markdown-to-html-converter-privacy-policy/9b074282-b0c0-49ce-a100-a757583ed11f/privacy",
+  "appWebsiteUrl": "",
+  "supportUris": [
+    {}
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC, Mobile, Surface Hub, HoloLens",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store publisher search and product detail APIs",
+  "extractedAt": "2026-06-18"
+}
