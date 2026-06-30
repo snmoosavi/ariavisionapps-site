@@ -1210,6 +1210,222 @@ body.js-ready .filter-pill.reveal-target.is-visible:hover {
   .detail-icon { width: 90px; height: 90px; }
   .lightbox-close { top: -10px; right: -4px; }
 }
+
+/* Typography and proportion refinement */
+:root {
+  --font-sans: "Segoe UI Variable Text", "Segoe UI", Inter, system-ui, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  --font-display: "Segoe UI Variable Display", "Segoe UI", Inter, system-ui, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  --type-hero: clamp(2.85rem, 4vw, 3.95rem);
+  --type-detail-hero: clamp(2.7rem, 4.3vw, 4.4rem);
+  --type-section: clamp(1.85rem, 2.7vw, 2.65rem);
+  --type-card: clamp(1.05rem, 1.25vw, 1.2rem);
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 750;
+  letter-spacing: 0;
+  text-wrap: balance;
+}
+
+h1 {
+  max-width: 760px;
+  font-size: var(--type-hero);
+  line-height: 1.08;
+}
+
+h2 {
+  font-size: var(--type-section);
+  line-height: 1.12;
+}
+
+h3 {
+  font-size: var(--type-card);
+  line-height: 1.22;
+}
+
+.home-page h2 {
+  font-size: var(--type-section);
+}
+
+.hero {
+  min-height: auto;
+  padding: clamp(72px, 7vw, 108px) 0 clamp(64px, 7vw, 96px);
+}
+
+.hero-grid, .detail-hero-grid {
+  grid-template-columns: minmax(0, 1.04fr) minmax(390px, 0.96fr);
+  gap: clamp(34px, 4.8vw, 64px);
+}
+
+.hero-copy-block {
+  max-width: 760px;
+  padding: 0;
+}
+
+.hero-copy, .lead {
+  max-width: 660px;
+  font-size: clamp(1rem, 1.15vw, 1.14rem);
+  line-height: 1.72;
+  text-wrap: pretty;
+}
+
+.eyebrow,
+.showcase-kicker,
+.category-tag,
+.value-grid span,
+.panel-kicker {
+  font-size: 0.76rem;
+  font-weight: 750;
+  letter-spacing: 0;
+}
+
+.brand strong {
+  font-weight: 750;
+}
+
+.brand small,
+.nav-links a,
+.button,
+.filter-pill,
+.search-box span {
+  font-size: 0.94rem;
+}
+
+.nav-links a,
+.button,
+.filter-pill,
+.proof-strip span,
+.audience-chips span {
+  font-weight: 650;
+}
+
+.showcase-card h2 {
+  font-size: clamp(1.65rem, 2.05vw, 2.2rem);
+  line-height: 1.13;
+}
+
+.showcase-summary p,
+.section-heading p,
+.text-stack p,
+.contact-panel p,
+.app-main p,
+.promo-panel li,
+.product-card p {
+  font-size: clamp(0.98rem, 1.04vw, 1.05rem);
+  line-height: 1.68;
+  text-wrap: pretty;
+}
+
+.section {
+  padding: clamp(68px, 7vw, 104px) 0;
+}
+
+.section-heading {
+  max-width: 720px;
+}
+
+.product-card {
+  min-height: 360px;
+}
+
+.product-card h3 {
+  font-size: 1.08rem;
+  line-height: 1.25;
+}
+
+.detail-copy h1 {
+  font-size: var(--type-detail-hero);
+  line-height: 1.08;
+  max-width: 820px;
+}
+
+.product-hero {
+  padding: clamp(44px, 6vw, 78px) 0 clamp(58px, 7vw, 88px);
+}
+
+.promo-panel h3 {
+  font-size: clamp(1.25rem, 1.8vw, 1.55rem);
+}
+
+@media (max-width: 1020px) {
+  .hero,
+  .product-hero {
+    padding-top: 64px;
+  }
+
+  .hero-grid,
+  .detail-hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-copy-block {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 720px) {
+  body {
+    font-size: 15.5px;
+  }
+
+  h1 {
+    font-size: clamp(2.35rem, 10.2vw, 3.05rem);
+    line-height: 1.1;
+  }
+
+  h2 {
+    font-size: clamp(1.65rem, 7.4vw, 2.2rem);
+  }
+
+  .hero {
+    padding: 48px 0 56px;
+  }
+
+  .hero-copy-block {
+    padding: 0;
+  }
+
+  .hero-copy,
+  .lead {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .showcase-card h2 {
+    font-size: clamp(1.45rem, 7vw, 1.9rem);
+  }
+
+  .section {
+    padding: 58px 0;
+  }
+
+  .detail-copy h1 {
+    font-size: clamp(2.25rem, 10vw, 3rem);
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 15px;
+  }
+
+  .brand small {
+    font-size: 0.78rem;
+  }
+
+  .nav-links a,
+  .button,
+  .filter-pill {
+    font-size: 0.92rem;
+  }
+}
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after {
