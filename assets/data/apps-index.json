@@ -7,7 +7,7 @@
       "Personal finance"
     ],
     "shortDescription": "Trading Journal helps traders plan smarter, manage risk better, and review every trade with clarity.",
-    "storeUrl": "https://apps.microsoft.com/detail/9mv5cqv5wl5h?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9mv5cqv5wl5h?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -41,21 +41,21 @@
   {
     "productId": "9p6pfjvgdmlx",
     "slug": "xml-to-json-converter-pro",
-    "title": "Xml to Json Converter pro",
+    "title": "XML to JSON Converter Pro",
     "categories": [
       "Utilities & tools"
     ],
     "shortDescription": "XML to JSON Converter Pro is a powerful and user-friendly tool that enables users to effortlessly convert XML files into the JSON format with high accuracy. This application is designed for developers, data managers, and anyone needing to transform data from XML to JSON.",
-    "storeUrl": "https://apps.microsoft.com/detail/9p6pfjvgdmlx?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9p6pfjvgdmlx?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
         "file": "screenshots/screenshot-1.png",
-        "caption": "Xml to Json Converter pro screenshot 1"
+        "caption": "XML to JSON Converter Pro screenshot 1"
       },
       {
         "file": "screenshots/screenshot-2.png",
-        "caption": "Xml to Json Converter pro screenshot 2"
+        "caption": "XML to JSON Converter Pro screenshot 2"
       }
     ],
     "releaseDateUtc": "2023-11-27T01:47:43.4165249Z",
@@ -69,7 +69,7 @@
       "Developer tools"
     ],
     "shortDescription": "🚀 A modern Windows GUI for PyInstaller that helps developers package Python scripts into executable apps with build profiles, live command preview, diagnostics, and release-ready workflows.",
-    "storeUrl": "https://apps.microsoft.com/detail/9mzclvf2dfc4?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9mzclvf2dfc4?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -124,7 +124,7 @@
       "Multimedia design"
     ],
     "shortDescription": "Turn flat audio into rich, clear, powerful sound in seconds.",
-    "storeUrl": "https://apps.microsoft.com/detail/9p9hv5brvfs1?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9p9hv5brvfs1?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -147,7 +147,7 @@
       "Photo & video"
     ],
     "shortDescription": "Turn a few words into stunning AI character images in seconds.",
-    "storeUrl": "https://apps.microsoft.com/detail/9nm8lrn4c79m?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9nm8lrn4c79m?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -202,7 +202,7 @@
       "Productivity"
     ],
     "shortDescription": "Plan your day into focused time blocks, stay on track with a refined Mini HUD, and personalize every session with custom alerts, goals, streaks, and smart focus insights.\n",
-    "storeUrl": "https://apps.microsoft.com/detail/9p48jvgz4dkf?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9p48jvgz4dkf?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -240,12 +240,12 @@
   {
     "productId": "9pgbj5b0f1s9",
     "slug": "voice-to-text-converter-pro",
-    "title": "Voice To Text Converter Pro",
+    "title": "Voice to Text Converter Pro",
     "categories": [
       "Utilities & tools"
     ],
     "shortDescription": "Convert audio and video into text, subtitles, translations, and export-ready document packs.",
-    "storeUrl": "https://apps.microsoft.com/detail/9pgbj5b0f1s9?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9pgbj5b0f1s9?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -292,7 +292,7 @@
       "Developer tools"
     ],
     "shortDescription": "Control GitHub faster with a secure desktop app for commits, branches, pull requests, issues, and automated Git workflows.",
-    "storeUrl": "https://apps.microsoft.com/detail/9nv6zj5ql54v?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9nv6zj5ql54v?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -347,7 +347,7 @@
       "Developer tools"
     ],
     "shortDescription": "Monitor your system's incoming and outgoing network traffic in real time with Speed Test Live. This tool displays the status of your Wi-Fi and Ethernet connections, shows average, minimum, and maximum speeds, and tracks your total download and upload amounts  \nall in a user-friendly interface.",
-    "storeUrl": "https://apps.microsoft.com/detail/9njxnb3j0j9w?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9njxnb3j0j9w?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -366,7 +366,7 @@
       "Developer tools"
     ],
     "shortDescription": "Developer-first Windows tray app: auto-detects SVN working copies and autocommits just today’s changes (or all) to keep history clean—integrates with TortoiseSVN/svn.exe and adds one-click Update.",
-    "storeUrl": "https://apps.microsoft.com/detail/9ns8t816hvb3?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9ns8t816hvb3?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -380,21 +380,21 @@
   {
     "productId": "9nt0vl81g1ds",
     "slug": "image-encryption",
-    "title": "image encryption",
+    "title": "Image Encryption",
     "categories": [
       "Utilities & tools"
     ],
-    "shortDescription": "image encryption is a versatile application that allows you to easily convert images to Base64 and vice versa. With a simple and intuitive interface, users can effortlessly upload images, view them, and convert them to Base64 encoding. The app also supports converting Base64 data back to images, making it a useful tool for developers and anyone working with image data in Base64 format",
-    "storeUrl": "https://apps.microsoft.com/detail/9nt0vl81g1ds?hl=en-US&gl=IN",
+    "shortDescription": "Image Encryption is a versatile application that allows you to easily convert images to Base64 and vice versa. With a simple and intuitive interface, users can effortlessly upload images, view them, and convert them to Base64 encoding. The app also supports converting Base64 data back to images, making it a useful tool for developers and anyone working with image data in Base64 format",
+    "storeUrl": "https://apps.microsoft.com/detail/9nt0vl81g1ds?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
         "file": "screenshots/screenshot-1.jpg",
-        "caption": "image encryption screenshot 1"
+        "caption": "Image Encryption screenshot 1"
       },
       {
         "file": "screenshots/screenshot-2.jpg",
-        "caption": "image encryption screenshot 2"
+        "caption": "Image Encryption screenshot 2"
       }
     ],
     "releaseDateUtc": "2023-08-01T02:59:17.1587103Z",
@@ -408,7 +408,7 @@
       "Security"
     ],
     "shortDescription": "Unlock the power of secure and seamless communication with Crypto Encoder Pro. This innovative app lets you hide sensitive messages inside images with ease, ensuring your information stays pri",
-    "storeUrl": "https://apps.microsoft.com/detail/9nqzqq4fh0x6?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9nqzqq4fh0x6?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -427,7 +427,7 @@
       "Business"
     ],
     "shortDescription": "A smart and powerful trading companion for analyzing charts, managing watchlists, planning risk, tracking trades, and improving your trading decisions with a clean, organized workflow.",
-    "storeUrl": "https://apps.microsoft.com/detail/9ntzhs8bbjdt?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9ntzhs8bbjdt?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -462,7 +462,7 @@
       "Utilities & tools"
     ],
     "shortDescription": "Clipboard Universal is a Windows clipboard manager that saves text, images, audio, video, PDFs, and files in one organized place, always ready to paste and unobtrusive.",
-    "storeUrl": "https://apps.microsoft.com/detail/9msvp97jmm53?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9msvp97jmm53?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -485,7 +485,7 @@
       "Multimedia design"
     ],
     "shortDescription": "Clean speech and music offline with A/B preview, smart presets, batch export, and WAV, MP3, or FLAC output.",
-    "storeUrl": "https://apps.microsoft.com/detail/9pdb44g3wq5j?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9pdb44g3wq5j?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -512,7 +512,7 @@
       "Developer tools"
     ],
     "shortDescription": "Install Python packages fast with a sleek pip GUI. Live logs, smart suggestions, and a tiny panel make installs effortless.\n⚠️ Python and pip must be installed on your system beforehand.",
-    "storeUrl": "https://apps.microsoft.com/detail/9pljlf4q3ht6?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9pljlf4q3ht6?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -536,12 +536,12 @@
     "slug": "puzzle-fuzzle",
     "title": "Puzzle Fuzzle",
     "categories": [
-      "Educational",
+      "Education",
       "Family & kids",
       "Puzzle & trivia"
     ],
     "shortDescription": "Turn any image into a premium puzzle with web search, guide overlay and smooth animated solving.",
-    "storeUrl": "https://apps.microsoft.com/detail/9p0st0d9804t?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9p0st0d9804t?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -572,7 +572,7 @@
       "Multimedia design"
     ],
     "shortDescription": "With QR Code Studio, effortlessly create unique QR codes adorned with beautiful graphic designs, stunning background images, diverse color choices, and customizable size and brightness settings",
-    "storeUrl": "https://apps.microsoft.com/detail/9p294zgd4nv9?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9p294zgd4nv9?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -595,7 +595,7 @@
       "Developer tools"
     ],
     "shortDescription": "⚠️ Oracle client must be installed on your system.\n⚙️ Ora TNSNames Manager is a powerful yet simple desktop tool for DBAs and developers to manage, edit, and test Oracle Net configurations with ease—streamlining connectivity, boosting productivity, and reducing errors.\n",
-    "storeUrl": "https://apps.microsoft.com/detail/9n1dhfnzghkl?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9n1dhfnzghkl?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -614,7 +614,7 @@
       "Utilities & tools"
     ],
     "shortDescription": "The \"Markdown to HTML Converter\" is a powerful and user-friendly tool that allows users to convert Markdown documents into HTML format. This program boasts several valuable features",
-    "storeUrl": "https://apps.microsoft.com/detail/9mzkf0q8mfdf?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9mzkf0q8mfdf?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -633,7 +633,7 @@
       "Developer tools"
     ],
     "shortDescription": "Json Parser Pro is a material-styled workbench for serious JSON work: dual code/tree views, JSONPath search, pretty/minify/sort, CSV export, and file diff—everything offline.",
-    "storeUrl": "https://apps.microsoft.com/detail/9n4q97szn9zr?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9n4q97szn9zr?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -656,7 +656,7 @@
       "Productivity"
     ],
     "shortDescription": "High-speed, smart, and reliable download manager with full control over your files.",
-    "storeUrl": "https://apps.microsoft.com/detail/9nh5mrqbvc9d?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9nh5mrqbvc9d?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -675,7 +675,7 @@
       "Social"
     ],
     "shortDescription": "Elevate your email identity with the Email Signature Builder — the fast, easy, and elegant way to design modern, professional signatures for Outlook, Gmail, and any email client.",
-    "storeUrl": "https://apps.microsoft.com/detail/9n1j1802r4wc?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9n1j1802r4wc?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -706,7 +706,7 @@
       "Productivity"
     ],
     "shortDescription": "Game Mode Pro boosts your Windows gaming performance with one-click optimization, smart profiles, live overlay stats, auto-restore, and pro-level system tuning.",
-    "storeUrl": "https://apps.microsoft.com/detail/9pfphmp7wvft?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9pfphmp7wvft?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -737,7 +737,7 @@
       "Education"
     ],
     "shortDescription": "The \"Chemical Structure Viewer\" is an innovative software tool designed for visualizing chemical structures in 3D. This application is a boon for students, educators, researchers, and anyone with an interest in chemistry.",
-    "storeUrl": "https://apps.microsoft.com/detail/9p04l1zt2mbw?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9p04l1zt2mbw?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -764,7 +764,7 @@
       "Photo & video"
     ],
     "shortDescription": "Download videos, playlists, and MP3 audio with quality selection, 4K support, batch downloads, Private Mode, and a clean ad-free workflow.",
-    "storeUrl": "https://apps.microsoft.com/detail/9nq0223f2bd5?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9nq0223f2bd5?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
@@ -810,21 +810,21 @@
   {
     "productId": "9p90bzvpgx75",
     "slug": "file-auto-backup",
-    "title": "FILE Auto Backup",
+    "title": "File Auto Backup",
     "categories": [
       "Utilities & tools"
     ],
     "shortDescription": "AutoBackup: Your automatic file backup solution. Effortlessly safeguard your files with seamless automatic backups, customizable settings Enjoy peace of mind knowing your data is always secure and up-to-date, without any hassle.",
-    "storeUrl": "https://apps.microsoft.com/detail/9p90bzvpgx75?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9p90bzvpgx75?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
         "file": "screenshots/screenshot-1.jpg",
-        "caption": "FILE Auto Backup screenshot 1"
+        "caption": "File Auto Backup screenshot 1"
       },
       {
         "file": "screenshots/screenshot-2.jpg",
-        "caption": "FILE Auto Backup screenshot 2"
+        "caption": "File Auto Backup screenshot 2"
       }
     ],
     "releaseDateUtc": "2024-05-20T09:05:26.7787418Z",
@@ -833,17 +833,17 @@
   {
     "productId": "9nsc6k5j8c67",
     "slug": "media-downloader-pro",
-    "title": "Media Downloader pro",
+    "title": "Media Downloader Pro",
     "categories": [
       "Utilities & tools"
     ],
     "shortDescription": "a simple and user friendly application for download media from YouTube",
-    "storeUrl": "https://apps.microsoft.com/detail/9nsc6k5j8c67?hl=en-US&gl=IN",
+    "storeUrl": "https://apps.microsoft.com/detail/9nsc6k5j8c67?hl=en-US&gl=US",
     "icon": "icon.png",
     "screenshots": [
       {
         "file": "screenshots/screenshot-1.png",
-        "caption": "Media Downloader pro screenshot 1"
+        "caption": "Media Downloader Pro screenshot 1"
       }
     ],
     "releaseDateUtc": "2023-08-02T18:35:34.1080269Z",

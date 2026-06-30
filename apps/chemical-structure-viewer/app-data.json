@@ -17,7 +17,7 @@
     "Instant Lookup: Enter a chemical name to view its 3D structure instantly.",
     "PubChem Integration: Access accurate and up-to-date molecular data.",
     "User-Friendly Interface: Simple controls for easy navigation.",
-    "Educational & Research Tool: Useful for teaching, learning, and professional applications."
+    "Education & Research Tool: Useful for teaching, learning, and professional applications."
   ],
   "targetUsers": [
     "students",
@@ -32,7 +32,7 @@
     "Built around first version",
     "Built around key Features (Summarized)"
   ],
-  "storeUrl": "https://apps.microsoft.com/detail/9p04l1zt2mbw?hl=en-US&gl=IN",
+  "storeUrl": "https://apps.microsoft.com/detail/9p04l1zt2mbw?hl=en-US&gl=US",
   "icon": "icon.png",
   "screenshots": [
     {

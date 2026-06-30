@@ -2,147 +2,152 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ariavisionapps.com/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://ariavisionapps.com/privacy/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://ariavisionapps.com/apps/trading-journal-pro/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/xml-to-json-converter-pro/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/pyinstaller/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/audio-enhancer-pro/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/ai-image-character-generator/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/pomodoro-pro/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/voice-to-text-converter-pro/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/git-automation/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/speed-test-live/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/svn-autocommit/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/image-encryption/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/crypto-encoder-pro/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/trading-assistant-pro/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/clipboard-universal/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/noise-remover/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/python-quick-installer-pro/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/puzzle-fuzzle/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/qr-code-studio/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/ora-tnsnames-manager/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/markdown-to-html-converter/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/json-parser-pro/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/internet-downloader-pro/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/email-signature-builder/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/gaming-mode/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/chemical-structure-viewer/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/video-downloader-pro/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/file-auto-backup/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://ariavisionapps.com/apps/media-downloader-pro/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>

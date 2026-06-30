@@ -38,7 +38,7 @@
     "Built around recursive watch (folder/drive) + auto-detect SVN working copies",
     "Built around tortoiseSVN / svn.exe integration — precise add/remove staging"
   ],
-  "storeUrl": "https://apps.microsoft.com/detail/9ns8t816hvb3?hl=en-US&gl=IN",
+  "storeUrl": "https://apps.microsoft.com/detail/9ns8t816hvb3?hl=en-US&gl=US",
   "icon": "icon.png",
   "screenshots": [
     {

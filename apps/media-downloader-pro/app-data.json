@@ -1,7 +1,7 @@
 {
   "productId": "9nsc6k5j8c67",
   "slug": "media-downloader-pro",
-  "title": "Media Downloader pro",
+  "title": "Media Downloader Pro",
   "publisherName": "Aria Vision",
   "sourcePublisherQuery": "Aria Vision",
   "categories": [
@@ -30,13 +30,13 @@
     "Built around first version",
     "Built around media Downloader Pro: A Professional and very simple App for Downloading Top Content from YouTube!"
   ],
-  "storeUrl": "https://apps.microsoft.com/detail/9nsc6k5j8c67?hl=en-US&gl=IN",
+  "storeUrl": "https://apps.microsoft.com/detail/9nsc6k5j8c67?hl=en-US&gl=US",
   "icon": "icon.png",
   "screenshots": [
     {
       "file": "screenshots/screenshot-1.png",
       "sourceUrl": "https://store-images.s-microsoft.com/image/apps.19548.14366005743686816.05a31f8a-f1e6-4a64-ab32-8cc98275221b.25a197b8-f7b7-4fee-a9ef-a38445045509",
-      "caption": "Media Downloader pro screenshot 1",
+      "caption": "Media Downloader Pro screenshot 1",
       "width": 480,
       "height": 359
     }

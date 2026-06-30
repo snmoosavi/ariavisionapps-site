@@ -40,7 +40,7 @@
     "Built around playlist Downloads — download full YouTube playlists in one go",
     "Built around quality Selector — choose your preferred resolution before downloading"
   ],
-  "storeUrl": "https://apps.microsoft.com/detail/9nq0223f2bd5?hl=en-US&gl=IN",
+  "storeUrl": "https://apps.microsoft.com/detail/9nq0223f2bd5?hl=en-US&gl=US",
   "icon": "icon.png",
   "screenshots": [
     {
@@ -67,28 +67,28 @@
     {
       "file": "screenshots/screenshot-4.jpg",
       "sourceUrl": "https://store-images.s-microsoft.com/image/apps.52729.13779610062145554.eae06f4d-d210-488c-8329-b7002855ba2f.c9c77c95-7268-4c23-948b-20a8a1f13668",
-      "caption": "Playlists & batching : \nDownload multiple items in one pass—ideal for playlists and course content.",
+      "caption": "Playlists & batching : Download multiple items in one pass—ideal for playlists and course content.",
       "width": 1536,
       "height": 1024
     },
     {
       "file": "screenshots/screenshot-5.jpg",
       "sourceUrl": "https://store-images.s-microsoft.com/image/apps.12707.13779610062145554.eae06f4d-d210-488c-8329-b7002855ba2f.56a48f0d-3276-4143-b782-7e359ddcb4e6",
-      "caption": "Convert to MP3 : \nKeep audio separately for podcasts, lectures, or music playlists.",
+      "caption": "Convert to MP3 : Keep audio separately for podcasts, lectures, or music playlists.",
       "width": 1536,
       "height": 1024
     },
     {
       "file": "screenshots/screenshot-6.jpg",
       "sourceUrl": "https://store-images.s-microsoft.com/image/apps.34922.13779610062145554.eae06f4d-d210-488c-8329-b7002855ba2f.a048aef6-553b-4230-8a2a-3a3c0762201e",
-      "caption": "Private Mode : \nDesigned to keep your session clean inside the app (history/cache).",
+      "caption": "Private Mode : Designed to keep your session clean inside the app (history/cache).",
       "width": 1536,
       "height": 1024
     },
     {
       "file": "screenshots/screenshot-7.jpg",
       "sourceUrl": "https://store-images.s-microsoft.com/image/apps.49740.13779610062145554.eae06f4d-d210-488c-8329-b7002855ba2f.d7644fdb-a463-45b3-928c-1169f47b0893",
-      "caption": "Download queue : \nMonitor progress and keep downloads organized and easy to locate.",
+      "caption": "Download queue : Monitor progress and keep downloads organized and easy to locate.",
       "width": 1536,
       "height": 1024
     },
@@ -102,7 +102,7 @@
     {
       "file": "screenshots/screenshot-9.jpg",
       "sourceUrl": "https://store-images.s-microsoft.com/image/apps.49123.13779610062145554.eae06f4d-d210-488c-8329-b7002855ba2f.7b0dfce5-5fbe-44bf-a8b3-f0fab4896786",
-      "caption": "Browse in-app : \nSearch, preview, then download—useful when you do not want to switch windows.",
+      "caption": "Browse in-app : Search, preview, then download—useful when you do not want to switch windows.",
       "width": 1536,
       "height": 1024
     }

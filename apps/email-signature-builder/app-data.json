@@ -38,13 +38,13 @@
     "Built around personalized Styling",
     "Built around quick Copy & Export"
   ],
-  "storeUrl": "https://apps.microsoft.com/detail/9n1j1802r4wc?hl=en-US&gl=IN",
+  "storeUrl": "https://apps.microsoft.com/detail/9n1j1802r4wc?hl=en-US&gl=US",
   "icon": "icon.png",
   "screenshots": [
     {
       "file": "screenshots/screenshot-1.png",
       "sourceUrl": "https://store-images.s-microsoft.com/image/apps.6201.13905051417110474.970d7204-1262-445b-9782-044650abe7fb.2e801e0e-3086-44ef-b3de-e3ed2dde7b72",
-      "caption": "Email Signature ",
+      "caption": "Email Signature",
       "width": 799,
       "height": 472
     },

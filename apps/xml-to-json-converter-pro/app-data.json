@@ -1,7 +1,7 @@
 {
   "productId": "9p6pfjvgdmlx",
   "slug": "xml-to-json-converter-pro",
-  "title": "Xml to Json Converter pro",
+  "title": "XML to JSON Converter Pro",
   "publisherName": "Aria Vision",
   "sourcePublisherQuery": "Aria Vision",
   "categories": [
@@ -34,20 +34,20 @@
     "Built around first version",
     "Built around key Features:"
   ],
-  "storeUrl": "https://apps.microsoft.com/detail/9p6pfjvgdmlx?hl=en-US&gl=IN",
+  "storeUrl": "https://apps.microsoft.com/detail/9p6pfjvgdmlx?hl=en-US&gl=US",
   "icon": "icon.png",
   "screenshots": [
     {
       "file": "screenshots/screenshot-1.png",
       "sourceUrl": "https://store-images.s-microsoft.com/image/apps.43817.14615643679752099.6a07b385-e14e-45c5-a669-5e7fd987603e.1186ef3b-b62a-4396-bdff-2121be7f0cf2",
-      "caption": "Xml to Json Converter pro screenshot 1",
+      "caption": "XML to JSON Converter Pro screenshot 1",
       "width": 1920,
       "height": 1031
     },
     {
       "file": "screenshots/screenshot-2.png",
       "sourceUrl": "https://store-images.s-microsoft.com/image/apps.25809.14615643679752099.6a07b385-e14e-45c5-a669-5e7fd987603e.3acea9a2-00ce-4157-aa8e-b8ef47345d03",
-      "caption": "Xml to Json Converter pro screenshot 2",
+      "caption": "XML to JSON Converter Pro screenshot 2",
       "width": 1920,
       "height": 1029
     }

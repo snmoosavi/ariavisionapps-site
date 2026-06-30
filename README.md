@@ -6,7 +6,7 @@ This is a static, backend-free product showcase for Aria Vision Windows apps.
 
 Data was extracted on 2026-06-18 from Microsoft Store publisher search and product detail API responses for:
 
-- https://apps.microsoft.com/search/publisher?name=Aria+Vision&hl=en-US&gl=IN
+- https://apps.microsoft.com/search/publisher?name=Aria+Vision&hl=en-US&gl=US
 - Publisher query `Aria Vision`: 22 apps
 - Publisher query `aria vision`: 6 additional Store listings exposed by Microsoft under a lowercase publisher name
 
@@ -17,16 +17,16 @@ Microsoft Store does not expose explicit "target users" or "benefits" fields. Th
 ## Included Apps
 
 - Trading Journal Pro (9mv5cqv5wl5h) - `apps/trading-journal-pro/index.html`
-- Xml to Json Converter pro (9p6pfjvgdmlx) - `apps/xml-to-json-converter-pro/index.html`
+- XML to JSON Converter Pro (9p6pfjvgdmlx) - `apps/xml-to-json-converter-pro/index.html`
 - PyInstaller (9mzclvf2dfc4) - `apps/pyinstaller/index.html`
 - Audio Enhancer Pro (9p9hv5brvfs1) - `apps/audio-enhancer-pro/index.html`
 - AI Image Character Generator (9nm8lrn4c79m) - `apps/ai-image-character-generator/index.html`
 - Pomodoro Pro (9p48jvgz4dkf) - `apps/pomodoro-pro/index.html`
-- Voice To Text Converter Pro (9pgbj5b0f1s9) - `apps/voice-to-text-converter-pro/index.html`
+- Voice to Text Converter Pro (9pgbj5b0f1s9) - `apps/voice-to-text-converter-pro/index.html`
 - Git Automation (9nv6zj5ql54v) - `apps/git-automation/index.html`
 - Speed Test Live (9njxnb3j0j9w) - `apps/speed-test-live/index.html`
 - SVN AutoCommit (9ns8t816hvb3) - `apps/svn-autocommit/index.html`
-- image encryption (9nt0vl81g1ds) - `apps/image-encryption/index.html`
+- Image Encryption (9nt0vl81g1ds) - `apps/image-encryption/index.html`
 - Crypto Encoder Pro (9nqzqq4fh0x6) - `apps/crypto-encoder-pro/index.html`
 - Trading Assistant Pro (9ntzhs8bbjdt) - `apps/trading-assistant-pro/index.html`
 - Clipboard Universal (9msvp97jmm53) - `apps/clipboard-universal/index.html`
@@ -42,8 +42,8 @@ Microsoft Store does not expose explicit "target users" or "benefits" fields. Th
 - Gaming Mode (9pfphmp7wvft) - `apps/gaming-mode/index.html`
 - Chemical Structure Viewer (9p04l1zt2mbw) - `apps/chemical-structure-viewer/index.html`
 - Video Downloader Pro (9nq0223f2bd5) - `apps/video-downloader-pro/index.html`
-- FILE Auto Backup (9p90bzvpgx75) - `apps/file-auto-backup/index.html`
-- Media Downloader pro (9nsc6k5j8c67) - `apps/media-downloader-pro/index.html`
+- File Auto Backup (9p90bzvpgx75) - `apps/file-auto-backup/index.html`
+- Media Downloader Pro (9nsc6k5j8c67) - `apps/media-downloader-pro/index.html`
 
 ## How To Run
 
@@ -113,4 +113,4 @@ Users can click screenshots on product pages to open a large preview lightbox.
 - Search, filtering, and screenshot lightbox behavior live in `js/main.js`.
 - Product-specific content stays in `apps/{app-slug}/`.
 - Product card detail links point directly to `index.html` files so browsers do not show directory listings.
-- Microsoft Store buttons use direct product links with `hl=en-US&gl=IN`.
+- Microsoft Store buttons use direct product links with `hl=en-US&gl=US`.

@@ -5,7 +5,7 @@
   "publisherName": "Aria Vision",
   "sourcePublisherQuery": "Aria Vision",
   "categories": [
-    "Educational",
+    "Education",
     "Family & kids",
     "Puzzle & trivia"
   ],
@@ -41,7 +41,7 @@
     "Support low-friction learning",
     "Create a safe desktop activity"
   ],
-  "storeUrl": "https://apps.microsoft.com/detail/9p0st0d9804t?hl=en-US&gl=IN",
+  "storeUrl": "https://apps.microsoft.com/detail/9p0st0d9804t?hl=en-US&gl=US",
   "icon": "icon.png",
   "screenshots": [
     {

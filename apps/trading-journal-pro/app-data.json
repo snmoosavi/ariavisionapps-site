@@ -39,7 +39,7 @@
     "Built around risk-based position sizing (equity, risk %, entry, stop)",
     "Built around guardrails (daily loss limit, max trades/day, cooldown)"
   ],
-  "storeUrl": "https://apps.microsoft.com/detail/9mv5cqv5wl5h?hl=en-US&gl=IN",
+  "storeUrl": "https://apps.microsoft.com/detail/9mv5cqv5wl5h?hl=en-US&gl=US",
   "icon": "icon.png",
   "screenshots": [
     {

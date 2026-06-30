@@ -1,7 +1,7 @@
 {
   "productId": "9p90bzvpgx75",
   "slug": "file-auto-backup",
-  "title": "FILE Auto Backup",
+  "title": "File Auto Backup",
   "publisherName": "Aria Vision",
   "sourcePublisherQuery": "Aria Vision",
   "categories": [
@@ -37,20 +37,20 @@
     "Built around seamless Integration: Lightweight design with minimal resource consumption for smooth operation.",
     "Built around version History: Access previous file versions for easy restoration."
   ],
-  "storeUrl": "https://apps.microsoft.com/detail/9p90bzvpgx75?hl=en-US&gl=IN",
+  "storeUrl": "https://apps.microsoft.com/detail/9p90bzvpgx75?hl=en-US&gl=US",
   "icon": "icon.png",
   "screenshots": [
     {
       "file": "screenshots/screenshot-1.jpg",
       "sourceUrl": "https://store-images.s-microsoft.com/image/apps.36135.14082519632289600.3b7b462d-40be-416e-869c-bf6fbbb20d61.992face8-8eed-418d-92a1-a0f027f5c64a",
-      "caption": "FILE Auto Backup screenshot 1",
+      "caption": "File Auto Backup screenshot 1",
       "width": 1424,
       "height": 739
     },
     {
       "file": "screenshots/screenshot-2.jpg",
       "sourceUrl": "https://store-images.s-microsoft.com/image/apps.21540.14082519632289600.3b7b462d-40be-416e-869c-bf6fbbb20d61.ef6a2033-4270-4589-94c7-098f6491c168",
-      "caption": "FILE Auto Backup screenshot 2",
+      "caption": "File Auto Backup screenshot 2",
       "width": 1424,
       "height": 739
     }

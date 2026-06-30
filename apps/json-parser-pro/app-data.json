@@ -38,7 +38,7 @@
     "Built around jSONPath queries ($.a.b[0], bracket keys, [*]) + Copy JSONPath from any node",
     "Built around pretty / Minify / Key-sort with stable, deterministic output"
   ],
-  "storeUrl": "https://apps.microsoft.com/detail/9n4q97szn9zr?hl=en-US&gl=IN",
+  "storeUrl": "https://apps.microsoft.com/detail/9n4q97szn9zr?hl=en-US&gl=US",
   "icon": "icon.png",
   "screenshots": [
     {

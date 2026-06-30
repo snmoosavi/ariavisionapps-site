@@ -39,7 +39,7 @@
     "Built around tiny Panel 2.0: one-line install with inline progress indicator",
     "Built around live command preview and PyPI version picker"
   ],
-  "storeUrl": "https://apps.microsoft.com/detail/9pljlf4q3ht6?hl=en-US&gl=IN",
+  "storeUrl": "https://apps.microsoft.com/detail/9pljlf4q3ht6?hl=en-US&gl=US",
   "icon": "icon.png",
   "screenshots": [
     {
@@ -59,7 +59,7 @@
     {
       "file": "screenshots/screenshot-3.png",
       "sourceUrl": "https://store-images.s-microsoft.com/image/apps.39674.14312526722447967.42167d22-cfcf-4739-9199-d795cab987c2.fa719220-f740-4734-b531-11d19a7ebab6",
-      "caption": "Tiny Panel\nalways on top",
+      "caption": "Tiny Panel always on top",
       "width": 1600,
       "height": 900
     }
