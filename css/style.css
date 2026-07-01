@@ -1715,6 +1715,32 @@ li,
     --type-label: 0.78rem;
   }
 }
+
+/* Apps section polish */
+#apps .section-heading p {
+  max-width: 720px;
+  margin-inline: auto;
+}
+
+#apps .product-card {
+  position: relative;
+  overflow: hidden;
+}
+
+#apps .product-card::after {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 4px;
+  background: linear-gradient(90deg, rgba(36, 87, 255, 0.82), rgba(17, 166, 181, 0.72), rgba(215, 153, 34, 0.48));
+  opacity: 0.72;
+  pointer-events: none;
+}
+
+#apps .product-card:hover::after {
+  opacity: 1;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after {
