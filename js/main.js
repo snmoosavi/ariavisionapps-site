@@ -86,7 +86,7 @@
   function setupRevealEffects() {
     const revealTargets = [
       ...document.querySelectorAll(".reveal"),
-      ...document.querySelectorAll(".product-card, .value-grid article, .screenshot-thumb, .related-link, .promo-panel, .app-main, .feature-list li, .contact-panel")
+      ...document.querySelectorAll(".product-card, .value-grid article, .screenshot-thumb, .related-link, .promo-panel, .app-main, .workflow-article, .workflow-notes, .feature-list li, .contact-panel")
     ];
     const uniqueTargets = [...new Set(revealTargets)];
 
