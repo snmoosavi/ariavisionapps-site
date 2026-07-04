@@ -157,6 +157,20 @@
     let current = Math.max(0, slides.findIndex((slide) => slide.classList.contains("is-active")));
     let timer;
 
+    slides.forEach((slide) => {
+      const caption = slide.querySelector("figcaption");
+      const appName = slide.dataset.appName || caption?.querySelector("strong")?.textContent || "";
+      caption?.querySelectorAll("span").forEach((span) => {
+        if (/showing/i.test(span.textContent || "")) span.remove();
+      });
+      if (caption && appName) {
+        caption.textContent = "";
+        const strong = document.createElement("strong");
+        strong.textContent = appName;
+        caption.appendChild(strong);
+      }
+    });
+
     function setSlide(nextIndex) {
       current = (nextIndex + slides.length) % slides.length;
       slides.forEach((slide, index) => {

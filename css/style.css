@@ -1855,6 +1855,10 @@ li,
   text-shadow: 0 2px 16px rgba(0, 0, 0, 0.28);
 }
 
+.showcase-slide figcaption span {
+  display: none !important;
+}
+
 .showcase-slide-dots {
   position: absolute;
   top: 14px;
