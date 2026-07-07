@@ -64,11 +64,14 @@
     return lightbox;
   }
 
-  function openLightbox(src, caption) {
+  function openLightbox(src, caption, fallback) {
     if (!src) return;
     const box = ensureLightbox();
     const image = box.querySelector("img");
     const text = box.querySelector(".lightbox-caption");
+    image.onerror = () => {
+      if (fallback && image.src !== new URL(fallback, document.baseURI).href) image.src = fallback;
+    };
     image.src = src;
     image.alt = caption || "Product screenshot";
     text.textContent = caption || "";
@@ -213,6 +216,18 @@
     start();
   }
 
+  function setupImageFallbacks() {
+    document.querySelectorAll("img[data-fallback]").forEach((image) => {
+      const applyFallback = () => {
+        const fallback = image.dataset.fallback;
+        if (!fallback || image.src === new URL(fallback, document.baseURI).href) return;
+        image.src = fallback;
+      };
+      image.addEventListener("error", applyFallback);
+      if (image.complete && image.naturalWidth === 0) applyFallback();
+    });
+  }
+
   filterButtons.forEach((button) => {
     button.addEventListener("click", () => {
       activeFilter = normalize(button.dataset.filter) || "all";
@@ -231,17 +246,18 @@
       const src = button.dataset.image || "";
       const caption = button.dataset.caption || "Product screenshot";
       if (mainScreenshot && src) {
+        if (button.dataset.fallback) mainScreenshot.dataset.fallback = button.dataset.fallback;
         mainScreenshot.src = src;
         mainScreenshot.alt = caption;
       }
       if (mainCaption) mainCaption.textContent = caption;
       document.querySelectorAll(".screenshot-thumb").forEach((item) => item.classList.toggle("is-active", item === button));
-      openLightbox(src, caption);
+      openLightbox(src, caption, button.dataset.fallback);
     });
   });
 
   document.querySelectorAll(".image-open").forEach((button) => {
-    button.addEventListener("click", () => openLightbox(button.dataset.image, button.dataset.caption));
+    button.addEventListener("click", () => openLightbox(button.dataset.image, button.dataset.caption, button.dataset.fallback));
   });
 
   window.addEventListener("scroll", updateHeaderState, { passive: true });
@@ -250,5 +266,6 @@
   setupSmoothAnchors();
   setupPressFeedback();
   setupHeroSlideshow();
+  setupImageFallbacks();
   filterCards();
 })();

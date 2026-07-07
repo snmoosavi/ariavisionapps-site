@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1672 941" role="img" aria-labelledby="title desc">
+  <title id="title">OTP Password Manager Pro fallback preview</title>
+  <desc id="desc">A local fallback preview for the OTP Password Manager Pro product page.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1672" y2="941" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081427"/>
+      <stop offset=".58" stop-color="#102246"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="190" y1="152" x2="1510" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5b8cff"/>
+      <stop offset=".55" stop-color="#5ff0cf"/>
+      <stop offset="1" stop-color="#ffd166"/>
+    </linearGradient>
+  </defs>
+  <rect width="1672" height="941" rx="42" fill="url(#bg)"/>
+  <rect x="62" y="62" width="1548" height="817" rx="28" fill="#0d1830" stroke="#223b69" stroke-width="3"/>
+  <rect x="62" y="62" width="1548" height="72" rx="28" fill="#132445"/>
+  <circle cx="106" cy="98" r="11" fill="#ff7a7a"/>
+  <circle cx="144" cy="98" r="11" fill="#ffd166"/>
+  <circle cx="182" cy="98" r="11" fill="#34d399"/>
+  <text x="232" y="108" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" fill="#e9f2ff">OTP Password Manager Pro</text>
+  <rect x="116" y="190" width="420" height="614" rx="24" fill="#101f3d" stroke="#274672" stroke-width="2"/>
+  <text x="154" y="246" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" fill="#ffffff">Credential Vault</text>
+  <text x="154" y="288" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" fill="#9fb3d8">Search and copy local credentials</text>
+  <rect x="154" y="334" width="344" height="54" rx="16" fill="#172d55"/>
+  <text x="184" y="369" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" fill="#cfe0ff">Search saved logins</text>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <rect x="154" y="426" width="344" height="78" rx="18" fill="#18365f"/>
+    <text x="184" y="459" font-size="24" font-weight="800" fill="#ffffff">Work account</text>
+    <text x="184" y="489" font-size="18" fill="#9fb3d8">username + password</text>
+    <rect x="154" y="526" width="344" height="78" rx="18" fill="#132a51"/>
+    <text x="184" y="559" font-size="24" font-weight="800" fill="#ffffff">Developer portal</text>
+    <text x="184" y="589" font-size="18" fill="#9fb3d8">manual OTP workflow</text>
+    <rect x="154" y="626" width="344" height="78" rx="18" fill="#132a51"/>
+    <text x="184" y="659" font-size="24" font-weight="800" fill="#ffffff">Cloud dashboard</text>
+    <text x="184" y="689" font-size="18" fill="#9fb3d8">local vault entry</text>
+  </g>
+  <rect x="596" y="190" width="958" height="614" rx="24" fill="#101f3d" stroke="#274672" stroke-width="2"/>
+  <text x="650" y="256" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="42" font-weight="850" fill="#ffffff">Keep passwords local on Windows</text>
+  <text x="650" y="306" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" fill="#aebfe0">Store credentials locally, copy them quickly, and append manual OTP codes when required.</text>
+  <rect x="650" y="372" width="382" height="98" rx="24" fill="#162d55"/>
+  <text x="694" y="414" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#ffffff">Username</text>
+  <text x="694" y="450" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" fill="#9fb3d8">Copy in one click</text>
+  <rect x="1080" y="372" width="382" height="98" rx="24" fill="#162d55"/>
+  <text x="1124" y="414" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#ffffff">Password</text>
+  <text x="1124" y="450" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" fill="#9fb3d8">Protected locally</text>
+  <rect x="650" y="514" width="812" height="170" rx="28" fill="#0f274d" stroke="url(#accent)" stroke-width="3"/>
+  <text x="700" y="576" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="850" fill="#ffffff">Manual OTP workflow</text>
+  <text x="700" y="622" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" fill="#b6c7e6">Enter the current code when a sign-in flow asks for it.</text>
+  <rect x="700" y="650" width="286" height="8" rx="4" fill="#5ff0cf"/>
+  <rect x="650" y="726" width="250" height="54" rx="16" fill="#2457ff"/>
+  <text x="700" y="761" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="800" fill="#ffffff">Copy credentials</text>
+</svg>

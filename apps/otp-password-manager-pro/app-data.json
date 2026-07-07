@@ -1,0 +1,112 @@
+{
+  "productId": "9p873lhkcq6c",
+  "slug": "otp-password-manager-pro",
+  "title": "OTP Password Manager Pro",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Security"
+  ],
+  "shortDescription": "Manage passwords and OTP workflows faster with a secure, offline Windows credential vault.\n",
+  "description": "Stop wasting time copying passwords and OTP codes separately.\n\nOTP Password Manager is a simple, fast, and secure Windows app for storing your login credentials locally and copying passwords with manual OTP support when you need them.\nDesigned for users who want a lightweight password tool without cloud sync, accounts, subscriptions, or unnecessary complexity.\nWith OTP Password Manager, you can keep your credentials organized, search them quickly, copy usernames and passwords, and append manually entered OTP codes when required.\nYour data stays on your Windows device. Credentials are stored locally and protected using Windows security technology.",
+  "features": [
+    "Local Windows credential vault",
+    "Store login credentials on your device",
+    "Quick search for saved credentials",
+    "Copy usernames and passwords quickly",
+    "Manual OTP code support when required",
+    "No cloud sync, accounts, or subscriptions",
+    "Credentials protected using Windows security technology",
+    "Lightweight workflow for everyday login management"
+  ],
+  "targetUsers": [
+    "security-conscious Windows users",
+    "users who prefer local storage",
+    "people managing OTP login workflows",
+    "professionals who want a lightweight vault"
+  ],
+  "benefits": [
+    "Manage password and OTP copy workflows faster",
+    "Keep credentials organized locally on Windows",
+    "Search saved logins quickly",
+    "Use a lightweight password tool without cloud sync",
+    "Keep data on your Windows device"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9p873lhkcq6c?hl=en-US&gl=US",
+  "icon": "https://store-images.s-microsoft.com/image/apps.36914.14093099495542792.09445a70-e9c2-4d21-ba3e-16466524684d.5179799d-314e-48dc-8706-4990bbd90381",
+  "screenshots": [
+    {
+      "file": "https://store-images.s-microsoft.com/image/apps.48224.14093099495542792.09445a70-e9c2-4d21-ba3e-16466524684d.c104d267-7a5f-4dec-973f-efc29d93c5e2",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.48224.14093099495542792.09445a70-e9c2-4d21-ba3e-16466524684d.c104d267-7a5f-4dec-973f-efc29d93c5e2",
+      "caption": "OTP Password Manager Pro",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "https://store-images.s-microsoft.com/image/apps.47969.14093099495542792.09445a70-e9c2-4d21-ba3e-16466524684d.1d775013-8e4b-4235-8cbb-b3e16564d883",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.47969.14093099495542792.09445a70-e9c2-4d21-ba3e-16466524684d.1d775013-8e4b-4235-8cbb-b3e16564d883",
+      "caption": "Mini Panel for OTP Password Manager",
+      "width": 1672,
+      "height": 941
+    }
+  ],
+  "releaseDateUtc": "2026-06-21T16:38:20.2294777Z",
+  "lastUpdateDateUtc": "2026-06-21T16:38:09.5731629Z",
+  "version": "1.1.51.0",
+  "approximateSizeInBytes": 62541596,
+  "privacyUrl": "",
+  "appWebsiteUrl": "https://ariavisionapps.com/apps/otp-password-manager-pro/",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.com"
+    }
+  ],
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    },
+    "recommended": {
+      "title": "Recommended",
+      "items": [
+        {
+          "level": "HardBlock",
+          "itemCode": "dvc",
+          "name": "Available on",
+          "description": "PC",
+          "isValidationPassed": true,
+          "priority": "Default"
+        },
+        {
+          "level": "HardBlock",
+          "itemCode": "ops",
+          "name": "OS",
+          "description": "Windows 10 version 14393.0 or higher",
+          "validationHint": "required",
+          "isValidationPassed": true,
+          "priority": "Default"
+        }
+      ]
+    }
+  },
+  "extractedFrom": "Microsoft Store display catalog API",
+  "extractedAt": "2026-07-04"
+}
