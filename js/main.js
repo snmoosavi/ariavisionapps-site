@@ -54,7 +54,8 @@
     document.body.appendChild(lightbox);
 
     lightbox.addEventListener("click", (event) => {
-      if (event.target === lightbox || event.target.closest(".lightbox-close")) closeLightbox();
+      const target = event.target instanceof Element ? event.target : event.target?.parentElement;
+      if (target === lightbox || target?.closest(".lightbox-close")) closeLightbox();
     });
 
     document.addEventListener("keydown", (event) => {
@@ -135,14 +136,18 @@
 
   function setupPressFeedback() {
     const selector = ".button, .filter-pill, .product-card, .related-link, .screenshot-thumb";
+    const getTarget = (event) => {
+      const target = event.target instanceof Element ? event.target : event.target?.parentElement;
+      return target?.closest(selector);
+    };
     document.addEventListener("pointerdown", (event) => {
-      const target = event.target.closest(selector);
+      const target = getTarget(event);
       if (!target) return;
       target.classList.add("is-pressing");
     });
     ["pointerup", "pointercancel", "pointerleave"].forEach((type) => {
       document.addEventListener(type, (event) => {
-        const target = event.target.closest(selector);
+        const target = getTarget(event);
         target?.classList.remove("is-pressing");
       });
     });

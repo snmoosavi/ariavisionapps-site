@@ -1,0 +1,91 @@
+{
+  "productId": "9ntppd9k0llw",
+  "slug": "subtitle-generator-pro",
+  "title": "Subtitle Generator Pro",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Photo & video"
+  ],
+  "shortDescription": "Create accurate subtitles locally with faster-whisper, edit timing and style, then export or burn them into video-without sending your media to the cloud.",
+  "description": "Subtitle Generator Pro turns audio and video into polished subtitles on your Windows PC. Transcribe locally with faster-whisper, review every segment in a precise editor, style captions with a live video preview, and export professional subtitle files or finished videos.\n\nWork confidently with multilingual content, including English, Persian, Arabic, Azerbaijani, Turkish, and other languages supported by the transcription engine. Automatic text direction keeps RTL and LTR subtitles readable, even when they contain mixed English text, numbers, and punctuation.\n\nChoose your spoken language or use automatic detection, select the subtitle language independently, and tune the Whisper model, accuracy, CPU, or CUDA settings for your system. Long operations stay responsive and can be cancelled safely.\n\nEdit text and timing with split, merge, duplicate, shift, search, replace, undo, and redo. Built-in quality checks flag overlaps, invalid durations, empty captions, and excessive reading speed.\n\nImport SRT, VTT, and ASS files. Export SRT, VTT, ASS, and TXT, or use FFmpeg to burn subtitles into video and create supported soft-subtitle tracks. Complete styling controls cover typography, colors, opacity, outline, shadow, background, spacing, safe areas, alignment, RTL/LTR direction, and exact placement.\n\nProjects include autosave and crash recovery, so your work stays protected. Your media remains on your device during transcription. A network connection may be needed only to download a selected transcription model that is not already installed.",
+  "features": [
+    "Local faster-whisper transcription",
+    "Audio and video subtitle generation",
+    "Segment editor for text and timing",
+    "Split, merge, duplicate, shift, search, and replace",
+    "Quality checks for overlaps, durations, and reading speed",
+    "RTL and LTR subtitle direction support",
+    "SRT, VTT, ASS, and TXT import/export",
+    "Subtitle burn-in with FFmpeg",
+    "Autosave and crash recovery"
+  ],
+  "targetUsers": [
+    "video creators",
+    "course makers",
+    "media editors",
+    "subtitle teams"
+  ],
+  "benefits": [
+    "Keep media on the Windows device during transcription",
+    "Edit timing and text before export",
+    "Style captions with a live preview",
+    "Export subtitle files or burn captions into video"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9ntppd9k0llw?hl=en-US&gl=US",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.9792.14409738344032136.38afeccb-1536-4d43-8c1e-06213dcabeb4.adb45554-84c7-461c-abe3-1ae70f4b6f27",
+      "caption": "Subtitle Generator Pro screenshot 1",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "screenshots/screenshot-2.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.25812.14409738344032136.38afeccb-1536-4d43-8c1e-06213dcabeb4.1d4bed1a-5b08-4220-91d7-225ae3d3fb4f",
+      "caption": "Subtitle Generator Pro screenshot 2",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "screenshots/screenshot-3.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.50632.14409738344032136.38afeccb-1536-4d43-8c1e-06213dcabeb4.6df6dc17-4a5d-481e-b2ab-48b8ecd40176",
+      "caption": "Subtitle Generator Pro screenshot 3",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "screenshots/screenshot-4.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.17937.14409738344032136.38afeccb-1536-4d43-8c1e-06213dcabeb4.01a3e424-ccea-4388-a7ef-e762477962b5",
+      "caption": "Subtitle Generator Pro screenshot 4",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "releaseDateUtc": "2026-07-24T09:10:26.7894493Z",
+  "lastUpdateDateUtc": "2026-07-24T09:10:16.8516753Z",
+  "version": "",
+  "approximateSizeInBytes": null,
+  "privacyUrl": "https://ariavisionapps.com/privacy/",
+  "appWebsiteUrl": "https://ariavisionapps.com/apps/subtitle-generator-pro/",
+  "supportUris": [
+    {
+      "uri": "https://ariavisionapps.com/apps/subtitle-generator-pro/support/"
+    }
+  ],
+  "packageFamilyName": "7841AriaVision.SubtitleGeneratorPro_cd43vhms6saxg",
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "name": "OS",
+          "description": "Windows 10 or later"
+        }
+      ]
+    }
+  },
+  "iconSourceUrl": "https://store-images.s-microsoft.com/image/apps.63890.14409738344032136.38afeccb-1536-4d43-8c1e-06213dcabeb4.747fe7af-43e2-4bcb-ab27-96780630d83d"
+}

@@ -1,0 +1,97 @@
+{
+  "productId": "9nf0ts3gmb6h",
+  "slug": "video-optimizer-pro",
+  "title": "Video Optimizer Pro",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Multimedia design"
+  ],
+  "shortDescription": "Shrink videos fast - offline, clean, and quality-first.",
+  "description": "Compress videos fast. Keep the quality. Save storage.\n\nVideo Optimizer Pro is a modern Windows app designed to reduce video file size, optimize videos for sharing, and convert videos with a clean, simple workflow.\n\nWhether you want to send a video by email, share it on WhatsApp or Telegram, prepare a video for YouTube, Instagram, Reels, or create a Microsoft Store preview video, Video Optimizer Pro gives you ready-to-use modes without confusing technical settings.\n\nWith Simple Mode, just choose a preset and start optimizing. For more control, Advanced Mode lets you adjust codec, resolution, FPS, bitrate, audio settings, output format, metadata removal, and more.\n\nAll processing is done locally on your device. Your videos are not uploaded to the cloud.\n\nVideo Optimizer is built for users who want smaller video files, faster sharing, and professional results without complexity.",
+  "features": [
+    "Video compression for smaller files",
+    "Simple preset-based optimization",
+    "Advanced codec and format controls",
+    "Resolution, FPS, and bitrate adjustment",
+    "Audio setting controls",
+    "Metadata removal option",
+    "Local processing on Windows",
+    "Output modes for sharing and storage"
+  ],
+  "targetUsers": [
+    "creators",
+    "social media teams",
+    "video editors",
+    "Windows power users"
+  ],
+  "benefits": [
+    "Reduce video file size before sharing",
+    "Use simple presets when speed matters",
+    "Tune advanced compression settings when control matters",
+    "Keep processing local on the Windows device"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9nf0ts3gmb6h?hl=en-US&gl=US",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.54222.13604085045594292.6a4fd6a3-e168-4322-8e24-4f7dc6111557.aa82ea8d-3bce-4f68-89e1-7549a4c2e848",
+      "caption": "Video Optimizer Pro screenshot 1",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "screenshots/screenshot-2.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.8677.13604085045594292.6a4fd6a3-e168-4322-8e24-4f7dc6111557.6375bcfc-396a-49f3-ba20-d8f9f00fa685",
+      "caption": "Video Optimizer Pro screenshot 2",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "screenshots/screenshot-3.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.52670.13604085045594292.6a4fd6a3-e168-4322-8e24-4f7dc6111557.50770c18-f0b4-45ea-b56e-17fa175103e4",
+      "caption": "Video Optimizer Pro screenshot 3",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "screenshots/screenshot-4.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.53325.13604085045594292.6a4fd6a3-e168-4322-8e24-4f7dc6111557.e272afb8-4d05-4a32-8d07-9d7dce03e5c3",
+      "caption": "Video Optimizer Pro screenshot 4",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "file": "screenshots/screenshot-5.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.57850.13604085045594292.6a4fd6a3-e168-4322-8e24-4f7dc6111557.0aed26cd-6953-42ed-b95a-654251cdbfad",
+      "caption": "Video Optimizer Pro screenshot 5",
+      "width": 1024,
+      "height": 1536
+    }
+  ],
+  "releaseDateUtc": "2026-07-24T10:40:05.2787211Z",
+  "lastUpdateDateUtc": "2026-07-24T10:39:53.9971678Z",
+  "version": "",
+  "approximateSizeInBytes": null,
+  "privacyUrl": "https://ariavisionapps.com/privacy/",
+  "appWebsiteUrl": "https://ariavisionapps.com/apps/video-optimizer-pro/",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.com"
+    }
+  ],
+  "packageFamilyName": "7841AriaVision.VideoOptimizer_cd43vhms6saxg",
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "name": "OS",
+          "description": "Windows 10 or later"
+        }
+      ]
+    }
+  },
+  "iconSourceUrl": "https://store-images.s-microsoft.com/image/apps.18937.13604085045594292.6a4fd6a3-e168-4322-8e24-4f7dc6111557.2e049149-b6ca-422e-959a-2c7cc0ff089b"
+}

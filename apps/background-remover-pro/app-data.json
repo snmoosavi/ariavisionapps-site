@@ -1,0 +1,91 @@
+{
+  "productId": "9p9ln1mfk1xf",
+  "slug": "background-remover-pro",
+  "title": "Background Remover Pro",
+  "publisherName": "Aria Vision",
+  "sourcePublisherQuery": "Aria Vision",
+  "categories": [
+    "Photo & video"
+  ],
+  "shortDescription": "Create stunning, studio quality cutouts in seconds with powerful AI and complete on device privacy.",
+  "description": "Background Remover Pro is a professional, easy-to-use Windows utility for automatically removing image backgrounds with AI. Images are processed locally on your device and are not uploaded to the publisher for processing.\n\nChoose an image, select the most suitable detection model, and create a transparent PNG in moments. For difficult edges, use Alpha Matting and fine-tune feathering, mask contraction, or expansion. Replace the removed area with transparency, a solid color, or a custom background image.\n\nBatch processing lets you process multiple images and save results to one folder. Local history keeps recent results easy to find. The selected AI model may be downloaded from the internet on first use and cached on your device. No account is required, and exported images contain no watermark.",
+  "features": [
+    "AI background removal on Windows",
+    "Local image processing",
+    "Transparent PNG export",
+    "Alpha Matting edge refinement",
+    "Batch processing for multiple images",
+    "Solid color or custom background replacement",
+    "Local result history",
+    "No account required",
+    "No watermark on exported images"
+  ],
+  "targetUsers": [
+    "content creators",
+    "online sellers",
+    "design teams",
+    "social media editors"
+  ],
+  "benefits": [
+    "Remove backgrounds without uploading images to the publisher",
+    "Refine difficult edges with Alpha Matting controls",
+    "Process multiple images and save results to one folder",
+    "Export clean transparent PNG files for reuse"
+  ],
+  "storeUrl": "https://apps.microsoft.com/detail/9p9ln1mfk1xf?hl=en-US&gl=US",
+  "icon": "icon.png",
+  "screenshots": [
+    {
+      "file": "screenshots/screenshot-1.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.5022.14136173223333862.0b3e8f8c-0141-49f7-9a7b-5d70789817ad.5b4995be-7b0a-456a-a969-406ac5dcb1bc",
+      "caption": "Background Remover Pro screenshot 1",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "file": "screenshots/screenshot-2.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.12133.14136173223333862.0b3e8f8c-0141-49f7-9a7b-5d70789817ad.8c043774-2054-41c5-8ccd-c209ce96b696",
+      "caption": "Background Remover Pro screenshot 2",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "file": "screenshots/screenshot-3.png",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.37717.14136173223333862.0b3e8f8c-0141-49f7-9a7b-5d70789817ad.807becc4-4c13-423c-8e6e-446248545d85",
+      "caption": "Background Remover Pro screenshot 3",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "file": "screenshots/screenshot-4.jpg",
+      "sourceUrl": "https://store-images.s-microsoft.com/image/apps.21488.14136173223333862.0b3e8f8c-0141-49f7-9a7b-5d70789817ad.3729957f-bc6c-43f8-ab0a-fcd276faf876",
+      "caption": "Background Remover Pro screenshot 4",
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "releaseDateUtc": "2026-07-23T10:31:30.5995169Z",
+  "lastUpdateDateUtc": "2026-07-23T10:31:21.5211476Z",
+  "version": "",
+  "approximateSizeInBytes": null,
+  "privacyUrl": "https://ariavisionapps.com/privacy/",
+  "appWebsiteUrl": "https://ariavisionapps.com/apps/background-remover-pro/",
+  "supportUris": [
+    {
+      "uri": "mailto:sn.moosavi@gmail.com"
+    }
+  ],
+  "packageFamilyName": "7841AriaVision.BackgroundRemoverPro_cd43vhms6saxg",
+  "systemRequirements": {
+    "minimum": {
+      "title": "Minimum",
+      "items": [
+        {
+          "name": "OS",
+          "description": "Windows 10 or later"
+        }
+      ]
+    }
+  },
+  "iconSourceUrl": "https://store-images.s-microsoft.com/image/apps.10469.14136173223333862.0b3e8f8c-0141-49f7-9a7b-5d70789817ad.d1cc1959-16d7-4d40-a269-954e71ecc8a9"
+}

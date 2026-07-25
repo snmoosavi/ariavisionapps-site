@@ -2210,6 +2210,19 @@ li,
   }
 }
 
+.hero,
+.product-hero {
+  contain: paint;
+}
+
+.hero-aurora {
+  inset: 0;
+}
+
+.lightbox[aria-hidden="true"] {
+  display: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after {
