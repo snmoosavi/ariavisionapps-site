@@ -530,8 +530,10 @@ h3 { font-size: 1.25rem; }
   cursor: zoom-in;
 }
 .hero-screenshot img {
+  display: block;
   width: 100%;
-  aspect-ratio: 16 / 10;
+  height: auto;
+  aspect-ratio: auto;
   object-fit: contain;
   background: #f3f6fb;
 }
