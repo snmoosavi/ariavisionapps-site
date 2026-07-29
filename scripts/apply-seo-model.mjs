@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SITE_URL = "https://ariavisionapps.com";
-const CURRENT_DATE = "2026-07-28";
+const CURRENT_DATE = "2026-07-29";
 
 function html(value = "") {
   return String(value)
@@ -173,6 +173,12 @@ function website(site) {
   };
 }
 
+function absoluteAppAssetUrl(app, asset) {
+  if (!asset) return undefined;
+  if (/^https?:\/\//i.test(asset)) return asset;
+  return `${app.canonicalUrl}${asset}`;
+}
+
 function appSchema(app) {
   const schema = {
     "@type": "SoftwareApplication",
@@ -183,8 +189,8 @@ function appSchema(app) {
     operatingSystem: app.operatingSystem,
     url: app.canonicalUrl,
     downloadUrl: app.microsoftStoreUrl,
-    image: app.ogImage,
-    screenshot: (app.screenshots || []).map((shot) => `${app.canonicalUrl}${shot.src}`),
+    image: absoluteAppAssetUrl(app, app.ogImage || app.heroImage),
+    screenshot: (app.screenshots || []).map((shot) => absoluteAppAssetUrl(app, shot.src)),
     publisher: { "@id": `${SITE_URL}/#organization` },
     dateModified: app.lastUpdated,
     datePublished: app.publishedDate,
@@ -239,6 +245,7 @@ function appJsonLd(model, app, category) {
       appSchema(app),
       breadcrumbSchema([
         { name: "Home", url: `${SITE_URL}/` },
+        { name: "Apps", url: `${SITE_URL}/#apps` },
         { name: category.name, url: category.canonicalUrl },
         { name: app.appName, url: app.canonicalUrl },
       ]),
@@ -252,6 +259,7 @@ function categoryJsonLd(model, category, apps) {
     "@context": "https://schema.org",
     "@graph": [
       organization(model.site),
+      website(model.site),
       {
         "@type": "CollectionPage",
         "@id": `${category.canonicalUrl}#collection`,
@@ -263,6 +271,7 @@ function categoryJsonLd(model, category, apps) {
       },
       breadcrumbSchema([
         { name: "Home", url: `${SITE_URL}/` },
+        { name: "Apps", url: `${SITE_URL}/#apps` },
         { name: category.name, url: category.canonicalUrl },
       ]),
       {
@@ -341,11 +350,25 @@ function renderBreadcrumb(app, category) {
   return `<nav class="container breadcrumb" aria-label="Breadcrumb">
         <ol>
           <li><a href="../../">Home</a></li>
+          <li><a href="../../#apps">Apps</a></li>
           <li><a href="../../categories/${category.slug}/">${html(category.name)}</a></li>
           <li aria-current="page">${html(app.appName)}</li>
         </ol>
         <a class="back-link" href="../../#apps">Back to all apps</a>
       </nav>`;
+}
+
+function renderHeroMedia(app) {
+  const heroSrc = app.heroImage || app.screenshots?.[0]?.src || "icon.png";
+  const heroShot = (app.screenshots || []).find((shot) => shot.src === heroSrc) || {};
+  const heroCaption = heroShot.caption || `${app.appName} main workspace`;
+  const heroAlt = app.imageAltTexts?.[heroSrc] || heroShot.alt || `${app.appName} main Windows app workspace`;
+  return `<figure class="hero-screenshot reveal delay-1">
+          <button class="image-open" type="button" data-image="${html(heroSrc)}" data-caption="${html(heroCaption)}" aria-label="Open ${html(app.appName)} main screenshot">
+            <img id="mainScreenshot" src="${html(heroSrc)}" alt="${html(heroAlt)}"${imageDimensions(heroShot)}>
+          </button>
+          <figcaption id="mainScreenshotCaption">${html(heroCaption)}</figcaption>
+        </figure>`;
 }
 
 function renderGuide(app) {
@@ -358,9 +381,15 @@ function renderGuide(app) {
   const featureFallback = app.keyFeatures?.length ? app.keyFeatures : [app.shortDescription];
   const benefits = featureFallback.slice(0, 5);
   const steps = featureFallback.slice(0, 4);
-  const capabilities = (app.supportedFormats?.length ? app.supportedFormats : featureFallback.slice(0, 6));
-  const privacy = app.privacySummary || "This page does not claim a specific cloud, offline, or storage behavior for this app. Review the Microsoft Store listing and app-specific privacy information before installing.";
-  const offline = app.offlineSupport || "Offline support is not stated in the current project content.";
+  const capabilityRows = [
+    ["Platform", app.operatingSystem],
+    ["Supported Windows versions", app.systemRequirements?.join("; ")],
+    ["Supported formats or outputs", app.supportedFormats?.join(", ")],
+    ["Offline capability", app.offlineSupport],
+    ["Privacy summary", app.privacySummary],
+    ["External requirements", app.externalRequirements?.join("; ")],
+    ["Support", app.supportUrl],
+  ].filter(([, value]) => value);
 
   return `<section class="section editorial-section app-guide" id="workflow-guide">
       <div class="container guide-stack">
@@ -384,8 +413,9 @@ function renderGuide(app) {
           </article>
           <article class="workflow-notes guide-card">
             <h2>Capabilities and requirements</h2>
-            <p>${html(privacy)} ${html(offline)} Exact device requirements should be confirmed on the Microsoft Store listing.</p>
-            <ul>${capabilities.map((item) => `<li>${html(item)}</li>`).join("")}</ul>
+            <dl class="technical-list">
+              ${capabilityRows.map(([label, value]) => `<div><dt>${html(label)}</dt><dd>${/^https?:|^mailto:/i.test(value) ? `<a href="${html(value)}">${html(value.replace(/^mailto:/i, ""))}</a>` : html(value)}</dd></div>`).join("")}
+            </dl>
           </article>
         </div>
       </div>
@@ -402,7 +432,7 @@ function renderScreenshots(app) {
       </div>
       <div class="container screenshot-grid">
         ${shots.map((shot, index) => `<button class="screenshot-thumb${index === 0 ? " is-active" : ""}" type="button" data-image="${html(shot.src)}" data-caption="${html(shot.caption)}" aria-label="Open ${html(shot.caption || app.appName)}">
-          <img src="${html(shot.src)}" alt="${html(app.imageAltTexts?.[shot.src] || shot.alt || `${app.appName} screenshot for Windows`)}" loading="${index === 0 ? "eager" : "lazy"}">
+          <img src="${html(shot.src)}" alt="${html(app.imageAltTexts?.[shot.src] || shot.alt || `${app.appName} screenshot for Windows`)}"${imageDimensions(shot)} loading="${index === 0 ? "eager" : "lazy"}">
           <span>${html(shot.caption || `${app.appName} screenshot ${index + 1}`)}</span>
         </button>`).join("\n        ")}
       </div>
@@ -438,18 +468,26 @@ function appAsset(prefix, app, asset) {
   return `${prefix}apps/${app.slug}/${asset}`;
 }
 
+function imageDimensions(shot) {
+  if (!shot?.width || !shot?.height) return "";
+  return ` width="${html(shot.width)}" height="${html(shot.height)}"`;
+}
+
 function renderRelated(app, appMap) {
+  const relatedApps = (app.relatedAppSlugs || [])
+    .map((slug) => appMap.get(slug))
+    .filter(Boolean)
+    .slice(0, 6);
   return `<section class="section">
       <div class="container section-heading center">
         <p class="eyebrow">Related apps</p>
         <h2>More Aria Vision apps for this workflow</h2>
       </div>
       <div class="container related-grid">
-        ${app.relatedAppSlugs.map((slug) => {
-          const related = appMap.get(slug);
+        ${relatedApps.map((related) => {
           return `<a class="related-link related-card" href="../${related.slug}/" aria-label="View ${html(related.appName)} for ${html(related.category)} Windows workflows">
           <img src="../${related.slug}/${html(related.icon || "icon.png")}" alt="" loading="lazy">
-          <span><strong>${html(related.appName)}</strong><small>${html(relatedReason(app, related))}</small></span>
+          <span><strong>${html(related.appName)}</strong><small>${html(related.shortDescription)}</small></span>
         </a>`;
         }).join("\n        ")}
       </div>
@@ -471,8 +509,16 @@ function replaceSection(source, startRe, nextRe, replacement) {
 function updateAppContent(source, app, category, appMap) {
   let output = source;
   output = output.replace(
-    /<div class="container breadcrumb">[\s\S]*?<\/div>/i,
+    /<(?:div|nav) class="container breadcrumb"[\s\S]*?<\/(?:div|nav)>/i,
     renderBreadcrumb(app, category),
+  );
+  output = output.replace(
+    /<img class="detail-icon"[\s\S]*?>/i,
+    `<img class="detail-icon" src="${html(app.icon || "icon.png")}" alt="${html(app.appName)} icon" loading="lazy">`,
+  );
+  output = output.replace(
+    /<figure class="hero-screenshot[\s\S]*?<\/figure>/i,
+    renderHeroMedia(app),
   );
   output = output.replace(
     /<p class="eyebrow">[^<]*<\/p>\s*<h1>[\s\S]*?<\/h1>\s*<p class="lead">[\s\S]*?<\/p>/i,
@@ -528,16 +574,17 @@ function renderControls(model) {
 function renderProductCard(app) {
   const dataDescription = `${app.appName} ${app.category} ${app.shortDescription} ${(app.keyFeatures || []).slice(0, 6).join(" ")}`.toLowerCase();
   const screenshot = app.heroImage || app.screenshots?.[0]?.src || "icon.png";
+  const shot = (app.screenshots || []).find((item) => item.src === screenshot);
   return `<article class="product-card reveal" data-title="${html(app.appName.toLowerCase())}" data-category="${html(app.category.toLowerCase())}" data-description="${html(dataDescription)}">
       <div class="card-glow" aria-hidden="true"></div>
       <div class="card-top">
-        <img class="app-icon" src="${html(appAsset("", app, app.icon || "icon.png"))}" alt="" loading="lazy">
+        <img class="app-icon" src="${html(appAsset("", app, app.icon || "icon.png"))}" alt="${html(`${app.appName} icon`)}" loading="lazy">
         <span class="category-tag">${html(app.category)}</span>
       </div>
       <h3>${html(app.appName)}</h3>
       <p>${html(app.shortDescription)}</p>
       <a class="card-preview" href="apps/${app.slug}/" aria-label="View ${html(app.appName)} product page">
-        <img src="${html(appAsset("", app, screenshot))}" alt="${html(app.imageAltTexts?.[screenshot] || `${app.appName} screenshot for Windows`)}" loading="lazy">
+        <img src="${html(appAsset("", app, screenshot))}" alt="${html(app.imageAltTexts?.[screenshot] || `${app.appName} screenshot for Windows`)}"${imageDimensions(shot)} loading="lazy">
       </a>
       <div class="card-meta">
         <span>Windows app</span>
@@ -603,7 +650,8 @@ async function updateHomepage(model) {
   source = source.replace(/<div class="container controls"[\s\S]*?<div class="container product-grid" id="productGrid">/i, `${renderControls(model)}
       <div class="container product-grid" id="productGrid">`);
   const start = source.indexOf('<div class="container product-grid" id="productGrid">');
-  const end = source.indexOf('<div class="container empty-state"', start);
+  const endOffset = start >= 0 ? source.slice(start).search(/<(?:div|p) class="container empty-state"/i) : -1;
+  const end = endOffset >= 0 ? start + endOffset : -1;
   if (start >= 0 && end > start) {
     const grid = `<div class="container product-grid" id="productGrid">
     ${model.apps.map(renderProductCard).join("\n    ")}
@@ -638,16 +686,17 @@ async function updateAppPage(model, app, appMap, category) {
 
 function renderCategoryCard(app) {
   const shot = app.heroImage || app.screenshots?.[0]?.src || "icon.png";
+  const shotData = (app.screenshots || []).find((item) => item.src === shot);
   return `<article class="product-card reveal">
           <div class="card-glow" aria-hidden="true"></div>
           <div class="card-top">
-            <img class="app-icon" src="${html(appAsset("../../", app, app.icon || "icon.png"))}" alt="" loading="lazy">
+            <img class="app-icon" src="${html(appAsset("../../", app, app.icon || "icon.png"))}" alt="${html(`${app.appName} icon`)}" loading="lazy">
             <span class="category-tag">${html(app.category)}</span>
           </div>
           <h2>${html(app.appName)}</h2>
           <p>${html(app.shortDescription)}</p>
           <a class="card-preview" href="../../apps/${app.slug}/" aria-label="View ${html(app.appName)} product page">
-            <img src="${html(appAsset("../../", app, shot))}" alt="${html(app.imageAltTexts?.[shot] || `${app.appName} screenshot for Windows`)}" loading="lazy">
+            <img src="${html(appAsset("../../", app, shot))}" alt="${html(app.imageAltTexts?.[shot] || `${app.appName} screenshot for Windows`)}"${imageDimensions(shotData)} loading="lazy">
           </a>
           <div class="card-actions">
             <a class="button small primary" href="../../apps/${app.slug}/">View ${html(app.appName)}</a>
@@ -689,6 +738,7 @@ ${head({
       <nav class="container breadcrumb" aria-label="Breadcrumb">
         <ol>
           <li><a href="../../">Home</a></li>
+          <li><a href="../../#apps">Apps</a></li>
           <li aria-current="page">${html(category.name)}</li>
         </ol>
       </nav>
@@ -698,6 +748,7 @@ ${head({
         <p>${html(category.description)}</p>
       </div>
     </section>
+    ${renderCategoryIntro(category, apps)}
     <section class="section" id="apps">
       <div class="container product-grid category-product-grid">
         ${apps.map(renderCategoryCard).join("\n        ")}
@@ -713,11 +764,44 @@ ${head({
 </html>`;
 }
 
+function renderCategoryIntro(category, apps) {
+  const groups = category.slug === "developer-tools"
+    ? [
+        ["Python packaging tools", ["pyinstaller", "python-quick-installer-pro"]],
+        ["JSON and data format tools", ["xml-to-json-converter-pro", "json-parser-pro", "markdown-to-html-converter"]],
+        ["Git and SVN automation", ["git-automation", "svn-autocommit"]],
+        ["Oracle connectivity tools", ["ora-tnsnames-manager"]],
+        ["Network tools", ["speed-test-live"]],
+      ]
+    : [];
+  const appNames = new Map(apps.map((app) => [app.slug, app.appName]));
+  return `<section class="section soft category-context">
+      <div class="container editorial-layout">
+        <article class="workflow-article">
+          <p class="eyebrow">Category guide</p>
+          <h2>Choosing ${html(category.name)} apps</h2>
+          ${(category.bodyContent || [category.description]).map((paragraph) => `<p>${html(paragraph)}</p>`).join("\n          ")}
+        </article>
+        <aside class="workflow-notes">
+          <h2>Apps in this category</h2>
+          <ul>
+            ${apps.map((app) => `<li><a href="../../apps/${app.slug}/">${html(app.appName)}</a></li>`).join("")}
+          </ul>
+          ${groups.length ? `<h3>Workflow groups</h3>
+          <ul>
+            ${groups.map(([label, slugs]) => `<li><strong>${html(label)}:</strong> ${html(slugs.map((slug) => appNames.get(slug)).filter(Boolean).join(", "))}</li>`).join("")}
+          </ul>` : ""}
+        </aside>
+      </div>
+    </section>`;
+}
+
 async function writeCategoryPages(model, appMap) {
   for (const category of model.categories) {
     const dir = path.join(ROOT, "categories", category.slug);
     await fs.mkdir(dir, { recursive: true });
     const apps = category.appSlugs.map((slug) => appMap.get(slug)).filter(Boolean);
+    if (!apps.length) continue;
     let source = renderCategoryPage(model, category, apps);
     source = await enhanceImages(path.join(dir, "index.html"), source, null);
     await fs.writeFile(path.join(dir, "index.html"), source, "utf8");
@@ -795,10 +879,11 @@ async function updateSpecialSubtitlePages(model) {
 }
 
 async function writeSitemap(model) {
+  const publicCategories = model.categories.filter((category) => category.appSlugs?.length);
   const urls = [
     { loc: `${SITE_URL}/`, priority: "1.0" },
     { loc: `${SITE_URL}/privacy/`, priority: "0.5" },
-    ...model.categories.map((category) => ({ loc: category.canonicalUrl, priority: "0.7" })),
+    ...publicCategories.map((category) => ({ loc: category.canonicalUrl, priority: "0.7" })),
     ...model.apps.map((app) => ({ loc: app.canonicalUrl, priority: "0.8" })),
     { loc: `${SITE_URL}/apps/subtitle-generator-pro/privacy/`, priority: "0.4" },
     { loc: `${SITE_URL}/apps/subtitle-generator-pro/support/`, priority: "0.4" },
@@ -820,6 +905,87 @@ Sitemap: ${SITE_URL}/sitemap.xml
 `, "utf8");
 }
 
+async function writeRedirects() {
+  await fs.writeFile(path.join(ROOT, "_redirects"), `/apps/voice-to-text/ /apps/voice-to-text-converter-pro/ 301
+/apps/pyinstaller/guides/ /apps/pyinstaller/ 301
+`, "utf8");
+}
+
+async function write404(model) {
+  const source = `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page Not Found | Aria Vision Apps</title>
+  <meta name="description" content="The requested Aria Vision Apps page could not be found. Browse the Windows app catalog or return to the homepage.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="${SITE_URL}/404.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Page Not Found | Aria Vision Apps">
+  <meta property="og:description" content="Browse the Aria Vision Windows app catalog or return to the homepage.">
+  <meta property="og:url" content="${SITE_URL}/404.html">
+  <meta property="og:image" content="${SITE_URL}/assets/icons/aria-vision.svg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Page Not Found | Aria Vision Apps">
+  <meta name="twitter:description" content="Browse the Aria Vision Windows app catalog or return to the homepage.">
+  <meta name="twitter:image" content="${SITE_URL}/assets/icons/aria-vision.svg">
+  <link rel="icon" href="assets/icons/aria-vision.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  ${jsonLd({
+    "@context": "https://schema.org",
+    "@graph": [
+      organization(model.site),
+      website(model.site),
+      {
+        "@type": "WebPage",
+        "@id": `${SITE_URL}/404.html#webpage`,
+        name: "Page Not Found | Aria Vision Apps",
+        description: "The requested Aria Vision Apps page could not be found.",
+        url: `${SITE_URL}/404.html`,
+        isPartOf: { "@id": `${SITE_URL}/#website` },
+        publisher: { "@id": `${SITE_URL}/#organization` },
+      },
+    ],
+  })}
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./">
+      <span class="brand-mark">AV</span>
+      <span><strong>Aria Vision</strong><small>Premium Windows apps</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="./#apps">Apps</a>
+      <a href="./#solutions">Solutions</a>
+      <a href="./#about">About</a>
+      <a href="./#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="product-hero not-found-page">
+      <div class="hero-aurora" aria-hidden="true"></div>
+      <div class="container section-heading">
+        <p class="eyebrow">404</p>
+        <h1>Page not found</h1>
+        <p>The page may have moved, or the address may be incorrect. Use the app catalog to find the current Aria Vision Windows app pages.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="./#apps">Browse apps</a>
+          <a class="button secondary" href="./">Go home</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  ${renderFooter("", model)}
+  <script src="js/main.js"></script>
+</body>
+</html>`;
+  await fs.writeFile(path.join(ROOT, "404.html"), source, "utf8");
+}
+
 async function main() {
   const model = JSON.parse(await fs.readFile(path.join(ROOT, "data", "apps-seo.json"), "utf8"));
   const appMap = new Map(model.apps.map((app) => [app.slug, app]));
@@ -832,6 +998,8 @@ async function main() {
   await updatePrivacy(model);
   await updateSpecialSubtitlePages(model);
   await writeSitemap(model);
+  await writeRedirects();
+  await write404(model);
   console.log(`Applied SEO model to ${model.apps.length} app pages and ${model.categories.length} category pages.`);
 }
 

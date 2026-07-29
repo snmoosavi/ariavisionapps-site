@@ -1,23 +1,30 @@
 # SEO Release Checklist
 
-- [x] Build passed: static deploy file check passed; no build command required.
-- [x] Tests passed: `scripts/seo-audit.mjs` completed with 0 errors.
-- [x] Lint passed: JavaScript syntax checks passed for site JS and SEO scripts.
-- [x] Sitemap accessible: `sitemap.xml` generated in project root with 46 canonical URLs.
-- [x] robots.txt accessible: allows all crawlers and references sitemap.
-- [x] Canonicals correct: one canonical per public page.
-- [x] Metadata unique: titles and meta descriptions are unique across audited public pages.
-- [x] One H1 per page: verified by audit.
-- [x] Alt texts reviewed: no missing alt attributes; decorative images use empty alt.
-- [x] Structured data valid: JSON-LD parses successfully.
-- [x] Broken links checked: no broken internal links reported.
-- [x] Mobile layout checked: homepage and app page checked at 390px viewport with no horizontal overflow.
-- [x] Microsoft Store links checked: product IDs preserved and URLs use `gl=US` where present.
-- [x] Analytics preserved: no analytics/tracking existed and none were added.
-- [x] No test data visible: no visible placeholder/TODO content was added.
-- [x] Deployment configuration reviewed: project remains plain static HTML/CSS/JS/XML/TXT plus local data/report/script files; no backend or runtime service added.
+Date: 2026-07-29
 
-## Known non-blocking notes
+- [x] Static generation completed.
+- [x] App pages regenerated.
+- [x] Category pages regenerated.
+- [x] sitemap.xml regenerated with canonical URLs.
+- [x] robots.txt allows crawlers and points to sitemap.xml.
+- [x] 404.html exists at the project root.
+- [x] Old URLs are covered by 301 redirects in _redirects.
+- [x] SEO audit passes with zero errors and zero warnings.
+- [x] Route audit passes for valid routes, redirects, and invalid routes.
+- [x] JavaScript and Node scripts pass syntax checks.
+- [x] Browser QA passes for desktop and mobile key routes without horizontal overflow, visible broken images, or console errors.
+- [x] Homepage search and Developer tools filter work after category cleanup.
+- [x] No backend, database, cookies, analytics, tracking, or paid external services were added.
 
-- External Microsoft Store CDN images for OTP Password Manager Pro still lack explicit dimensions because dimensions could not be fetched locally and were not guessed.
-- Price, rating, review, version, file size, and offer schema remain omitted until verified real data is supplied.
+## Validation Results
+
+Build/static generation: PASS - 32 app pages and 10 category pages regenerated with scripts/apply-seo-model.mjs.
+Test: PASS - Route audit passed: 46 valid routes, 2 redirects, 3 invalid routes..
+Lint/static validation: PASS - node --check passed for js/main.js, scripts/apply-seo-model.mjs, scripts/seo-audit.mjs, and scripts/route-audit.mjs.
+SEO audit: PASS - SEO audit: 46 public pages, 32 app pages, 10 category pages. Errors: 0 Warnings: 0
+Browser QA: PASS - homepage, app pages, Developer tools category, privacy, redirects, and 404 checked at desktop and mobile widths.
+
+## Owner Follow-Up
+
+- Keep app-data.json updated when Microsoft Store listings change.
+- Add verified version, pricing, trial, and release-note data only when available from a reliable source.
