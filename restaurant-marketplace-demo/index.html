@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>CraveCart Express | Online Ordering</title>
+  <meta name="description" content="Marketplace-style online restaurant ordering with sticky category navigation, grouped menu sections, cart panel, product options, checkout, payment flow, order tracking and localStorage persistence.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#menuList">Skip to menu</a>
+
+  <header class="topbar" data-header>
+    <a class="brand" href="#top" aria-label="CraveCart Express">
+      <span class="brand-logo" aria-hidden="true">
+        <svg viewBox="0 0 72 72" focusable="false">
+          <circle cx="36" cy="36" r="32" fill="currentColor" opacity=".12"/>
+          <path d="M20 38c0-10 7-18 16-18s16 8 16 18v4H20v-4Z" fill="currentColor"/>
+          <path d="M18 45h36l-3 8H21l-3-8Z" fill="currentColor"/>
+          <path d="M27 30h18M25 37h22" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="24" cy="24" r="3" fill="#ffb000"/>
+          <circle cx="48" cy="24" r="3" fill="#ffb000"/>
+        </svg>
+      </span>
+      <span>
+        <strong>CraveCart</strong>
+        <small>Express kitchen</small>
+      </span>
+    </a>
+
+    <label class="global-search">
+      <span>Search restaurants and dishes</span>
+      <input id="globalSearch" type="search" placeholder="Search fried chicken, burgers, drinks..." autocomplete="off">
+    </label>
+
+    <button class="location-pill" type="button" data-scroll-target="#checkoutPanel" aria-label="Choose branch and address">
+      <span aria-hidden="true">⌖</span>
+      Choose branch
+    </button>
+
+    <button class="cart-pill" type="button" data-open-cart aria-label="Open cart">
+      <span aria-hidden="true">🛒</span>
+      Cart
+      <strong data-cart-count>0</strong>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="restaurant-hero">
+      <img class="cover-image" src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=1800&q=84" alt="" width="1800" height="860" fetchpriority="high">
+      <div class="restaurant-card">
+        <div class="restaurant-logo" aria-hidden="true">
+          <svg viewBox="0 0 72 72" focusable="false">
+            <circle cx="36" cy="36" r="34" fill="#ff2f7d"/>
+            <path d="M20 40c0-10.2 7.1-18.4 16-18.4S52 29.8 52 40v3H20v-3Z" fill="#fff"/>
+            <path d="M18 47h36l-3.2 8.4H21.2L18 47Z" fill="#fff"/>
+            <path d="M26 32h20M24 39h24" stroke="#ff2f7d" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="restaurant-copy">
+          <p class="eyebrow">Open now · delivery and pickup</p>
+          <h1>CraveCart Express</h1>
+          <p>Premium fast-food ordering with fried chicken, burgers, pizza, wraps, fresh salads, crispy sides, desserts and a large drink menu.</p>
+          <div class="restaurant-facts" aria-label="Restaurant facts">
+            <span><strong>4.8</strong> rating</span>
+            <span><strong>25-40 min</strong> delivery</span>
+            <span><strong>€12.00</strong> minimum</span>
+            <span><strong>€35+</strong> free delivery</span>
+          </div>
+          <div class="hero-actions">
+            <a class="primary-action" href="#menuList">Start order</a>
+            <button type="button" class="secondary-action" data-open-history>Order history</button>
+            <a class="secondary-action" href="#info">Hours and contact</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="promo-rail" aria-label="Current promotions">
+      <article>
+        <span>15% off</span>
+        <strong>Welcome deal</strong>
+        <p>Use WELCOME15 on orders over €15.00.</p>
+      </article>
+      <article>
+        <span>Free delivery</span>
+        <strong>Group order</strong>
+        <p>Delivery fee is removed after €35.00.</p>
+      </article>
+      <article>
+        <span>Drinks</span>
+        <strong>Cold add-ons</strong>
+        <p>Use DRINKS10 when your basket includes drinks.</p>
+      </article>
+    </section>
+
+    <nav class="quick-tabs" aria-label="Restaurant page sections">
+      <a href="#menuList" class="is-active">Menu</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#info">Info</a>
+      <button type="button" data-open-history>Orders</button>
+    </nav>
+
+    <section class="mobile-controls" aria-label="Mobile menu controls">
+      <label>
+        <span>Search menu</span>
+        <input id="mobileSearch" type="search" placeholder="Search menu..." autocomplete="off">
+      </label>
+      <button type="button" data-open-cart>View cart</button>
+    </section>
+
+    <div class="page-layout">
+      <aside class="category-sidebar" aria-label="Menu categories">
+        <h2>Categories</h2>
+        <p class="category-hint">Jump between menu sections</p>
+        <div class="category-list" data-category-list></div>
+      </aside>
+
+      <section class="menu-column" id="menuList" aria-labelledby="menu-title">
+        <div class="menu-toolbar">
+          <div class="menu-toolbar-heading">
+            <p class="eyebrow pink">Order menu</p>
+            <h2 id="menu-title">Choose your meal</h2>
+            <p data-menu-summary>Freshly prepared meals, cold drinks and crisp sides.</p>
+          </div>
+          <label class="sort-control">
+            <span>Sort</span>
+            <select data-sort-select aria-label="Sort menu">
+              <option value="recommended">Recommended</option>
+              <option value="rating">Highest rated</option>
+              <option value="price-low">Lowest price</option>
+              <option value="price-high">Highest price</option>
+            </select>
+          </label>
+          <div class="filter-cluster" aria-label="Menu filters">
+            <button class="is-active" type="button" data-filter-mode="all">All</button>
+            <button type="button" data-filter-mode="popular">Popular</button>
+            <button type="button" data-filter-mode="discount">Deals</button>
+            <button type="button" data-filter-mode="vegetarian">Vegetarian</button>
+            <button type="button" data-filter-mode="spicy">Spicy</button>
+          </div>
+        </div>
+
+        <div class="state-card" data-loading-state>
+          <span class="spinner" aria-hidden="true"></span>
+          <strong>Loading fresh items...</strong>
+          <p>The menu is being prepared.</p>
+        </div>
+
+        <div class="state-card error" data-error-state hidden>
+          <strong>Menu could not be loaded</strong>
+          <p>Please try again.</p>
+          <button type="button" data-retry-menu>Retry</button>
+        </div>
+
+        <div class="menu-sections" data-menu-sections></div>
+
+        <div class="state-card empty" data-empty-state hidden>
+          <strong>No matching items</strong>
+          <p>Try another search term or filter.</p>
+          <button type="button" data-clear-search>Clear search</button>
+        </div>
+      </section>
+
+      <aside class="cart-sidebar" id="checkoutPanel" aria-label="Cart and checkout">
+        <div class="cart-card">
+          <header>
+            <div>
+              <p class="eyebrow pink">Basket</p>
+              <h2>Your order</h2>
+            </div>
+            <button type="button" class="text-button" data-clear-cart>Clear</button>
+          </header>
+          <div class="cart-progress" data-cart-progress></div>
+          <div class="cart-items" data-cart-items></div>
+          <div class="cart-upsell" data-cart-upsell></div>
+
+          <label class="promo-field">
+            <span>Promo code</span>
+            <span>
+              <input id="promoCode" type="text" placeholder="WELCOME15" autocomplete="off">
+              <button type="button" data-apply-promo>Apply</button>
+            </span>
+          </label>
+          <div class="promo-shortcuts" aria-label="Quick promo codes">
+            <button type="button" data-promo-code="WELCOME15">WELCOME15</button>
+            <button type="button" data-promo-code="FEAST5">FEAST5</button>
+            <button type="button" data-promo-code="DRINKS10">DRINKS10</button>
+          </div>
+          <p class="promo-message" data-promo-message aria-live="polite"></p>
+
+          <p class="checkout-kicker">1. Choose service</p>
+          <div class="fulfillment-switch" role="radiogroup" aria-label="Fulfillment method">
+            <label><input type="radio" name="fulfillment" value="delivery" checked> Delivery</label>
+            <label><input type="radio" name="fulfillment" value="pickup"> Pickup</label>
+          </div>
+
+          <dl class="totals" data-totals></dl>
+
+          <form class="checkout-form" data-checkout-form novalidate>
+            <p class="checkout-kicker">2. Delivery details</p>
+            <label>
+              <span>Branch</span>
+              <select name="branch" required></select>
+            </label>
+            <p class="branch-note" data-branch-note></p>
+
+            <label data-address-row>
+              <span>Delivery address</span>
+              <textarea name="address" rows="3" placeholder="Street, building, floor, apartment" required></textarea>
+            </label>
+            <label class="checkbox-line" data-contactless-row>
+              <input type="checkbox" name="contactless">
+              <span>Leave at door when possible</span>
+            </label>
+
+            <div class="schedule-row">
+              <label><input type="radio" name="scheduleMode" value="asap" checked> ASAP</label>
+              <label><input type="radio" name="scheduleMode" value="scheduled"> Schedule</label>
+            </div>
+            <div class="scheduled-fields" data-scheduled-fields hidden>
+              <input type="date" name="date">
+              <select name="time"></select>
+            </div>
+
+            <p class="checkout-kicker">3. Contact and payment</p>
+            <label>
+              <span>Full name</span>
+              <input name="fullName" type="text" placeholder="Example: Sara Miller" required minlength="3">
+            </label>
+            <label>
+              <span>Mobile number</span>
+              <input name="phone" type="tel" placeholder="020 5550 2400" required>
+            </label>
+            <label>
+              <span>Payment</span>
+              <select name="payment">
+                <option value="card">Card payment</option>
+                <option value="cash">Pay on delivery</option>
+              </select>
+            </label>
+            <div class="card-fields" data-card-fields>
+              <input name="cardNumber" inputmode="numeric" placeholder="4242424242424242">
+              <input name="cardExpiry" inputmode="numeric" placeholder="09/29">
+              <input name="cardCvv" inputmode="numeric" placeholder="123">
+            </div>
+            <label>
+              <span>Order note</span>
+              <textarea name="instructions" rows="2" placeholder="Sauce, napkins or delivery note"></textarea>
+            </label>
+
+            <div class="form-errors" data-form-errors hidden></div>
+            <button class="checkout-button" type="submit">
+              <span data-submit-text>Place order</span>
+              <span class="button-loader" data-submit-loader hidden></span>
+            </button>
+          </form>
+        </div>
+      </aside>
+    </div>
+
+    <section class="tracking-strip" id="tracking" aria-labelledby="tracking-title">
+      <div class="section-heading">
+        <p class="eyebrow pink">Tracking</p>
+        <h2 id="tracking-title">Active order</h2>
+      </div>
+      <div class="tracking-card" data-tracking-card></div>
+    </section>
+
+    <section class="reviews-section" id="reviews" aria-labelledby="reviews-title">
+      <div class="section-heading">
+        <p class="eyebrow pink">Guest feedback</p>
+        <h2 id="reviews-title">Recent reviews</h2>
+      </div>
+      <div class="reviews-grid">
+        <article><strong>4.9</strong><p>“Fast delivery, crispy chicken and cold drinks. The cart flow feels complete.”</p><span>Leila R.</span></article>
+        <article><strong>4.8</strong><p>“The menu sections are easy to scan and the options are practical.”</p><span>Daniel K.</span></article>
+        <article><strong>4.7</strong><p>“Smooth ordering, clear tracking and a good mix of meals and drinks.”</p><span>Nora S.</span></article>
+      </div>
+    </section>
+
+    <section class="info-section" id="info" aria-labelledby="info-title">
+      <div class="section-heading">
+        <p class="eyebrow pink">Restaurant info</p>
+        <h2 id="info-title">Hours and contact</h2>
+      </div>
+      <div class="info-grid">
+        <article>
+          <h3>Opening hours</h3>
+          <p>Monday to Thursday: 11:30-23:00</p>
+          <p>Friday and Saturday: 11:30-00:30</p>
+          <p>Sunday: 12:00-22:30</p>
+        </article>
+        <article>
+          <h3>Contact</h3>
+          <p>Phone: <a href="tel:02055502400">020 5550 2400</a></p>
+          <p>Email: <a href="mailto:support@cravecart.example">support@cravecart.example</a></p>
+          <p>Questions about your order? Our team is available during opening hours.</p>
+        </article>
+        <article>
+          <h3>Service notes</h3>
+          <p>Delivery, pickup, scheduled orders and promo codes are available from every branch.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <button class="floating-cart" type="button" data-open-cart aria-label="Open cart">
+    <span data-floating-total>Your cart is empty</span>
+    <strong data-cart-count>0</strong>
+  </button>
+
+  <nav class="bottom-nav" aria-label="Mobile navigation">
+    <a href="#top"><span aria-hidden="true">⌂</span>Home</a>
+    <a href="#menuList"><span aria-hidden="true">☰</span>Menu</a>
+    <button type="button" data-open-cart><span aria-hidden="true">🛒</span>Cart</button>
+    <a href="#tracking"><span aria-hidden="true">◎</span>Track</a>
+  </nav>
+
+  <div class="drawer-backdrop" data-drawer-backdrop hidden></div>
+  <aside class="mobile-cart-drawer" data-mobile-cart aria-labelledby="mobile-cart-title" aria-hidden="true">
+    <div class="drawer-handle" aria-hidden="true"></div>
+    <header>
+      <div>
+        <p class="eyebrow pink">Basket</p>
+        <h2 id="mobile-cart-title">Your order</h2>
+      </div>
+      <button class="icon-button" type="button" data-close-cart aria-label="Close cart">×</button>
+    </header>
+    <div data-mobile-cart-content></div>
+  </aside>
+
+  <div class="modal-backdrop" data-product-backdrop hidden></div>
+  <section class="product-modal" data-product-modal role="dialog" aria-modal="true" aria-labelledby="product-title" aria-hidden="true">
+    <button class="icon-button modal-close" type="button" data-close-product aria-label="Close item details">×</button>
+    <div data-product-modal-body></div>
+  </section>
+
+  <section class="orders-panel" data-orders-panel aria-labelledby="orders-title" aria-hidden="true">
+    <header>
+      <div>
+        <p class="eyebrow pink">History</p>
+        <h2 id="orders-title">Saved orders</h2>
+      </div>
+      <button class="icon-button" type="button" data-close-history aria-label="Close order history">×</button>
+    </header>
+    <div class="history-list" data-history-list></div>
+  </section>
+
+  <div class="toast-region" data-toast-region aria-live="polite" aria-atomic="true"></div>
+
+  <noscript>
+    <div class="noscript">JavaScript must be enabled to use ordering, cart and checkout features.</div>
+  </noscript>
+</body>
+</html>

@@ -1,0 +1,46 @@
+
+# Local build output and dependency caches
+.vs/
+.idea/
+[Bb]in/
+[Oo]bj/
+[Bb]uild/
+[Dd]ist/
+packages/
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+AppPackages/
+BundleArtifacts/
+installer_output/
+# Machine-specific settings and logs
+*.user
+*.suo
+*.cache
+*.log
+UpgradeLog*.htm
+Backup/
+[Dd]esktop.ini
+Thumbs.db
+.DS_Store
+# Local credentials, signing keys, and private application data
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pfx
+*.p12
+*.pem
+*.key
+*.kdbx
+*.db
+*.sqlite
+*.sqlite3
+credentials.json
+service-account*.json

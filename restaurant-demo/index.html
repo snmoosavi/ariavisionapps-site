@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>BergBite Berlin | Premium Fast Food Ordering Demo</title>
+  <meta name="description" content="A production-quality fast-food ordering demo for Germany with burgers, pizza, schnitzel, currywurst, doner, sides, drinks, cart, checkout, payment, order confirmation, tracking, and order history.">
+  <meta name="theme-color" content="#11100e">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#menu">Skip to menu</a>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#home" aria-label="BergBite Berlin">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" focusable="false" role="img">
+          <path d="M32 6c9.4 6.1 17.7 16.5 17.7 29.1 0 12-7.3 20.9-17.7 20.9S14.3 47.1 14.3 35.1C14.3 22.5 22.6 12.1 32 6Z" fill="currentColor" opacity=".18"/>
+          <path d="M21.7 37.8c7.8 4.5 12.9 4.5 20.7 0 2.5-1.4 5.4.8 4.9 3.6C45.9 49.7 39.4 55 32 55s-13.9-5.3-15.3-13.6c-.5-2.8 2.5-5 5-3.6Z" fill="currentColor"/>
+          <path d="M26.2 13.1c2.8 3.4 4.1 7.3 3.8 11.7-.1 1.7 2 2.7 3.2 1.5 3-3.1 4.5-7 4.4-11.9 4.7 5.2 7.1 11.1 7.1 17.4 0 8-5.3 14.1-12.7 14.1s-12.7-6.1-12.7-14.1c0-7.5 3.4-13.7 6.9-18.7Z" fill="currentColor"/>
+          <path d="M26 36.7h12" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span>
+        <strong>BergBite Berlin</strong>
+        <small>Premium German fast food</small>
+      </span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#promotions">Deals</a>
+      <a href="#menu">Menu</a>
+      <a href="#checkout">Checkout</a>
+      <a href="#tracking">Tracking</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-button" type="button" data-scroll-target="#orders" aria-label="Show order history">
+        <span aria-hidden="true">▤</span>
+      </button>
+      <button class="icon-button" type="button" data-open-favorites aria-label="Show favorites">
+        <span aria-hidden="true">♡</span>
+        <span class="badge" data-favorite-count>0</span>
+      </button>
+      <button class="cart-trigger" type="button" data-open-cart aria-label="Open cart">
+        <span aria-hidden="true">🛒</span>
+        <span>Cart</span>
+        <strong data-cart-count>0</strong>
+      </button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-media" src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=1800&q=84" alt="" width="1800" height="1200" fetchpriority="high">
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Fast delivery across Berlin, Munich, Hamburg and Cologne</p>
+        <h1 id="hero-title">Bold German street food, premium burgers, pizza and craft drinks.</h1>
+        <p>Order schnitzel, currywurst, smash burgers, doner, stone-baked pizza, crispy sides, desserts and chilled drinks with live cart, mock payment, saved orders and step-by-step tracking.</p>
+        <div class="hero-actions">
+          <a class="primary-action" href="#menu">Start ordering</a>
+          <button class="secondary-action" type="button" data-apply-promo="BERLIN20">Use BERLIN20</button>
+        </div>
+        <div class="hero-metrics" aria-label="Restaurant quick facts">
+          <span><strong>4.8</strong> guest rating</span>
+          <span><strong>25-45</strong> min delivery</span>
+          <span><strong>€45+</strong> free delivery</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="promo-band" id="promotions" aria-labelledby="promotions-title">
+      <div class="section-heading">
+        <p class="eyebrow dark">Today only</p>
+        <h2 id="promotions-title">Fresh deals for a realistic ordering demo</h2>
+      </div>
+      <div class="promo-grid">
+        <article class="promo-card fire">
+          <span>20% off</span>
+          <h3>First Berlin order</h3>
+          <p>Use BERLIN20 for 20% off the full menu, capped at €12.00.</p>
+          <button type="button" data-apply-promo="BERLIN20">Apply code</button>
+        </article>
+        <article class="promo-card lime">
+          <span>Free delivery</span>
+          <h3>Family feast</h3>
+          <p>Delivery is free for baskets above €45.00 across supported German branches.</p>
+          <button type="button" data-scroll-target="#menu">Build basket</button>
+        </article>
+        <article class="promo-card gold">
+          <span>Pickup reward</span>
+          <h3>15% branch pickup</h3>
+          <p>Select pickup and use PICKUP15 for a quick counter collection discount.</p>
+          <button type="button" data-apply-promo="PICKUP15">Apply code</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="menu-shell" id="menu" aria-labelledby="menu-title">
+      <div class="section-heading menu-heading">
+        <div>
+          <p class="eyebrow dark">Order menu</p>
+          <h2 id="menu-title">German classics, burgers, pizza, sides, desserts and drinks</h2>
+        </div>
+        <button class="outline-action" type="button" data-open-cart>View cart</button>
+      </div>
+
+      <div class="controls-panel" aria-label="Menu search and filters">
+        <label class="search-field">
+          <span>Search menu</span>
+          <input id="menuSearch" type="search" placeholder="Dish, ingredient, tag or drink..." autocomplete="off">
+        </label>
+        <div class="category-tabs" role="tablist" aria-label="Food category">
+          <button class="is-active" type="button" role="tab" aria-selected="true" data-category="all">All</button>
+          <button type="button" role="tab" aria-selected="false" data-category="burgers">Burgers</button>
+          <button type="button" role="tab" aria-selected="false" data-category="german">German</button>
+          <button type="button" role="tab" aria-selected="false" data-category="pizza">Pizza</button>
+          <button type="button" role="tab" aria-selected="false" data-category="doner">Doner</button>
+          <button type="button" role="tab" aria-selected="false" data-category="sides">Sides</button>
+          <button type="button" role="tab" aria-selected="false" data-category="desserts">Desserts</button>
+          <button type="button" role="tab" aria-selected="false" data-category="drinks">Drinks</button>
+        </div>
+        <div class="filter-row">
+          <label><input type="checkbox" data-filter="discount"> Deals</label>
+          <label><input type="checkbox" data-filter="popular"> Popular</label>
+          <label><input type="checkbox" data-filter="vegetarian"> Vegetarian</label>
+          <label><input type="checkbox" data-filter="spicy"> Spicy</label>
+          <label><input type="checkbox" data-filter="favorites"> Favorites</label>
+        </div>
+        <label class="select-field">
+          <span>Sort by</span>
+          <select id="sortSelect">
+            <option value="featured">Featured</option>
+            <option value="rating">Highest rated</option>
+            <option value="price-asc">Lowest price</option>
+            <option value="price-desc">Highest price</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="state-panel loading-state" data-menu-loading aria-live="polite">
+        <span class="spinner" aria-hidden="true"></span>
+        <strong>Loading the fresh menu...</strong>
+        <p>High-quality product images and demo prices are being prepared.</p>
+      </div>
+
+      <div class="state-panel error-state" data-menu-error hidden>
+        <strong>The menu could not be loaded</strong>
+        <p>Please try again to display the products.</p>
+        <button type="button" data-retry-menu>Retry</button>
+      </div>
+
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+
+      <div class="state-panel empty-state" data-empty-state hidden>
+        <strong>No items found</strong>
+        <p>Change your search term or clear the filters.</p>
+        <button type="button" data-clear-filters>Clear filters</button>
+      </div>
+    </section>
+
+    <section class="checkout-shell" id="checkout" aria-labelledby="checkout-title">
+      <div class="section-heading">
+        <p class="eyebrow dark">Checkout</p>
+        <h2 id="checkout-title">Delivery details, mock payment and order confirmation</h2>
+      </div>
+
+      <div class="checkout-layout">
+        <form class="checkout-form" id="checkoutForm" novalidate>
+          <fieldset>
+            <legend>Fulfillment</legend>
+            <div class="segmented-control" role="radiogroup" aria-label="Fulfillment method">
+              <label><input type="radio" name="fulfillment" value="delivery" checked> Delivery</label>
+              <label><input type="radio" name="fulfillment" value="pickup"> Pickup</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Branch and time</legend>
+            <label>
+              <span>Branch</span>
+              <select name="branch" required></select>
+            </label>
+            <p class="branch-note" data-branch-note></p>
+            <div class="segmented-control" role="radiogroup" aria-label="Delivery time">
+              <label><input type="radio" name="scheduleMode" value="asap" checked> As soon as possible</label>
+              <label><input type="radio" name="scheduleMode" value="scheduled"> Scheduled</label>
+            </div>
+            <div class="scheduled-fields" data-scheduled-fields hidden>
+              <label>
+                <span>Delivery date</span>
+                <input type="date" name="deliveryDate">
+              </label>
+              <label>
+                <span>Delivery time</span>
+                <select name="deliveryTime"></select>
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset data-address-fieldset>
+            <legend>Delivery address</legend>
+            <label>
+              <span>Saved address</span>
+              <select name="savedAddress"></select>
+            </label>
+            <label>
+              <span>Full address</span>
+              <textarea name="address" rows="3" placeholder="Street, building number, floor, apartment" required></textarea>
+            </label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Customer details</legend>
+            <div class="field-grid">
+              <label>
+                <span>Full name</span>
+                <input name="fullName" type="text" autocomplete="name" required minlength="3" placeholder="Example: Anna Schneider">
+              </label>
+              <label>
+                <span>Mobile number</span>
+                <input name="phone" type="tel" autocomplete="tel" required inputmode="tel" placeholder="+49 151 23456789">
+              </label>
+              <label>
+                <span>Email</span>
+                <input name="email" type="email" autocomplete="email" placeholder="name@example.com">
+              </label>
+              <label>
+                <span>Order notes</span>
+                <input name="notes" type="text" placeholder="No onions, ring bell twice, extra napkins...">
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Mock payment</legend>
+            <div class="segmented-control" role="radiogroup" aria-label="Payment method">
+              <label><input type="radio" name="payment" value="online" checked> Bank card</label>
+              <label><input type="radio" name="payment" value="cash"> Pay on delivery</label>
+            </div>
+            <div class="payment-fields" data-payment-fields>
+              <label>
+                <span>Demo card number</span>
+                <input name="cardNumber" inputmode="numeric" autocomplete="cc-number" placeholder="4242424242424242">
+              </label>
+              <label>
+                <span>Expiry date</span>
+                <input name="cardExpiry" inputmode="numeric" autocomplete="cc-exp" placeholder="09/29">
+              </label>
+              <label>
+                <span>CVV</span>
+                <input name="cardCvv" inputmode="numeric" autocomplete="cc-csc" placeholder="123">
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="form-errors" data-form-errors role="alert" hidden></div>
+          <button class="submit-order" type="submit">
+            <span data-submit-label>Mock pay and place order</span>
+            <span class="button-loader" data-submit-loader hidden></span>
+          </button>
+        </form>
+
+        <aside class="order-summary" aria-labelledby="summary-title">
+          <h3 id="summary-title">Order summary</h3>
+          <div class="summary-items" data-summary-items></div>
+          <label class="promo-input">
+            <span>Promo code</span>
+            <span>
+              <input id="promoCode" type="text" inputmode="latin" autocomplete="off" placeholder="BERLIN20">
+              <button type="button" data-apply-promo-from-input>Apply</button>
+            </span>
+          </label>
+          <p class="promo-message" data-promo-message aria-live="polite"></p>
+          <dl class="totals-list" data-totals></dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="tracking-shell" id="tracking" aria-labelledby="tracking-title">
+      <div class="section-heading">
+        <p class="eyebrow dark">Order tracking</p>
+        <h2 id="tracking-title">Live demo status for your active order</h2>
+      </div>
+      <div class="tracking-layout">
+        <div class="tracking-card" data-tracking-card></div>
+        <form class="tracking-search" data-track-form>
+          <label>
+            <span>Order code</span>
+            <input name="orderId" type="text" placeholder="BB-12345">
+          </label>
+          <button type="submit">Track order</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="history-shell" id="orders" aria-labelledby="orders-title">
+      <div class="section-heading">
+        <p class="eyebrow dark">History</p>
+        <h2 id="orders-title">Orders saved on this device</h2>
+      </div>
+      <div class="history-list" data-history-list></div>
+    </section>
+
+    <section class="info-shell" id="contact" aria-labelledby="contact-title">
+      <div class="section-heading">
+        <p class="eyebrow dark">Restaurant info</p>
+        <h2 id="contact-title">Opening hours, German branches and contact</h2>
+      </div>
+      <div class="info-grid">
+        <article class="info-panel">
+          <h3>Opening hours</h3>
+          <ul class="hours-list">
+            <li><span>Monday to Thursday</span><strong>11:30-23:00</strong></li>
+            <li><span>Friday and Saturday</span><strong>11:30-00:30</strong></li>
+            <li><span>Sunday</span><strong>12:00-22:30</strong></li>
+          </ul>
+        </article>
+        <article class="info-panel">
+          <h3>Contact</h3>
+          <p>Order hotline: <a href="tel:+493012345678">+49 30 1234 5678</a></p>
+          <p>Support: <a href="mailto:support@bergbite.example">support@bergbite.example</a></p>
+          <p>This is a complete ordering demo. No real payment or restaurant order is submitted.</p>
+        </article>
+        <article class="info-panel map-panel">
+          <h3>Delivery areas</h3>
+          <div class="map-visual" aria-label="Demo delivery map">
+            <span>Berlin Mitte</span>
+            <span>Munich Maxvorstadt</span>
+            <span>Hamburg HafenCity</span>
+            <span>Cologne Altstadt</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <button class="sticky-cart" type="button" data-open-cart aria-label="View cart">
+    <span data-sticky-total>Your cart is empty</span>
+    <strong data-cart-count>0</strong>
+  </button>
+
+  <nav class="mobile-nav" aria-label="Mobile navigation">
+    <a href="#home"><span aria-hidden="true">⌂</span>Home</a>
+    <a href="#menu"><span aria-hidden="true">☰</span>Menu</a>
+    <button type="button" data-open-cart><span aria-hidden="true">🛒</span>Cart</button>
+    <a href="#orders"><span aria-hidden="true">▤</span>Orders</a>
+  </nav>
+
+  <div class="drawer-overlay" data-drawer-overlay hidden></div>
+  <aside class="cart-drawer" data-cart-drawer aria-labelledby="cart-title" aria-hidden="true">
+    <div class="drawer-header">
+      <div>
+        <p class="eyebrow dark">Cart</p>
+        <h2 id="cart-title">Ready to order</h2>
+      </div>
+      <button class="icon-button" type="button" data-close-cart aria-label="Close cart">×</button>
+    </div>
+    <div class="cart-items" data-cart-items></div>
+    <div class="cart-footer">
+      <dl class="totals-list" data-drawer-totals></dl>
+      <button class="primary-action full" type="button" data-cart-checkout>Continue to checkout</button>
+      <button class="ghost-action full" type="button" data-clear-cart>Empty cart</button>
+    </div>
+  </aside>
+
+  <div class="modal-overlay" data-product-overlay hidden></div>
+  <section class="product-modal" data-product-modal role="dialog" aria-modal="true" aria-labelledby="product-modal-title" aria-hidden="true">
+    <button class="icon-button modal-close" type="button" data-close-product aria-label="Close product details">×</button>
+    <div data-product-modal-body></div>
+  </section>
+
+  <div class="toast-region" data-toast-region aria-live="polite" aria-atomic="true"></div>
+
+  <noscript>
+    <div class="noscript">JavaScript must be enabled to use the cart, mock payment and order tracking demo.</div>
+  </noscript>
+</body>
+</html>
