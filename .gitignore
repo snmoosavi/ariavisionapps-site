@@ -6,7 +6,7 @@
 [Oo]bj/
 [Bb]uild/
 [Dd]ist/
-packages/
+/packages/
 node_modules/
 .venv/
 venv/
